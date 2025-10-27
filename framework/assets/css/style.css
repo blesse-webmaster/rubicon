@@ -5,44 +5,54 @@
   background-repeat: no-repeat;
   height: 350px;
   z-index: 0;
-  background-image: url(../../assets/img/s_fv.png);
+  background-image: url(../../assets/img/fv.png);
 }
 
-@supports (background-image: url(../../assets/img/s_fv.webp)) {
+@supports (background-image: url(../../assets/img/fv.webp)) {
   .bg-fv {
-    background-image: url(../../assets/img/s_fv.webp);
+    background-image: url(../../assets/img/fv.webp);
   }
 }
 @media screen and (min-width: 768px) {
   .bg-fv {
     background-size: cover;
-    background-position: bottom left;
+    background-position: top left;
     background-repeat: no-repeat;
     height: 580px;
     z-index: 0;
-    background-image: url(../../assets/img/s_fv.png);
+    background-image: url(../../assets/img/fv.png);
   }
-  @supports (background-image: url(../../assets/img/s_fv.webp)) {
+  @supports (background-image: url(../../assets/img/fv.webp)) {
     .bg-fv {
-      background-image: url(../../assets/img/s_fv.webp);
+      background-image: url(../../assets/img/fv.webp);
     }
   }
 }
 @media screen and (min-width: 992px) {
   .bg-fv {
     background-size: cover;
-    background-position: bottom center;
+    background-position: top center;
     background-repeat: no-repeat;
-    height: 580px;
+    height: 635px;
     z-index: 0;
-    background-image: url(../../assets/img/s_fv.png);
+    background-image: url(../../assets/img/fv.png);
   }
-  @supports (background-image: url(../../assets/img/s_fv.webp)) {
+  @supports (background-image: url(../../assets/img/fv.webp)) {
     .bg-fv {
-      background-image: url(../../assets/img/s_fv.webp);
+      background-image: url(../../assets/img/fv.webp);
     }
   }
 }
+.fv_subTitle p:first-child::after {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  background-color: #1E447D;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
 .bg-sub {
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,8 +85,68 @@
   margin: auto;
 }
 
-.border-blue {
-  border: solid 3px #144A7A;
+.bg-hikaku-01 {
+  background-image: url(../../assets/img/hikaku-01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  min-height: 335px;
+  position: relative;
+}
+
+@supports (background-image: url(../../assets/img/hikaku-01.webp)) {
+  .bg-hikaku-01 {
+    background-image: url(../../assets/img/hikaku-01.webp);
+  }
+}
+
+.bg-hikaku-02 {
+  background-image: url(../../assets/img/hikaku-02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  min-height: 335px;
+  position: relative;
+}
+
+@supports (background-image: url(../../assets/img/hikaku-02.webp)) {
+  .bg-hikaku-02 {
+    background-image: url(../../assets/img/hikaku-02.webp);
+  }
+}
+
+.bg-hikaku-01,
+.bg-hikaku-02 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.bg-pr {
+  background-image: url(../../assets/img/pr-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@supports (background-image: url(../../assets/img/pr-bg.webp)) {
+  .bg-pr {
+    background-image: url(../../assets/img/pr-bg.webp);
+  }
+}
+
+.border-blue-inset {
+ border: solid 8px #1E447D;
+ box-sizing: border-box;
+}
+.border_blue_1px {
+   border: solid 1px #1E447D;
+}
+.border_blue_2px {
+   border: solid 2px #1E447D;
 }
 
 .border_green {
@@ -168,25 +238,7 @@
     background-image: url(../../assets/img/s_point_bg.webp);
   }
 }
-.blue_border::after {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 5px;
-  background-color: #144A7A;
-  margin: 10px auto 0; /* 上に少し余白、中央寄せ */
-  border-radius: 3px; /* 少し丸みを持たせる（不要なら削除） */
-}
 
-.green_border::after {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 5px;
-  background-color: #3AB7AD;
-  margin: 10px auto 0; /* 上に少し余白、中央寄せ */
-  border-radius: 3px; /* 少し丸みを持たせる（不要なら削除） */
-}
 
 /*高さ*/
 .height-240 {
@@ -404,21 +456,31 @@
 }
 
 /* 真ん中にラインが入った見出しスタイル */
-.centerline_heading {
+.centerline_heading,
+.centerline_heading__point {
   position: relative;
   text-align: center;
   width: 100%;
 }
 
-.centerline_heading h3 {
+.centerline_heading h3{
   display: inline-block;
   position: relative;
-  padding: 0 2em; /* 見出し文字の左右スペース */
+  padding: 0 2rem; /* 見出し文字の左右スペース */
+  background: #fff;
+  z-index: 1;
+}
+.centerline_heading h3,
+.centerline_heading__point h3 {
+  display: inline-block;
+  position: relative;
+  padding: 0 0.6rem; /* 見出し文字の左右スペース */
   background: #fff;
   z-index: 1;
 }
 
-.centerline_heading::before {
+.centerline_heading::before,
+.centerline_heading__point::before {
   content: "";
   position: absolute;
   top: 50%;

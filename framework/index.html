@@ -35,7 +35,7 @@
                                 <span class="btn-hamburger-icon navbar-toggler-icon"></span>
                             </button>
                         </div>
-                        <div class="collapse navbar-collapse justify-content-between align-items-center pt-2 pb-2 mx-3 mx-xxl-5 px-2" id="navbarNavDropdown">
+                        <div class="collapse navbar-collapse justify-content-between align-items-center mx-3 mx-xxl-5 px-2" id="navbarNavDropdown">
                             <a class="nav-link fw-bold fs-6 py-2 text-white" aria-current="page" href="./">
                                 <!-- <picture>
                                     <source type="image/webp" srcset="./assets/img/m_icon_hake.webp">
@@ -43,7 +43,7 @@
                                 </picture> -->
                                 大阪市北区の不動産売却ガイド
                             </a>
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav d-md-flex align-items-center">
                                 <li class="nav-item text-center mb-3 mb-lg-0 d-block d-lg-none">
                                     <a class="nav-link fw-bold fs-6 py-2 text-white" aria-current="page" href="./">
                                     <picture>
@@ -53,13 +53,13 @@
                                     大阪市北区の不動産売却ガイド</a>
                                 </li>
                                 <li class="nav-item text-center mb-3 mb-lg-0">
-                                    <a class="nav-link fw-bolder lh-sm py-0 text-white" href="/">大阪市北区<br>エリアコラム</a>
+                                    <a class="nav-link lh-sm py-0 text-white" href="/">大阪市北区<br>エリアコラム</a>
                                 </li>
                                 <li class="nav-item text-center mb-3 mb-lg-0">
-                                    <a class="nav-link fw-bolder lh-sm py-0 text-white" href="/">大阪市北区の<br>不動産会社一覧</a>
+                                    <a class="nav-link lh-sm py-0 text-white" href="/">大阪市北区の<br>不動産会社一覧</a>
                                 </li>
                                 <li class="nav-item text-center mb-3 mb-lg-0">
-                                    <a class="nav-link fw-bolder lh-sm py-0 text-white" href="#reccomend">大阪市北区でおすすめの<br>おすすめ会社3選</a>
+                                    <a class="nav-link lh-sm py-0 text-white" href="#reccomend">大阪市北区でおすすめの<br>おすすめ会社3選</a>
                                 </li>
                             </ul>
                         </div>
@@ -83,7 +83,7 @@
     <!-- フローティングバナー -->
     <div class="position-fixed end-0 bottom-0 z-999">
         <button id="closeButton" class="banner-close position-absolute fw-bold z-99">×</button>
-        <a class="myImage" href="https://shinyotochi.jp/" target="_blank">
+        <a class="myImage" href="" target="_blank">
         <picture>
             <source type="image/webp" srcset="./assets/img/i_btn_banner.webp">
             <img class="img-fluid banner-icon myImage" src="./assets/img/i_btn_banner.png" alt="公式HPで詳しく見る" loading="lazy" width="400" height="310"> </picture>
@@ -97,23 +97,20 @@
                         <!-- 左側のコンテンツ -->
                         <div class="col-lg-7">
                             <!-- メインキャッチコピー -->
-                            <div class="text-white">
-                                <h2 class="fw-bold mb-3">
-                                    <div class="mb-3">
-                                        <span class="border border-white text-white px-1 py-1 d-inline-block">知</span>
-                                        <span class="border border-white text-white px-1 py-1 d-inline-block">名</span>
-                                        <span class="border border-white text-white px-1 py-1 d-inline-block">度</span>
-                                        だけで<br>
-                                    </div>
-                                    <span class="text-warning fw-bold fs-1">不動産会社</span>を選ぶと<br>
-                                    <p class="text-white m-0">100万円以上損するかも！！</p>
-                                </h2>
+                            <div class="text-white mb-3">
+                                <!-- SEO用テキスト（非表示） -->
+                                <h2 class="visually-hidden">知名度だけで不動産会社を選ぶと100万円以上損するかも！！</h2>
+                                <!-- メインタイトル画像 -->
+                                <picture>
+                                    <source type="image/webp" srcset="./assets/img/fv-title.webp">
+                                    <img src="./assets/img/fv-title.png" loading="lazy" alt="知名度だけで不動産会社を選ぶと100万円以上損するかも！！" class="img-fluid">
+                                </picture>
                             </div>
 
                             <!-- 説明文 -->
-                            <div class="bg-light rounded-pill px-4 py-3 mb-4 text-center">
-                                <p class="text-dark fw-bold mb-2">「大手だから安心」「名前を聞いたことがあるから」――</p>
-                                <p class="text-dark mb-0">そんな理由だけで不動産会社を選んでいませんか？</p>
+                            <div class="bg_light_beige rounded-pill px-4 py-2 mb-4 text-center fv_subTitle">
+                                <p class="blue mb-0">「大手だから安心」「名前を聞いたことがあるから」</p>
+                                <p class="blue mb-0">そんな理由だけで不動産会社を選んでいませんか？</p>
                             </div>
 
                             <!-- 詳細説明 -->
@@ -133,7 +130,7 @@
     <div class="container">
         <!-- ヘッダー部分 -->
         <div class="text-center mb-5">
-            <div class="bg-primary text-warning p-2 d-inline-block mb-4">
+            <div class="bg_blue yellow py-2 px-4 d-inline-block mb-4">
                 <p class="fs-3 mb-0 fw-bold">大阪市北区の家を売りたい方必見！</p>
             </div>
             <h2 class="display-4 fw-bold mb-2">
@@ -146,21 +143,23 @@
         <div class="row g-2">
             <!-- 1. 株式会社ルビコン -->
             <div class="col-12 col-lg-4">
-                <div class="border border-primary border-3 position-relative bg-white" style="margin-top: 30px;">
+                <div class="position-relative bg-white" style="margin-top: 30px;">
                     <!-- 会社名 -->
-                    <div class="bg-primary text-white text-center" style="padding: 40px 0 20px 0;">
-                        <h3 class="mb-0 fw-bold f25px"><span class="f18px">株式会社</span><br>ルビコン</h3>
+                    <div class="bg_blue text-white text-center d-flex align-items-end justify-content-center" style="height: 120px;">
+                        <h3 class="m-0 fw-bold f25px pb-2"><span class="f18px">株式会社</span><br>ルビコン</h3>
                     </div>
                     
                     <!-- 上部の黄色いタブ -->
-                    <div class="bg-warning text-dark py-1 px-2 text-center rounded-pill position-absolute" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
-                        <p class="mb-1 small">中崎町・天六周辺で高値売却を狙うなら！</p>
-                        <p class="mb-0 small">大手で取り扱いが難しい物件の</p>
-                        <p class="mb-0 small">ご相談もお任せ！</p>
+                    <div class="bg_yellow text-dark text-center rounded-pill position-absolute d-flex align-items-center justify-content-center" style="top: -45px; left: 0; right: 0; z-index: 10; height: 78px;">
+                        <div>
+                            <p class="mb-0 small">中崎町・天六周辺で高値売却を狙うなら！</p>
+                            <p class="mb-0 small">大手で取り扱いが難しい物件の</p>
+                            <p class="mb-0 small">ご相談もお任せ！</p>
+                        </div>
                     </div>
                     
                     <!-- 画像エリア -->
-                    <div class="p-0">
+                    <div class="p-0 border-blue-inset">
                         <div class="mb-3">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/rubicon.webp">
@@ -174,12 +173,20 @@
                         <!-- ボタン部分 -->
                         <div class="p-3 mb-3">
                             <div class="d-grid gap-2">
-                                <button class="btn btn-danger fw-bold py-2 shadow">
+                                <button class="btn bg_red text-white fw-bold py-2 shadow  position-relative">
                                     不動産売却について<br>ルビコンにお問い合わせ
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                                        <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
                                 </button>
-                                <button class="btn btn-primary fw-bold py-2 shadow">
+                                <button class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
                                     ルビコンの<br>口コミ・評判記事はこちら！
-                                </button>
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
+                            </button>
                             </div>
                         </div>
                     </div>
@@ -188,22 +195,24 @@
 
             <!-- 2. 東急リバブル株式会社 -->
             <div class="col-12 col-lg-4">
-                <div class="border border-primary border-3 position-relative bg-white" style="margin-top: 30px;">
+                <div class="position-relative bg-white" style="margin-top: 30px;">
                     <!-- 会社名 -->
-                    <div class="bg-primary text-white text-center" style="padding: 40px 0 20px 0;">
-                        <h3 class="mb-0 fw-bold f25px">東急リバブル株式会社<br><span class="f18px">梅田センター</span>
+                    <div class="bg_blue text-white text-center d-flex align-items-end justify-content-center" style="height: 120px;">
+                        <h3 class="m-0 fw-bold f25px pb-2">東急リバブル株式会社<br><span class="f18px">梅田センター</span>
                         </h3>
                     </div>
                     
                     <!-- 上部の黄色いタブ -->
-                    <div class="bg-warning text-dark py-1 px-2 text-center rounded-pill position-absolute" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
-                         <p class="mb-0 small">大手ならではの信頼と実績！</p>
-                        <p class="mb-0 small">オンライン対応で</p>
-                        <p class="mb-0 small">遠方の方も安心</p>
+                    <div class="bg_yellow text-dark text-center rounded-pill position-absolute d-flex align-items-center justify-content-center" style="top: -45px; left: 0; right: 0; z-index: 10; height: 78px;">
+                        <div>
+                            <p class="mb-0 small">大手ならではの信頼と実績！</p>
+                            <p class="mb-0 small">オンライン対応で</p>
+                            <p class="mb-0 small">遠方の方も安心</p>
+                        </div>
                     </div>
                     
                     <!-- 画像エリア -->
-                    <div class="p-0">
+                    <div class="p-0 border-blue-inset">
                         <div class="mb-3">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/tokyuribaburu.webp">
@@ -216,11 +225,19 @@
                         <!-- ボタン部分 -->
                         <div class="p-3 mb-3">
                             <div class="d-grid gap-2">
-                                <button class="btn btn-danger fw-bold py-2 shadow">
+                                <button class="btn bg_red text-white fw-bold py-2 shadow  position-relative">
                                     不動産売却について<br>東急リバブルにお問い合わせ
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                                        <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
                                 </button>
-                                <button class="btn btn-primary fw-bold py-2 shadow">
+                                <button class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
                                     東急リバブルの<br>口コミ・評判記事はこちら！
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
                                 </button>
                             </div>
                         </div>
@@ -230,20 +247,22 @@
 
             <!-- 3. 住友不動産ステップ株式会社 -->
             <div class="col-12 col-lg-4">
-                <div class="border border-primary border-3 position-relative bg-white" style="margin-top: 30px;">
+                <div class="position-relative bg-white" style="margin-top: 30px;">
                     <!-- 会社名 -->
-                    <div class="bg-primary text-white text-center" style="padding: 40px 0 20px 0;">
-                        <h3 class="mb-0 fw-bold f25px"><span class="f18px">すみふの仲介ステップ 梅田営業センター</span><br>住友不動産ステップ株式会社</h3>
+                    <div class="bg_blue text-white text-center d-flex align-items-end justify-content-center" style="height: 120px;">
+                        <h3 class="m-0 fw-bold f25px pb-2"><span class="f18px">すみふの仲介ステップ 梅田営業センター</span><br>住友不動産ステップ株式会社</h3>
                     </div>
                     
                     <!-- 上部の黄色いタブ -->
-                    <div class="bg-warning text-dark py-3 px-2 text-center rounded-pill position-absolute" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
-                        <p class="mb-1 small">住友不動産グループの総合力！</p>
-                        <p class="mb-0 small">専任担当者による一貫対応！</p>
+                    <div class="bg_yellow text-dark text-center rounded-pill position-absolute d-flex align-items-center justify-content-center" style="top: -45px; left: 0; right: 0; z-index: 10; height: 78px;">
+                        <div>
+                            <p class="mb-1 small">住友不動産グループの総合力！</p>
+                            <p class="mb-0 small">専任担当者による一貫対応！</p>
+                        </div>
                     </div>
                     
                     <!-- 画像エリア -->
-                    <div class="p-0">
+                    <div class="p-0 border-blue-inset">
                         <div class="mb-3">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/sumifunochukai.webp">
@@ -256,11 +275,19 @@
                         <!-- ボタン部分 -->
                         <div class="p-3 mb-3">
                             <div class="d-grid gap-2">
-                                <button class="btn btn-danger fw-bold py-2 shadow">
+                                <button class="btn bg_red text-white fw-bold py-2 shadow position-relative">
                                     不動産売却について<br>すみふの仲介ステップにお問い合わせ
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                                        <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
                                 </button>
-                                <button class="btn btn-primary fw-bold py-2 shadow">
+                                <button class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
                                     すみふの仲介ステップの<br>口コミ・評判記事はこちら！
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
                                 </button>
                             </div>
                         </div>
@@ -270,7 +297,7 @@
         </div>
     </div>
 </section>
-<section class="py-5 bg-primary">
+<section class="py-5 bg_sky_blue">
     <div class="container">
         <!-- ヘッダー部分 -->
         <div class="text-center text-white mb-5">
@@ -284,26 +311,28 @@
                 <span class="border border-white px-2 py-1">ト</span>
             </h2>
         </div>
-        <div class="row g-4">
+        <div class="row g-3">
             <!-- ポイント01 -->
             <div class="col-12 col-lg-4">
-                <div class="h-100 bg-light p-4">
+                <div class="h-100 bg-white p-4">
                     <!-- ポイント番号 -->
                     <div class="text-center mb-3">
                         <span class="text-muted">ポイント</span>
-                        <h3 class="display-4 fw-bold text-primary mb-0">01</h3>
+                        <div class="centerline_heading__point">
+                            <h3 class="display-4 fw-bold blue mb-0">01</h3>
+                        </div>
                     </div>
                     
                     <!-- タイトル -->
                     <p class="text-center fw-bold mb-4 fs-4">
-                        <span class="text-primary fs-3">地域の物件事情</span>に<br>詳しい会社か？
+                        <span class="blue fs-3">地域の物件事情</span>に<br>詳しい会社か？
                     </p>
                     
                     <!-- 画像エリア -->
                     <div class="mb-3">
                         <picture>
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="01" class="object-fit-cover w-100" height="200" width="350">
+                            <source type="image/webp" srcset="./assets/img/point-01.webp">
+                            <img src="./assets/img/point-01.png" loading="lazy" alt="01" class="object-fit-cover w-100" height="200" width="350">
                         </picture>
                     </div>
                     
@@ -319,23 +348,25 @@
 
             <!-- ポイント02 -->
             <div class="col-12 col-lg-4">
-                <div class="h-100 bg-light p-4">
+                <div class="h-100 bg-white p-4">
                     <!-- ポイント番号 -->
                     <div class="text-center mb-3">
                         <span class="text-muted">ポイント</span>
-                        <h3 class="display-4 fw-bold text-primary mb-0">02</h3>
+                        <div class="centerline_heading__point">
+                            <h3 class="display-4 fw-bold blue mb-0">02</h3>
+                        </div>
                     </div>
                     
                     <!-- タイトル -->
                      <p class="text-center fw-bold mb-4 fs-4">
-                        <span class="text-primary fs-3">法律・相続・税務</span>まで<br>対応できる体制があるか？
+                        <span class="blue fs-3">法律・相続・税務</span>まで<br>対応できる体制があるか？
                     </p>
                     
                     <!-- 画像エリア -->
                     <div class="mb-3">
                         <picture>
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="01" class="object-fit-cover w-100" height="200" width="350">
+                            <source type="image/webp" srcset="./assets/img/point-02.webp">
+                            <img src="./assets/img/point-02.png" loading="lazy" alt="02" class="object-fit-cover w-100" height="200" width="350">
                         </picture>
                     </div>
                     
@@ -351,23 +382,25 @@
 
             <!-- ポイント03 -->
             <div class="col-12 col-lg-4">
-                <div class="h-100 bg-light p-4">
+                <div class="h-100 bg-white p-4">
                         <!-- ポイント番号 -->
                         <div class="text-center mb-3">
                             <span class="text-muted">ポイント</span>
-                            <h3 class="display-4 fw-bold text-primary mb-0">03</h3>
+                            <div class="centerline_heading__point">
+                                <h3 class="display-4 fw-bold blue mb-0">03</h3>
+                            </div>
                         </div>
                         
                         <!-- タイトル -->
                         <p class="text-center fw-bold mb-4 fs-4">
-                            専任担当者が“<span class="text-primary fs-3">一貫して</span>”<br>対応してくれるか？
+                            専任担当者が“<span class="blue fs-3">一貫して</span>”<br>対応してくれるか？
                         </p>
 
                         <!-- 画像エリア -->
                         <div class="mb-3">
                             <picture>
-                                <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                                <img src="./assets/img/i_check_img01.png" loading="lazy" alt="01" class="object-fit-cover w-100" height="200" width="350">
+                                <source type="image/webp" srcset="./assets/img/point-03.webp">
+                                <img src="./assets/img/point-03.png" loading="lazy" alt="03" class="object-fit-cover w-100" height="200" width="350">
                             </picture>
                         </div>
                         
@@ -398,49 +431,49 @@
         <div class="row g-5 mb-5">
             <!-- 地域密着型 -->
             <div class="col-12 col-lg-6">
-                <div class="h-100 bg-white rounded-2 p-4">
-                    <div class="text-center mb-4">
+                <div class="h-100 bg-hikaku-01 rounded-2 px-4">
+                    <div class="text-center mb-3">
                         <h3 class="text-danger fw-bold fs-3">地域密着型</h3>
                         <hr>
                     </div>
                     
                     <!-- 特徴リスト -->
                     <ul class="list-unstyled">
-                        <li class="mb-3">• 地元での買主ネットワークが豊富</li>
-                        <li class="mb-3">• エリアの細かい特性（アクセス・再開発など）にも精通</li>
-                        <li class="mb-3">• 築古住宅や連棟、共有物件など難物件の相談実績が豊富</li>
+                        <li class="mb-2">• 地元での買主ネットワークが豊富</li>
+                        <li class="mb-2">• エリアの細かい特性（アクセス・再開発など）にも精通</li>
+                        <li class="mb-2">• 築古住宅や連棟、共有物件など難物件の相談実績が豊富</li>
                     </ul>
                 </div>
             </div>
 
             <!-- 大手仲介業者 -->
             <div class="col-12 col-lg-6">
-                <div class="h-100 bg-white rounded-2 p-4">
+                <div class="h-100 bg-hikaku-02 rounded-2 px-4">
                     <!-- タイトル -->
-                    <div class="text-center mb-4">
+                    <div class="text-center mb-3">
                         <h3 class="text-danger fw-bold fs-3">大手仲介業者</h3>
                         <hr>
                     </div>
                     
                     <!-- 特徴リスト -->
                     <ul class="list-unstyled">
-                        <li class="mb-3">• 全国的なネットワークや実績件数における安心感</li>
-                        <li class="mb-3">• 転勤・住み替えなど広域展開ニーズへの対応力</li>
-                        <li class="mb-3">• 社内システム（AI化など）・オペレーションが整備されている</li>
+                        <li class="mb-2">• 全国的なネットワークや実績件数における安心感</li>
+                        <li class="mb-2">• 転勤・住み替えなど広域展開ニーズへの対応力</li>
+                        <li class="mb-2">• 社内システム（AI化など）・オペレーションが整備されている</li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <!-- 結論セクション -->
-        <div class="bg-warning text-center rounded-1 py-3 mb-5 col-12 col-lg-8 mx-auto">
+        <div class="bg_yellow text-center rounded-1 py-3 mb-5 col-12 col-lg-8 mx-auto">
             <h4 class="mb-0 fw-bold">結論</h4>
         </div>
 
         <div class="text-center mb-5">
             <h3 class="fw-bold mb-3">高く売るならまずは</h3>
             <h3 class="fw-bold">
-                <span class="text-danger">「地域密着型」</span>に相談がおすすめ！
+                <span class="red">「地域密着型」</span>に相談がおすすめ！
             </h3>
         </div>
 
@@ -484,13 +517,13 @@
 <!-- バナーセクション -->
 <section class="py-4">
     <div class="container">
-        <div class="position-relative bg-light rounded p-4" style="min-height: 200px; background-image: url('背景画像のパス'); background-size: cover; background-position: center;">
-            <!-- 背景画像プレースホルダー -->
-            <div class="position-absolute top-0 start-0 w-100 h-100 bg-secondary-subtle rounded">
+        <div class="position-relative bg-pr rounded p-4" style="min-height: 200px;">
+            <!-- 背景画像 -->
+            <div class="position-absolute top-0 start-0 w-100 h-100 rounded">
                 <div class="d-flex align-items-center justify-content-start h-100">
                     <div class="justify-content-start ms-3">
                         <!-- メインテキスト -->
-                        <div class="mb-4 mt-5">
+                        <div class="mb-3 mt-5">
                             <div class="text-center">
                                 <p class="fw-bold d-flex align-items-center justify-content-center mb-0">
                                     <span class="bg-warning text-black px-3 py-1 me-3 fw-bold f12px">PR</span>
@@ -503,9 +536,12 @@
                         <!-- CTAボタン -->
                         <div class="mb-5">
                             <div class="text-center">
-                                <button class="btn btn-danger fw-bold px-4 py-2">
+                                <button class="btn bg_red text-white fw-bold py-3 px-5 position-relative">
                                     不動産売却についてルビコンにお問い合わせ
-                                    <i class="ms-2">▶</i>
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                                        <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
                                 </button>
                             </div>
                         </div>           
@@ -533,14 +569,14 @@
             <div class="col-12 col-lg-6">
                 <div class="h-100 border-0">
                     <!-- ヘッダー -->
-                    <div class="bg-info text-white text-center py-3">
+                    <div class="bg_sky_blue text-white text-center py-3">
                         <h3 class="mb-0 fw-bold fs-4">仲介（おすすめ：高く売りたい人）</h3>
                     </div>
                     
                     <!-- ボディ -->
                     <div class="p-1 text-center bg-white">
                         <!-- 売却価格 -->   
-                        <div class="bg-secondary-subtle py-4 mb-1">
+                        <div class="bg_light-gray py-4 mb-1">
                             <h5 class="fw-bold mb-2">売却価格</h5>
                             <div class="text-center mb-2">
                                 <picture>
@@ -552,7 +588,7 @@
                         </div>
 
                         <!-- 売却までのスピード -->
-                        <div class="bg-secondary-subtle py-4 mb-1">
+                        <div class="bg_light-gray py-4 mb-1">
                             <h5 class="fw-bold mb-2">売却までのスピード</h5>
                             <div class="text-center mb-2">
                                 <picture>
@@ -564,7 +600,7 @@
                         </div>
 
                         <!-- 手間の少なさ -->
-                        <div class="bg-secondary-subtle py-4 mb-1">
+                        <div class="bg_light-gray py-4 mb-1">
                             <h5 class="fw-bold mb-2">手間の少なさ</h5>
                             <div class="text-center mb-2">
                                 <picture>
@@ -576,7 +612,7 @@
                         </div>
 
                         <!-- 費用 -->
-                        <div class="bg-secondary-subtle py-4 mb-1">
+                        <div class="bg_light-gray py-4 mb-1">
                             <h5 class="fw-bold mb-2">費用</h5>
                             <div class="text-center mb-2">
                                 <picture>
@@ -589,7 +625,7 @@
                     </div>
 
                     <!-- フッター -->
-                    <div class="bg-warning text-center py-3">
+                    <div class="bg_yellow text-center py-3">
                         <p class="fw-bold mb-0 text-dark">こんな方におすすめ</p>
                     </div>
                 </div>
@@ -599,14 +635,14 @@
             <div class="col-12 col-lg-6">
                 <div class="h-100 border-0">
                     <!-- ヘッダー -->
-                    <div class="bg-warning text-dark text-center py-3">
+                    <div class="bg_yellow text-dark text-center py-3">
                         <h3 class="mb-0 fw-bold fs-4">買取（おすすめ：早く売りたい人）</h3>
                     </div>
                     
                     <!-- ボディ -->
                     <div class="p-1 text-center bg-white">
                         <!-- 売却価格 -->
-                        <div class="bg-secondary-subtle py-4 mb-1">
+                        <div class="bg_light-gray py-4 mb-1">
                             <h5 class="fw-bold mb-2">売却価格</h5>
                             <div class="text-center mb-2">
                                 <picture>
@@ -618,7 +654,7 @@
                         </div>
 
                         <!-- 売却までのスピード -->
-                        <div class="bg-secondary-subtle py-4 mb-1">
+                        <div class="bg_light-gray py-4 mb-1">
                             <h5 class="fw-bold mb-2">売却までのスピード</h5>
                             <div class="text-center mb-2">
                                 <picture>
@@ -630,7 +666,7 @@
                         </div>
 
                         <!-- 手間の少なさ -->
-                        <div class="bg-secondary-subtle py-4 mb-1">
+                        <div class="bg_light-gray py-4 mb-1">
                             <h5 class="fw-bold mb-2">手間の少なさ</h5>
                             <div class="text-center mb-2">
                                 <picture>
@@ -642,7 +678,7 @@
                         </div>
 
                         <!-- 費用 -->
-                        <div class="bg-secondary-subtle py-4 mb-1">
+                        <div class="bg_light-gray py-4 mb-1">
                             <h5 class="fw-bold mb-2">費用</h5>
                             <div class="text-center mb-2">
                                 <picture>
@@ -655,7 +691,7 @@
                     </div>
 
                     <!-- フッター -->
-                    <div class="bg-info text-white text-center py-3">
+                    <div class="bg_sky_blue text-white text-center py-3">
                         <p class="fw-bold mb-0">こんな方におすすめ</p>
                     </div>
                 </div>
@@ -665,7 +701,7 @@
         <!-- 下部のおすすめ説明 -->
         <div class="row g-3">
             <div class="col-12 col-lg-6">
-                <div class="bg-danger text-white py-3 rounded-3">
+                <div class="bg_red text-white py-3 rounded-3">
                     <div class="d-flex align-items-center text-center">
                         <div class="flex-grow-1">
                             <p class="fw-bold m-0 fs-4">少し時間がかかっても高く売りたい／</p>
@@ -675,7 +711,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <div class="bg-danger text-white py-3 rounded-3">
+                <div class="bg_red text-white py-3 rounded-3">
                     <div class="d-flex align-items-center text-center">
                         <div class="flex-grow-1">
                             <p class="fw-bold m-0 fs-4">とにかく早く・確実に現金化したい／</p>
@@ -688,20 +724,20 @@
     </div>
 </section>
 <section>
-    <div class="pt-5 bg-primary-subtle">
+    <div class="pt-5 bg_light_blue">
         <div class="container mb-5 pb-5">
             <div class="text-center">
-                <div class="bg-primary text-warning p-2 d-inline-block mb-4">
+                <div class="bg_blue yellow py-2 px-4 d-inline-block mb-5">
                     <p class="fs-3 mb-0 fw-bold">大阪市北区の家を売りたい方必見！</p>
                 </div>
-                <h2 class="display-4 fw-bold">
+                <h2 class="fs-1 fw-bold">
                     地域密着・大手から選ぶ<br>
-                    仲介に強い不動産会社<span class="text-danger display-3 fw-bold">3</span><span class="text-danger fw-bold">選</span>！
+                    仲介に強い不動産会社<span class="red display-3 fw-bold">3</span><span class="text-danger fw-bold">選</span>！
                 </h2>
             </div>
         </div>
-        <div class="position-relative bg-info">
-            <div class="bg-warning text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
+        <div class="position-relative bg_sky_blue">
+            <div class="bg_yellow text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
                 <p class="m-0 fw-bold">中崎町・天六周辺で高値売却を狙うなら！</p>
                 <p class="m-0 fw-bold">大手で取り扱いが難しい物件のご相談もお任せ！</p>
             </div>
@@ -723,11 +759,11 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/rubi-img01.webp">
+                            <img src="./assets/img/rubi-img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
-                            <p>中崎町・天六エリアに特化。地域特性や売却相場を熟知。</p>
+                        <div class="bg_gray py-3 px-3 height-80px d-flex align-items-center">
+                            <p class="m-0">中崎町・天六エリアに特化。地域特性や売却相場を熟知。</p>
                         </div>
                     </div>
                 </div>
@@ -736,11 +772,11 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/rubi-img02.webp">
+                            <img src="./assets/img/rubi-img02.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
-                            <p>築古や連棟、共有名義などの"難物件"にも対応。</p>
+                        <div class="bg_gray py-3 px-3 height-80px d-flex align-items-center">
+                            <p class="m-0">築古や連棟、共有名義などの"難物件"にも対応。</p>
                         </div>
                     </div>
                 </div>
@@ -749,11 +785,11 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="弁護士・税理士と主業と連携" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/rubi-img03.webp">
+                            <img src="./assets/img/rubi-img03.png" loading="lazy" alt="弁護士・税理士と主業と連携" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
-                            <p>弁護士・税理士などと主業と連携し、法的に複雑なケースも無料相談可能。</p>
+                        <div class="bg_gray py-3 px-3 height-80px d-flex align-items-center">
+                            <p class="m-0">弁護士・税理士などと主業と連携し、法的に複雑なケースも無料相談可能。</p>
                         </div>
                     </div>
                 </div>
@@ -762,11 +798,11 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/rubi-img04.webp">
+                            <img src="./assets/img/rubi-img04.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
-                            <p>専任担当制で、最初から最後まで同じ担当が伴走。</p>
+                        <div class="bg_gray py-3 px-3 height-80px d-flex align-items-center">
+                            <p class="m-0">専任担当制で、最初から最後まで同じ担当が伴走。</p>
                         </div>
                     </div>
                 </div>
@@ -774,9 +810,21 @@
 
             <!-- CTAボタンエリア -->
             <div class="px-lg-5 mt-0 mt-lg-4">
-                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                    <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>ルビコンにお問い合わせ！</span></a>
-                    <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">ルビコンの<br>口コミ・評判記事はこちら！</span></a>
+                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                    <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        不動産売却について<br>ルビコンにお問い合わせ
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                            <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                    <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        ルビコンの<br>口コミ・評判記事はこちら！
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                            <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
                 </div>
             </div>
         </div>
@@ -785,7 +833,7 @@
         <div class="mb-5 centerline_heading text-center">
             <h3 class="fw-bold">株式会社ルビコンの会社概要</h3>
         </div>
-        <div class="mt-5 px-lg-5 mb-5 pb-5">
+        <div class="mt-5 px-lg-5 mb-3 pb-3">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6 pe-lg-4">
                     <table class="table comparison-table w-100">
@@ -818,10 +866,22 @@
             </div>
         </div>
         <!-- CTAボタンエリア -->
-        <div class="px-lg-5 mt-0 mt-lg-4 mb-5 pb-5">
-            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>ルビコンにお問い合わせ！</span></a>
-                <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">ルビコンの<br>口コミ・評判記事はこちら！</span></a>
+        <div class="px-lg-5 mt-0 mb-5 mt-lg-4">
+            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                    不動産売却について<br>ルビコンにお問い合わせ
+                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                        <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                        <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                    </picture>
+                </button>
+                <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                    ルビコンの<br>口コミ・評判記事はこちら！
+                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                    </picture>
+                </button>
             </div>
         </div>
         <div class="mb-5 centerline_heading text-center">
@@ -831,14 +891,14 @@
         <div class="row g-4 mb-5">
             <!-- 口コミ01 -->
             <div class="col-12 col-lg-4">
-                <div class="bg-light p-4 h-100 position-relative">
+                <div class="bg_light-gray p-4 h-100 position-relative">
                     <!-- 口コミテキスト -->
                     <div>
                         <small class="text-dark">口コミ</small>
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">01</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">01</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -862,14 +922,14 @@
 
             <!-- 口コミ02 -->
             <div class="col-12 col-lg-4">
-                <div class="bg-primary-subtle p-4 h-100 position-relative">
+                <div class="bg_light_blue p-4 h-100 position-relative">
                     <!-- 口コミテキスト -->
                     <div>
                         <small class="text-dark">口コミ</small>
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">02</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">02</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -893,14 +953,14 @@
 
             <!-- 口コミ03 -->
             <div class="col-12 col-lg-4">
-                <div class="bg-light p-4 h-100 position-relative">
+                <div class="bg_light-gray p-4 h-100 position-relative">
                     <!-- 口コミテキスト -->
                     <div>
                         <small class="text-dark">口コミ</small>
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">03</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">03</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -923,15 +983,27 @@
             </div>
         </div>
         <!-- CTAボタンエリア -->
-        <div class="px-lg-5 mt-0 mt-lg-4 mb-5 pb-5">
-            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>ルビコンにお問い合わせ！</span></a>
-                <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">ルビコンの<br>口コミ・評判記事はこちら！</span></a>
+        <div class="px-lg-5 mt-0 mt-lg-4">
+            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                    不動産売却について<br>ルビコンにお問い合わせ
+                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                        <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                        <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                    </picture>
+                </button>
+                <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                    ルビコンの<br>口コミ・評判記事はこちら！
+                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                    </picture>
+                </button>
             </div>
         </div>
     </div>
-    <div class="position-relative bg-info">
-        <div class="bg-warning text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
+    <div class="position-relative bg_sky_blue">
+        <div class="bg_yellow text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
             <p class="m-0 fw-bold">大手ならではの信頼と実績！</p>
             <p class="m-0 fw-bold">オンライン対応で遠方の方も安心！</p>
         </div>
@@ -950,10 +1022,10 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/livable-img01.webp">
+                            <img src="./assets/img/livable-img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
+                        <div class="bg_gray py-3 px-3 height-80px">
                             <p>東証プライム上場グループの安心感と豊富な実績。</p>
                         </div>
                     </div>
@@ -961,10 +1033,10 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/livable-img02.webp">
+                            <img src="./assets/img/livable-img02.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
+                        <div class="bg_gray py-3 px-3 height-80px">
                             <p>全国に226店舗展開（2025年5月25日時点）、大阪市内にも複数拠点あり。</p>
                         </div>
                     </div>
@@ -974,10 +1046,10 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="弁護士・税理士と主業と連携" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/livable-img03.webp">
+                            <img src="./assets/img/livable-img03.png" loading="lazy" alt="弁護士・税理士と主業と連携" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
+                        <div class="bg_gray py-3 px-3 height-80px">
                             <p>ポータルサイトや自社ネットワークなど、多彩な広告手法で早期売却を支援。</p>
                         </div>
                     </div>
@@ -985,10 +1057,10 @@
                 <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/livable-img04.webp">
+                            <img src="./assets/img/livable-img04.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
+                        <div class="bg_gray py-3 px-3 height-80px">
                             <p>リバブル売却保証など、充実した売却サポートが魅力。</p>
                         </div>
                     </div>
@@ -997,18 +1069,31 @@
 
             <!-- CTAボタンエリア -->
             <div class="px-lg-5 mt-0 mt-lg-4">
-                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                    <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>東急リバブルにお問い合わせ！</span></a>
-                    <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">東急リバブルの<br>口コミ・評判記事はこちら！</span></a>
+                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                    <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        不動産売却について<br>東急リバブルにお問い合わせ！
+
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                            <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                    <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        東急リバブルの<br>口コミ・評判記事はこちら！
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                            <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
                 </div>
-            </div>
+            </div>            
         </div>
     </div>
     <div class="container mb-5 pb-5">
         <div class="mb-5 centerline_heading text-center">
             <h3 class="fw-bold">東急リバブル株式会社 梅田センターの会社概要</h3>
         </div>
-        <div class="mt-5 px-lg-5 mb-5 pb-5">
+        <div class="mt-5 px-lg-5 mb-3 pb-3">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6 pe-lg-4">
                     <table class="table comparison-table w-100">
@@ -1041,12 +1126,25 @@
             </div>
         </div>
         <!-- CTAボタンエリア -->
-        <div class="px-lg-5 mt-0 mt-lg-4 mb-5 pb-5">
-            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>東急リバブルにお問い合わせ！</span></a>
-                <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">東急リバブルの<br>口コミ・評判記事はこちら！</span></a>
-            </div>
-        </div>
+            <div class="px-lg-5 mt-0 mb-5 mt-lg-4">
+                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                    <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        不動産売却について<br>東急リバブルにお問い合わせ！
+
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                            <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                    <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        東急リバブルの<br>口コミ・評判記事はこちら！
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                            <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                </div>
+            </div>  
         <div class="mb-5 centerline_heading text-center">
             <h3 class="fw-bold">東急リバブル株式会社 梅田センターの口コミ・評判</h3>
         </div>
@@ -1061,7 +1159,7 @@
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">01</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">01</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -1092,7 +1190,7 @@
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">02</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">02</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -1123,7 +1221,7 @@
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">03</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">03</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -1146,15 +1244,28 @@
             </div>
         </div>
         <!-- CTAボタンエリア -->
-        <div class="px-lg-5 mt-0 mt-lg-4 mb-5 pb-5">
-            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>東急リバブルにお問い合わせ！</span></a>
-                <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">東急リバブルの<br>口コミ・評判記事はこちら！</span></a>
+        <div class="px-lg-5 mt-0 mt-lg-4">
+            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                    不動産売却について<br>東急リバブルにお問い合わせ！
+
+                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                        <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                        <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                    </picture>
+                </button>
+                <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                    東急リバブルの<br>口コミ・評判記事はこちら！
+                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                    </picture>
+                </button>
             </div>
-        </div>
+        </div>  
     </div>
-    <div class="position-relative bg-info">
-        <div class="bg-warning text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
+    <div class="position-relative bg_sky_blue">
+        <div class="bg_yellow text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
             <p class="m-0 fw-bold">住友不動産グループの総合力！</p>
             <p class="m-0 fw-bold">専任担当者による一貫対応！</p>
         </div>
@@ -1173,10 +1284,10 @@
                 <div class="col-12 col-lg-4 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/step-img01.webp">
+                            <img src="./assets/img/step-img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
+                        <div class="bg_gray py-3 px-3 height-80px">
                             <p>全国規模のブランド力と50年以上の業界実績。</p>
                         </div>
                     </div>
@@ -1184,10 +1295,10 @@
                 <div class="col-12 col-lg-4 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/step-img02.webp">
+                            <img src="./assets/img/step-img02.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
+                        <div class="bg_gray py-3 px-3 height-80px">
                             <p>売却サポートから税金・相続までワンストップで対応可能。</p>
                         </div>
                     </div>
@@ -1195,10 +1306,10 @@
                 <div class="col-12 col-lg-4 mb-4 mb-lg-0">
                     <div class="bg-white">
                         <picture class="mb-3">
-                            <source type="image/webp" srcset="./assets/img/i_check_img01.webp">
-                            <img src="./assets/img/i_check_img01.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                            <source type="image/webp" srcset="./assets/img/step-img02.webp">
+                            <img src="./assets/img/step-img02.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
                         </picture>
-                        <div class="bg_light-gray py-3 px-3 height-80px">
+                        <div class="bg_gray py-3 px-3 height-80px">
                             <p>建物検査や設備保証など、売却後の買主への安心感も支援。</p>
                         </div>
                     </div>
@@ -1207,18 +1318,32 @@
 
             <!-- CTAボタンエリア -->
             <div class="px-lg-5 mt-0 mt-lg-4">
-                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                    <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>すみふの仲介ステップにお問い合わせ！</span></a>
-                    <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">すみふの仲介ステップの<br>口コミ・評判記事はこちら！</span></a>
+                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                    <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        不動産売却について<br>すみふの仲介ステップにお問い合わせ！
+
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                            <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                    <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        すみふの仲介ステップの<br>口コミ・評判記事はこちら！
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                            <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
                 </div>
-            </div>
+            </div>  
+            
         </div>
     </div>
     <div class="container mb-5 pb-5">
         <div class="mb-5 centerline_heading text-center">
             <h3 class="fw-bold">すみふの仲介ステップ 梅田営業センターの会社概要</h3>
         </div>
-        <div class="mt-5 px-lg-5 mb-5 pb-5">
+        <div class="mt-5 px-lg-5 mb-3 pb-3">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6 pe-lg-4">
                     <table class="table comparison-table w-100">
@@ -1255,12 +1380,25 @@
             </div>
         </div>
         <!-- CTAボタンエリア -->
-        <div class="px-lg-5 mt-0 mt-lg-4 mb-5 pb-5">
-            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>すみふの仲介ステップにお問い合わせ！</span></a>
-                <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">すみふの仲介ステップの<br>口コミ・評判記事はこちら！</span></a>
-            </div>
-        </div>
+            <div class="px-lg-5 mt-0 mb-5 mt-lg-4">
+                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                    <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        不動産売却について<br>すみふの仲介ステップにお問い合わせ！
+
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                            <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                    <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        すみふの仲介ステップの<br>口コミ・評判記事はこちら！
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                            <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                </div>
+            </div>  
         <div class="mb-5 centerline_heading text-center">
             <h3 class="fw-bold">すみふの仲介ステップの口コミ・評判記事</h3>
         </div>
@@ -1275,7 +1413,7 @@
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">01</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">01</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -1306,7 +1444,7 @@
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">02</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">02</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -1337,7 +1475,7 @@
                     </div>                    
                     <!-- 口コミ番号とアイコン群画像 -->
                     <div class="d-flex align-items-start mb-5">
-                        <div class="fs-2 lh100 fw-bold text-primary me-1">03</div>
+                        <div class="fs-2 lh100 fw-bold blue me-1">03</div>
                         <div class="w-100">
                             <picture>
                                 <source type="image/webp" srcset="./assets/img/22101344.webp">
@@ -1360,12 +1498,25 @@
             </div>
         </div>
         <!-- CTAボタンエリア -->
-        <div class="px-lg-5 mt-0 mt-lg-4 mb-5 pb-5">
-            <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-3">
-                <a href="http://www.office-sansho.co.jp/" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-danger white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">不動産売却について<br>すみふの仲介ステップにお問い合わせ！</span></a>
-                <a href="#" target="_blank" class="btn max-w-348 w-100 btn-arrow bg-primary white position-relative hover-reverse-oapcity py-2 fw-bold text-center"><span class="fw-bold f18px">すみふの仲介ステップの<br>口コミ・評判記事はこちら！</span></a>
-            </div>
-        </div>
+            <div class="px-lg-5 mt-0 mt-lg-4">
+                <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
+                    <button class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        不動産売却について<br>すみふの仲介ステップにお問い合わせ！
+
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                            <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                    <button class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+                        すみふの仲介ステップの<br>口コミ・評判記事はこちら！
+                        <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                            <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                            <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                        </picture>
+                    </button>
+                </div>
+            </div>  
     </div>
 </section>
 
@@ -1386,9 +1537,9 @@
                     <table class="table table-bordered mb-0">
                         <thead class="text-center">
                             <tr>
-                                <th class="bg-primary text-white fw-bold py-3">戸建て</th>
-                                <th class="bg-primary text-white fw-bold py-3">マンション</th>
-                                <th class="bg-primary text-white fw-bold py-3">土地</th>
+                                <th class="bg_blue text-white fw-bold py-3">戸建て</th>
+                                <th class="bg_blue text-white fw-bold py-3">マンション</th>
+                                <th class="bg_blue text-white fw-bold py-3">土地</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -1396,7 +1547,7 @@
                                 <td class="text-center py-4 bg-white">
                                     <span class="h2 fw-bold text-danger">5,980</span><span class="fs-5 text-danger fw-bold">万円</span>
                                 </td>
-                                <td class="text-center py-4 bg-white">
+                                <td class="text-center py-4 bg_light-gray">
                                     <span class="h2 fw-bold text-danger">6,124</span><span class="fs-5 text-danger fw-bold">万円</span>
                                 </td>
                                 <td class="text-center py-4 bg-white">
@@ -1417,13 +1568,13 @@
  <!-- バナーセクション -->
 <section class="py-4">
     <div class="container">
-        <div class="position-relative bg-light rounded p-4" style="min-height: 200px; background-image: url('背景画像のパス'); background-size: cover; background-position: center;">
-            <!-- 背景画像プレースホルダー -->
-            <div class="position-absolute top-0 start-0 w-100 h-100 bg-secondary-subtle rounded">
+        <div class="position-relative bg-pr rounded p-4" style="min-height: 200px;">
+            <!-- 背景画像 -->
+            <div class="position-absolute top-0 start-0 w-100 h-100 rounded">
                 <div class="d-flex align-items-center justify-content-start h-100">
                     <div class="justify-content-start ms-3">
                         <!-- メインテキスト -->
-                        <div class="mb-4 mt-5">
+                        <div class="mb-3 mt-5">
                             <div class="text-center">
                                 <p class="fw-bold d-flex align-items-center justify-content-center mb-0">
                                     <span class="bg-warning text-black px-3 py-1 me-3 fw-bold f12px">PR</span>
@@ -1436,9 +1587,12 @@
                         <!-- CTAボタン -->
                         <div class="mb-5">
                             <div class="text-center">
-                                <button class="btn btn-danger fw-bold px-4 py-2">
+                                <button class="btn bg_red text-white fw-bold py-3 px-5 position-relative">
                                     不動産売却についてルビコンにお問い合わせ
-                                    <i class="ms-2">▶</i>
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-red.webp">
+                                        <img src="./assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
                                 </button>
                             </div>
                         </div>           
@@ -1535,7 +1689,7 @@
 <section class="pt-4 pt-lg-5 pb-4 pb-lg-5" id="list">
     <div class="container">
         <div class="text-center mb-5">
-            <div class="bg-primary text-warning p-2 d-inline-block mb-4">
+            <div class="bg_blue yellow py-2 px-4 d-inline-block mb-4">
                 <p class="fs-3 mb-0 fw-bold">大阪市北区の</p>
             </div>
             <h2 class="mb-4 mb-lg-5 fs-2 fw-bold">
@@ -1544,8 +1698,8 @@
         </div>
         <div class="row mb-5 g-4 box-parent">
             <div class="col-12 col-lg-4 d-flex box-child">
-                <div class="box-child-text  border border-2 border-primary w-100">
-                    <div class="bg-primary fw-bold text-white px-2 height-70 d-flex align-items-center">
+                <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
                         <h3 class="fs-6 fw-bold  m-0 col-11">株式会社ルビコン</h3>
                     </div>
                     <div class="p-3 f13px">
@@ -1556,8 +1710,14 @@
                         </dl>
                         <dl class="row">
                             <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6136-3604</span></dt>
-                            <div class="text-center col-md-7 mt-1 mt-md-2">
-                                <a href="" class="f12px fw-bold btn rounded-2 bg-primary text-white px-1 py-2 position-relative text-start" style="width:180px">記事で詳しく見る</a>
+                            <div class="text-start col-md-7 mt-1 mt-md-2">
+                                <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                                    記事で詳しく見る
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
+                                </a>
                             </div>
                         </dl>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -1565,8 +1725,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex box-child">
-                <div class="box-child-text  border border-2 border-primary w-100">
-                    <div class="bg-primary fw-bold text-white px-2 height-70 d-flex align-items-center">
+                <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
                         <h3 class="fs-6 fw-bold  m-0 col-11">東急リバブル株式会社<br>梅田センター</h3>
                     </div>
                     <div class="p-3 f13px">
@@ -1577,8 +1737,14 @@
                         </dl>
                         <dl class="row">
                             <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-109-635</span></dt>
-                            <div class="text-center col-md-7 mt-1 mt-md-2">
-                                <a href="" class="f12px fw-bold btn rounded-2 bg-primary text-white px-1 py-2 position-relative text-start" style="width:180px">記事で詳しく見る</a>
+                            <div class="text-start col-md-7 mt-1 mt-md-2">
+                                <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                                    記事で詳しく見る
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
+                                </a>
                             </div>
                         </dl>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -1586,8 +1752,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex box-child">
-                <div class="box-child-text  border border-2 border-primary w-100">
-                    <div class="bg-primary fw-bold text-white px-2 height-70 d-flex align-items-center">
+                <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
                         <h3 class="fs-6 fw-bold  m-0 col-11">すみふの仲介ステップ<br>梅田営業センター</h3>
                     </div>
                     <div class="p-3 f13px">
@@ -1598,8 +1764,14 @@
                         </dl>
                         <dl class="row">
                             <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-051-232</span></dt>
-                            <div class="text-center col-md-7 mt-1 mt-md-2">
-                                <a href="" class="f12px fw-bold btn rounded-2 bg-primary text-white px-1 py-2 position-relative text-start" style="width:180px">記事で詳しく見る</a>
+                            <div class="text-start col-md-7 mt-1 mt-md-2">
+                                <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                                    記事で詳しく見る
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
+                                </a>
                             </div>
                         </dl>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -1609,8 +1781,8 @@
         </div>
         <div class="row mb-5 g-4 box-parent">
             <div class="col-12 col-lg-4 d-flex box-child">
-                <div class="box-child-text  border border-2 border-primary w-100">
-                    <div class="bg-primary fw-bold text-white px-2 height-70 d-flex align-items-center">
+                <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
                         <h3 class="fs-6 fw-bold  m-0 col-11">株式会社ルビコン</h3>
                     </div>
                     <div class="p-3 f13px">
@@ -1621,8 +1793,14 @@
                         </dl>
                         <dl class="row">
                             <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6136-3604</span></dt>
-                            <div class="text-center col-md-7 mt-1 mt-md-2">
-                                <a href="" class="f12px fw-bold btn rounded-2 bg-primary text-white px-1 py-2 position-relative text-start" style="width:180px">記事で詳しく見る</a>
+                            <div class="text-start col-md-7 mt-1 mt-md-2">
+                                <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                                    記事で詳しく見る
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
+                                </a>
                             </div>
                         </dl>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -1630,8 +1808,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex box-child">
-                <div class="box-child-text  border border-2 border-primary w-100">
-                    <div class="bg-primary fw-bold text-white px-2 height-70 d-flex align-items-center">
+                <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
                         <h3 class="fs-6 fw-bold  m-0 col-11">東急リバブル株式会社<br>梅田センター</h3>
                     </div>
                     <div class="p-3 f13px">
@@ -1642,8 +1820,14 @@
                         </dl>
                         <dl class="row">
                             <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-109-635</span></dt>
-                            <div class="text-center col-md-7 mt-1 mt-md-2">
-                                <a href="" class="f12px fw-bold btn rounded-2 bg-primary text-white px-1 py-2 position-relative text-start" style="width:180px">記事で詳しく見る</a>
+                            <div class="text-start col-md-7 mt-1 mt-md-2">
+                                <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                                    記事で詳しく見る
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
+                                </a>
                             </div>
                         </dl>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -1651,8 +1835,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex box-child">
-                <div class="box-child-text  border border-2 border-primary w-100">
-                    <div class="bg-primary fw-bold text-white px-2 height-70 d-flex align-items-center">
+                <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
                         <h3 class="fs-6 fw-bold  m-0 col-11">すみふの仲介ステップ<br>梅田営業センター</h3>
                     </div>
                     <div class="p-3 f13px">
@@ -1663,8 +1847,14 @@
                         </dl>
                         <dl class="row">
                             <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-051-232</span></dt>
-                            <div class="text-center col-md-7 mt-1 mt-md-2">
-                                <a href="" class="f12px fw-bold btn rounded-2 bg-primary text-white px-1 py-2 position-relative text-start" style="width:180px">記事で詳しく見る</a>
+                            <div class="text-start col-md-7 mt-1 mt-md-2">
+                                <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                                    記事で詳しく見る
+                                    <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                        <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                                        <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                                    </picture>
+                                </a>
                             </div>
                         </dl>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -1675,7 +1865,7 @@
         <div class="accordion mb-4" id="subsidyAccordion02">
             <div class="accordion-item  border-0 bg-transparent">
                 <p class="d-flex justify-content-center" id="headingSubsidy02">
-                    <button class="accordion-button collapsed fs-5 custom-accordion-btn custom-accordion-btn02 bg-primary-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubsidy02" aria-expanded="false" aria-controls="collapseSubsidy02">
+                    <button class="accordion-button collapsed fs-5 custom-accordion-btn custom-accordion-btn02 bg_light_blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubsidy02" aria-expanded="false" aria-controls="collapseSubsidy02">
                         もっと見る
                     </button>
                 </p>
@@ -2811,12 +3001,12 @@
 
         <div class="text-center mb-5 col-12 col-lg-8 mx-auto">
             <a href="/"
-                class="btn bg-primary text-white fw-bold btn-hover-blue position-relative shadow rounded-1 w-100 py-3"
+                class="btn bg_sky_blue text-white fw-bold btn-hover-blue position-relative shadow rounded-1 w-100 py-3"
                 role="button">
                 大阪市北区の不動産売却会社をもっと見る
                 <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                    <source type="image/webp" srcset="./assets/img/s_icon_yazi_white02.webp">
-                    <img src="./assets/img/s_icon_yazi_white02.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
+                    <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                    <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
                 </picture>
             </a>
         </div>
@@ -2840,7 +3030,7 @@
                             </picture>
                         </a>
                     </div>
-                    <a class="d-block text-decoration-none white mb-3 small" href="/"><span class="white bg_dark_green p-2 position-relative" style="top: -20px;">カテゴリー</span></a>
+                    <a class="d-block text-decoration-none black mb-3 small" href="/"><span class="black bg_yellow p-2 position-relative" style="top: -20px;">カテゴリー</span></a>
                     <a class="d-block text-decoration-none white height-100 height-80-lg" href="/">テキストテキストテキストテキストテキストテキストテキストテキスト</a>
                     <a class="d-block text-decoration-none small text-end white" href="/">公開 2025.1.9 / 更新 2025.1.10</a>
                 </div>
@@ -2853,7 +3043,7 @@
                             </picture>
                         </a>
                     </div>
-                    <a class="d-block text-decoration-none white mb-3 small" href="/"><span class="white bg_dark_green p-2 position-relative" style="top: -20px;">カテゴリー</span></a>
+                    <a class="d-block text-decoration-none black mb-3 small" href="/"><span class="black bg_yellow p-2 position-relative" style="top: -20px;">カテゴリー</span></a>
                     <a class="d-block text-decoration-none white height-100 height-80-lg" href="/">テキストテキストテキストテキストテキストテキストテキストテキスト</a>
                     <a class="d-block text-decoration-none small text-end white" href="/">公開 2025.1.9 / 更新 2025.1.10</a>
                 </div>
@@ -2866,19 +3056,19 @@
                             </picture>
                         </a>
                     </div>
-                    <a class="d-block text-decoration-none white mb-3 small" href="/"><span class="white bg_dark_green p-2 position-relative" style="top: -20px;">カテゴリー</span></a>
+                    <a class="d-block text-decoration-none black mb-3 small" href="/"><span class="black bg_yellow p-2 position-relative" style="top: -20px;">カテゴリー</span></a>
                     <a class="d-block text-decoration-none white height-100 height-80-lg" href="/">テキストテキストテキストテキストテキストテキストテキストテキスト</a>
                     <a class="d-block text-decoration-none small text-end white" href="/">公開 2025.1.9 / 更新 2025.1.10</a>
                 </div>
             </div>
         <div class="text-center mb-5 col-12 col-lg-8 mx-auto">
             <a href="/"
-                class="btn bg-primary text-white fw-bold btn-hover-blue position-relative shadow rounded-1 w-100 py-3"
+                class="btn bg_sky_blue text-white fw-bold btn-hover-blue position-relative shadow rounded-1 w-100 py-3"
                 role="button">
                 記事一覧を見る
                 <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                    <source type="image/webp" srcset="./assets/img/s_icon_yazi_white02.webp">
-                    <img src="./assets/img/s_icon_yazi_white02.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
+                    <source type="image/webp" srcset="./assets/img/allow-blue.webp">
+                    <img src="./assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
                 </picture>
             </a>
         </div>
@@ -2937,7 +3127,7 @@
 </main>
 <!-- コンテンツここまで -->
 <!-- フッタここから -->
-    <footer class="p-0 bg_blue">
+    <footer class="p-0 bg_sky_blue">
         <div class="container">
             <div class="py-4 py-lg-5 border-bottom-white-1px">
                 <div class="row mb-lg-2">
@@ -2965,8 +3155,8 @@
                         </ul>
                     </div>
                     <div class="col-12 mt-4 mt-lg-5">
-                        <div class="fs-6">
-                            <p class="d-inline mb-0 white">免責事項：当サイトは2025年9月時点の情報をもとに作成しています。最新の情報は必ず、各社の公式サイトをご確認ください。</p>
+                        <div class="border_blue_1px bg-white rounded-pill text-start py-2 px-3 mx-auto">
+                            <p class="mb-0 blue f14px">免責事項：当サイトは2025年10月時点の情報をもとに作成しています。最新の情報は必ず、各社の公式サイトをご確認ください。</p>
                         </div>
                     </div>
                 </div>
