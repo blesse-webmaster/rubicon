@@ -528,3 +528,75 @@
 }
 
 
+// 縦線
+// .border_right_solid_vertical{
+//   border-right: 1px solid #fff; 
+// }
+
+// @media (max-width: 991px) {
+//   .border_right_solid_vertical:nth-child(2n) {
+//     border-right: none; 
+//   }
+// }
+
+.title-comparison {
+  background-image: url('../../assets/img/r_comparison_title.png'); 
+  max-width: 500px;
+  height: 100px;
+  margin: 0 auto; 
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center;
+}
+.webp .title-comparison {
+  background-image: url('../../assets/img/r_comparison_title.webp');
+}
+.title-meri {
+  background-image: url('../../assets/img/r_meri_title.png'); 
+  max-width: 600px;
+  height: 50px;
+  margin: 0 auto; 
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: center;
+}
+.webp .title-meri {
+  background-image: url('../../assets/img/r_meri_title.webp');
+}
+
+// バックグラウンドイメージ
+.background-reccomend_bg{
+  background: url('../../assets/img/r_recomend_bg.png'); 
+  background-size: cover; 
+  background-position: top; 
+  background-repeat: no-repeat;
+}
+@supports (background-image: url(../../assets/img/r_recomend_bg.webp)) {
+  .background-reccomend_bg {
+    background-image: url(../../assets/img/r_recomend_bg.webp);
+  }
+}
+
+
+.speech-box::after {
+  content: "";
+  position: absolute;
+  top: 100%; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 2px solid transparent;  /* 左辺を透明に */
+  border-right: 15px solid transparent; /* 右辺を透明に */
+  border-top: 10px solid #1E447D;
+}
+
+.text-shadow_black{
+  text-shadow: 1px 1px 5px #1d1d1d;
+}

@@ -44,7 +44,7 @@
   }
 }
 .fv_subTitle p:first-child::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 50px;
   height: 1px;
@@ -100,7 +100,6 @@
     background-image: url(../../assets/img/hikaku-01.webp);
   }
 }
-
 .bg-hikaku-02 {
   background-image: url(../../assets/img/hikaku-02.png);
   background-size: contain;
@@ -116,7 +115,6 @@
     background-image: url(../../assets/img/hikaku-02.webp);
   }
 }
-
 .bg-hikaku-01,
 .bg-hikaku-02 {
   display: flex;
@@ -137,16 +135,17 @@
     background-image: url(../../assets/img/pr-bg.webp);
   }
 }
-
 .border-blue-inset {
- border: solid 8px #1E447D;
- box-sizing: border-box;
+  border: solid 8px #1E447D;
+  box-sizing: border-box;
 }
+
 .border_blue_1px {
-   border: solid 1px #1E447D;
+  border: solid 1px #1E447D;
 }
+
 .border_blue_2px {
-   border: solid 2px #1E447D;
+  border: solid 2px #1E447D;
 }
 
 .border_green {
@@ -238,8 +237,6 @@
     background-image: url(../../assets/img/s_point_bg.webp);
   }
 }
-
-
 /*高さ*/
 .height-240 {
   height: 240px;
@@ -463,7 +460,7 @@
   width: 100%;
 }
 
-.centerline_heading h3{
+.centerline_heading h3 {
   display: inline-block;
   position: relative;
   padding: 0 2rem; /* 見出し文字の左右スペース */
@@ -487,7 +484,70 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: #222222; 
+  background: #222222;
   z-index: 0;
   transform: translateY(-50%);
 }
+
+.title-comparison {
+  background-image: url("../../assets/img/r_comparison_title.png");
+  max-width: 500px;
+  height: 100px;
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.webp .title-comparison {
+  background-image: url("../../assets/img/r_comparison_title.webp");
+}
+
+.title-meri {
+  background-image: url("../../assets/img/r_meri_title.png");
+  max-width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.webp .title-meri {
+  background-image: url("../../assets/img/r_meri_title.webp");
+}
+
+.background-reccomend_bg {
+  background: url("../../assets/img/r_recomend_bg.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+@supports (background-image: url(../../assets/img/r_recomend_bg.webp)) {
+  .background-reccomend_bg {
+    background-image: url(../../assets/img/r_recomend_bg.webp);
+  }
+}
+.speech-box::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 2px solid transparent; /* 左辺を透明に */
+  border-right: 15px solid transparent; /* 右辺を透明に */
+  border-top: 10px solid #1E447D;
+}
+
+.text-shadow_black {
+  text-shadow: 1px 1px 5px #1d1d1d;
+}/*# sourceMappingURL=style.css.map */
