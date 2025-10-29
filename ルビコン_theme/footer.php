@@ -47,7 +47,7 @@ $the_query = new WP_Query($args);
         </div>
         <div class="col-12 mt-4 mt-lg-5">
           <div class="border_blue_1px bg-white rounded-pill text-start py-2 px-3 mx-auto">
-            <p class="mb-0 blue f14px">免責事項：当サイトは2025年10月時点の情報をもとに作成しています。最新の情報は必ず、各社の公式サイトをご確認ください。</p>
+            <p class="mb-0 blue f14px">免責事項：当サイトは2025年8月時点の情報をもとに作成しています。最新の情報は必ず、各社の公式サイトをご確認ください。</p>
           </div>
         </div>
       </div>
@@ -101,16 +101,30 @@ $the_query = new WP_Query($args);
     });
   });
   // ハンバーガーメニュークリック時にメニューを閉じる
-  const ham = $('.btn-hamburger');
-  const nav = $('#navbarNavDropdown');
-  ham.on('click', function() { //ハンバーガーメニューをクリックしたら
-    ham.toggleClass('active'); // ハンバーガーメニューにactiveクラスを付け外し
-    nav.toggleClass('active'); // ナビゲーションメニューにactiveクラスを付け外し
-    $('.header-nav').toggleClass('bg-white-on'); // 変更: 背景色専用クラスを付与
-  });
-  $('.nav-item').not('.dropdown').on('click', function(event) {
-    ham.trigger('click');
-  });
+  // const ham = $('.btn-hamburger');
+  // const nav = $('#navbarNavDropdown');
+  // ham.on('click', function() { 
+  //   ham.toggleClass('active'); 
+  //   nav.toggleClass('active'); 
+  //   $('.header-nav').toggleClass('bg-white-on'); 
+  // });
+  // $('.nav-item').not('.dropdown').on('click', function(event) {
+  //   ham.trigger('click');
+  // });
+
+  // ハンバーガーメニュークリック時にメニューを閉じる
+  // Bootstrapのcollapseイベントを利用
+$('#navbarNavDropdown').on('show.bs.collapse', function () {
+  $('.header-nav').addClass('bg-white-on');
+});
+$('#navbarNavDropdown').on('hide.bs.collapse', function () {
+  $('.header-nav').removeClass('bg-white-on');
+});
+
+// メニュー内リンクをクリックしたら閉じる
+$('.nav-item a').on('click', function() {
+  $('#navbarNavDropdown').collapse('hide');
+});
 
   // ドロップダウンメニュー以外をクリックしたらメニューが閉じる
   $(document).ready(function() {

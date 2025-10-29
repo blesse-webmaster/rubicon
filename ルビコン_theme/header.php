@@ -43,11 +43,7 @@
               </button>
             </div>
             <div class="collapse navbar-collapse justify-content-between align-items-center mx-3 mx-xxl-5 px-2" id="navbarNavDropdown">
-              <a class="nav-link fw-bold fs-6 py-2 text-white" aria-current="page" href="<?php echo home_url(); ?>/">
-                <!-- <picture>
-                                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/m_icon_hake.webp">
-                                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/m_icon_hake.png" loading="lazy" alt="はけ" height="20" width="20" class="img-fluid">
-                                </picture> -->
+              <a class="nav-link fw-bold fs-6 py-2 text-white d-none d-lg-block" aria-current="page" href="<?php echo home_url(); ?>/">
                 <?php bloginfo('name'); ?>
               </a>
               <ul class="navbar-nav d-md-flex align-items-center">
@@ -67,7 +63,7 @@
                   <a class="nav-link lh-sm py-0 text-white" href="/">大阪市北区の<br>不動産会社一覧</a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="#reccomend">大阪市北区で<br>おすすめの会社3選</a>
+                  <a class="nav-link lh-sm py-0 text-white" href="#recomend">大阪市北区で<br>おすすめの不動産会社3選</a>
                 </li>
               </ul>
             </div>

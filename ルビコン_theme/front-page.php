@@ -51,35 +51,35 @@ $information = get_posts(array('posts_per_page' => 12,));
   <!-- メインコンテンツここから -->
   <!-- INDEX -->
   <div class="bg_blue">
-    <div class="container px-2 pt-3 px-xl-5">
+    <div class="container px-2">
       <ul class="row list-unstyled mb-0 justify-content-center align-items-center">
-        <li class="col-6 col-lg text-center px-1 px-md-2 mb-3 border_right_solid_vertical">
-          <p class="white pt-sm-1 pt-2 text-decoration-none d-flex flex-column align-items-center justify-content-center fs-4 mb-0">
+        <li class="col-6 col-lg text-center px-1 px-md-2 border_right_solid_vertical">
+          <p class="white py-2 text-decoration-none d-flex flex-column align-items-center justify-content-center fs-4 mb-0">
             INDEX
           </p>
         </li>
-        <li class="col-6 col-lg text-center px-1 px-md-2 mb-3 border_right_solid_vertical">
-          <a href="#point" class="white pt-sm-1 pt-2 text-decoration-none d-flex flex-column align-items-center justify-content-center">
+        <li class="col-6 col-lg text-center px-1 px-md-2 border_right_solid_vertical">
+          <a href="#point" class="white py-2 text-decoration-none d-flex flex-column align-items-center justify-content-center f14px">
             大阪市北区の<br>不動産会社選びの<br>ポイント
           </a>
         </li>
-        <li class="col-6 col-lg text-center px-1 px-md-2 mb-3 border_right_solid_vertical">
-          <a href="#comparison" class="white pt-sm-1 pt-2 text-decoration-none d-flex flex-column align-items-center justify-content-center">
+        <li class="col-6 col-lg text-center px-1 px-md-2 border_right_solid_vertical">
+          <a href="#comparison" class="white py-2 text-decoration-none d-flex flex-column align-items-center justify-content-center f14px">
             仲介と買取の<br>違いは？
           </a>
         </li>
-        <li class="col-6 col-lg text-center px-1 px-md-2 mb-3 border_right_solid_vertical">
-          <a href="#recomend" class="white pt-sm-1 pt-2 text-decoration-none d-flex flex-column align-items-center justify-content-center">
+        <li class="col-6 col-lg text-center px-1 px-md-2 border_right_solid_vertical">
+          <a href="#recomend" class="white py-2 text-decoration-none d-flex flex-column align-items-center justify-content-center f14px">
             仲介に強い<br>不動産会社3選
           </a>
         </li>
-        <li class="col-6 col-lg text-center px-1 px-md-2 mb-3 border_right_solid_vertical">
-          <a href="#price" class="white pt-sm-1 pt-2 text-decoration-none d-flex flex-column align-items-center justify-content-center">
+        <li class="col-6 col-lg text-center px-1 px-md-2 border_right_solid_vertical">
+          <a href="#price" class="white py-2 text-decoration-none d-flex flex-column align-items-center justify-content-center f14px">
             大阪市北区の<br>不動産売却相場
           </a>
         </li>
-        <li class="col-6 col-lg text-center px-1 px-md-2 mb-3 border_right_solid_vertical">
-          <a href="#faq" class="white pt-sm-1 pt-2 text-decoration-none d-flex flex-column align-items-center justify-content-center">
+        <li class="col-6 col-lg text-center px-1 px-md-2 mb-2 border_right_solid_vertical">
+          <a href="#faq" class="white py-2 text-decoration-none d-flex flex-column align-items-center justify-content-center f14px">
             不動産売却<br>よくある質問
           </a>
         </li>
@@ -99,31 +99,34 @@ $information = get_posts(array('posts_per_page' => 12,));
   <section id="company" class="py-5 bg_light_blue">
     <div class="container">
       <!-- ヘッダー部分 -->
-      <div class="text-center mb-5">
+      <div class="text-center mb-2">
         <div class="bg_blue yellow py-2 px-4 d-inline-block mb-4">
-          <p class="fs-3 mb-0 fw-bold">大阪市北区の家を売りたい方必見！</p>
+          <p class="fs-3 mb-0 fw-bold">大阪市北区の家を<br class="d-block d-lg-none">売りたい方必見！</p>
         </div>
         <h2 class="display-4 fw-bold mb-2">
-          地域密着・大手から選ぶ<br>
-          仲介に強い不動産会社<span class="text-danger display-3 fw-bold">3</span><span class="text-danger fw-bold">選</span>！
+          地域密着・<br class="d-block d-lg-none">大手から選ぶ<br>
+          仲介に強い<br class="d-block d-lg-none">不動産会社<span class="text-danger display-3 fw-bold">3</span><span class="text-danger fw-bold">選</span>！
         </h2>
+      </div>
+      <div class="text-end mb-0">
+        <p class="f13px text-secondary mb-0">※2025年8月時点の情報です。</p>
       </div>
 
       <!-- 3つの会社 -->
-      <div class="row g-2">
+      <div class="row flex-nowrap overflow-x-auto d-lg-flex flex-lg-wrap pt-5">
         <!-- 1. 株式会社ルビコン -->
         <div class="col-12 col-lg-4">
           <div class="position-relative bg-white" style="margin-top: 30px;">
             <!-- 会社名 -->
             <div class="bg_blue text-white text-center d-flex align-items-end justify-content-center" style="height: 120px;">
-              <h3 class="m-0 fw-bold f25px pb-2"><span class="f18px">株式会社</span><br>ルビコン</h3>
+              <h3 class="m-0 fw-bold fs-3 pb-2"><span class="fs-5">株式会社</span><br>ルビコン</h3>
             </div>
 
             <!-- 上部の黄色いタブ -->
             <div class="bg_yellow text-dark text-center rounded-pill position-absolute d-flex align-items-center justify-content-center" style="top: -45px; left: 0; right: 0; z-index: 10; height: 78px;">
               <div>
-                <p class="mb-0 fw-bold f15px">中崎町・天六周辺で高値売却を狙うなら！</p>
-                <p class="mb-0 small">大手で取り扱いが難しい物件の<br>ご相談もお任せ！</p>
+                <p class="mb-0 fw-bold f16px">中崎町・天六周辺で高値売却を狙うなら！</p>
+                <p class="mb-0 f13px">大手で取り扱いが難しい物件の<br>ご相談もお任せ！</p>
               </div>
             </div>
 
@@ -167,16 +170,16 @@ $information = get_posts(array('posts_per_page' => 12,));
           <div class="position-relative bg-white" style="margin-top: 30px;">
             <!-- 会社名 -->
             <div class="bg_blue text-white text-center d-flex align-items-end justify-content-center" style="height: 120px;">
-              <h3 class="m-0 fw-bold f25px pb-2">東急リバブル株式会社<br><span class="f18px">梅田センター</span>
+              <h3 class="m-0 fw-bold fs-4 pb-2">東急リバブル株式会社<br><span class="fs-5">梅田センター</span>
               </h3>
             </div>
 
             <!-- 上部の黄色いタブ -->
             <div class="bg_yellow text-dark text-center rounded-pill position-absolute d-flex align-items-center justify-content-center" style="top: -45px; left: 0; right: 0; z-index: 10; height: 78px;">
               <div>
-                <p class="mb-0 fw-bold f15px">大手ならではの信頼と実績！</p>
-                <p class="mb-0 small">オンライン対応で</p>
-                <p class="mb-0 small">遠方の方も安心</p>
+                <p class="mb-0 fw-bold f16px">大手ならではの信頼と実績！</p>
+                <p class="mb-0 f13px">オンライン対応で</p>
+                <p class="mb-0 f13px">遠方の方も安心</p>
               </div>
             </div>
 
@@ -219,14 +222,14 @@ $information = get_posts(array('posts_per_page' => 12,));
           <div class="position-relative bg-white" style="margin-top: 30px;">
             <!-- 会社名 -->
             <div class="bg_blue text-white text-center d-flex align-items-end justify-content-center" style="height: 120px;">
-              <h3 class="m-0 fw-bold f25px pb-2"><span class="f18px">すみふの仲介ステップ 梅田統括事業所1課</span><br>住友不動産ステップ株式会社</h3>
+              <h3 class="m-0 fw-bold fs-4 pb-2"><span class="fs-6">すみふの仲介ステップ 梅田統括事業所1課</span><br>住友不動産ステップ株式会社</h3>
             </div>
 
             <!-- 上部の黄色いタブ -->
             <div class="bg_yellow text-dark text-center rounded-pill position-absolute d-flex align-items-center justify-content-center" style="top: -45px; left: 0; right: 0; z-index: 10; height: 78px;">
               <div>
-                <p class="mb-1 fw-bold f15px">住友不動産グループの総合力！</p>
-                <p class="mb-0 small">専任担当者による一貫対応！</p>
+                <p class="mb-1 fw-bold f16px">住友不動産グループの総合力！</p>
+                <p class="mb-0 f13px">専任担当者による一貫対応！</p>
               </div>
             </div>
 
@@ -284,9 +287,9 @@ $information = get_posts(array('posts_per_page' => 12,));
           <span class="border border-white px-2 py-1">ト</span>
         </h2>
       </div>
-      <div class="row g-3">
+      <div class="row">
         <!-- ポイント01 -->
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
           <div class="h-100 bg-white p-4">
             <!-- ポイント番号 -->
             <div class="text-center mb-3">
@@ -320,7 +323,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
 
         <!-- ポイント02 -->
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
           <div class="h-100 bg-white p-4">
             <!-- ポイント番号 -->
             <div class="text-center mb-3">
@@ -404,9 +407,9 @@ $information = get_posts(array('posts_per_page' => 12,));
       </div>
 
       <!-- 比較カード -->
-      <div class="row g-5 mb-5">
+      <div class="row mb-5">
         <!-- 地域密着型 -->
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
           <div class="h-100 bg-hikaku-01 rounded-2 px-4">
             <div class="text-center mb-3">
               <h3 class="text-danger fw-bold fs-3">地域密着型</h3>
@@ -447,9 +450,9 @@ $information = get_posts(array('posts_per_page' => 12,));
       </div>
 
       <div class="text-center mb-5">
-        <h3 class="fw-bold mb-3">高く売るならまずは</h3>
-        <h3 class="fw-bold">
-          <span class="red">「地域密着型」</span>に相談がおすすめ！
+        <p class="fw-bold mb-2 mb-lg-3 fs-3">高く売るならまずは</p>
+        <h3 class="fw-bold fs-3 lh-sm">
+          <span class="red">「地域密着型」<br class="d-block d-lg-none"></span>に相談がおすすめ！
         </h3>
       </div>
 
@@ -460,8 +463,8 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="list-group-item border-0 bg-transparent">
               <div class="d-flex align-items-center">
                 <picture class="me-2">
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
                 </picture>
                 <p class="m-0 fw-bold">「高く売れる買主に届く」売却戦略が取れる</p>
               </div>
@@ -469,8 +472,8 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="list-group-item border-0 bg-transparent">
               <div class="d-flex align-items-center">
                 <picture class="me-2">
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
                 </picture>
                 <p class="m-0 fw-bold">価格の"根拠説明"が丁寧かつ納得感がある</p>
               </div>
@@ -478,8 +481,8 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="list-group-item border-0 bg-transparent">
               <div class="d-flex align-items-center">
                 <picture class="me-2">
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
                 </picture>
                 <p class="m-0 fw-bold">相談時点で「エリア×物件タイプ」の成約傾向を示してくれる</p>
               </div>
@@ -491,7 +494,7 @@ $information = get_posts(array('posts_per_page' => 12,));
   </section>
 
   <!-- バナーセクション -->
-  <section class="py-4">
+  <section class="py-5">
     <div class="container">
       <div class="position-relative bg-pr rounded p-4" style="min-height: 200px;">
         <!-- 背景画像 -->
@@ -502,15 +505,15 @@ $information = get_posts(array('posts_per_page' => 12,));
               <div class="mb-3 mt-5">
                 <div class="text-center">
                   <p class="fw-bold d-flex align-items-center justify-content-center mb-0">
-                    <span class="bg-warning text-black px-3 py-1 me-3 fw-bold f12px">PR</span>
-                    <span class="fs-3">大阪市北区／中崎町・天六周辺の不動産売却なら</span>
+                    <span class="bg-warning text-black px-3 py-1 me-lg-3 fw-bold f12px">PR</span>
+                    <span class="fs-3">大阪市北区／中崎町・<br class="d-block d-lg-none">天六周辺の<br class="d-block d-lg-none">不動産売却なら</span>
                   </p>
-                  <p class="mt-0 fs-3 fw-bold">築古・連棟など難物件のご相談も!</p>
+                  <p class="mt-0 fs-3 fw-bold">築古・連棟など難物件の<br class="d-block d-lg-none">ご相談も!</p>
                 </div>
               </div>
 
               <!-- CTAボタン -->
-              <div class="mb-5">
+              <div class="pb-4 pb-lg-5">
                 <div class="text-center">
                   <a href="https://www.rubi.co.jp/inquiry.php" class="btn bg_red text-white fw-bold py-3 px-5 position-relative" role="button" target="_blank">
                     不動産売却についてルビコンにお問い合わせ
@@ -540,13 +543,13 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
       </div>
       <!-- 比較表 -->
-      <div class="row g-4 mb-5">
+      <div class="row mb-5">
         <!-- 仲介（左側） -->
         <div class="col-12 col-lg-6">
           <div class="h-100 border-0">
             <!-- ヘッダー -->
             <div class="bg_sky_blue text-white text-center py-3">
-              <h3 class="mb-0 fw-bold fs-4">仲介（おすすめ：高く売りたい人）</h3>
+              <h3 class="mb-0 fw-bold fs-4">仲介<br class="d-block d-lg-none">（おすすめ：高く売りたい人）</h3>
             </div>
 
             <!-- ボディ -->
@@ -556,8 +559,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <h5 class="fw-bold mb-2">売却価格</h5>
                 <div class="text-center mb-2">
                   <picture>
-                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.webp">
-                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
+                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
                 <p class="small text-muted mb-0">市場相場で売れる／高値売却の可能性が高い</p>
@@ -568,8 +571,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <h5 class="fw-bold mb-2">売却までのスピード</h5>
                 <div class="text-center mb-2">
                   <picture>
-                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_red.webp">
-                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_red.png" loading="lazy" alt="バツアイコン" class="object-fit-cover" height="28" width="28">
+                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_batu_black.webp">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_batu_black.png" loading="lazy" alt="バツアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
                 <p class="small text-muted mb-0">買主探しに時間がかかることも（3ヶ月以上が目安）</p>
@@ -580,8 +583,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <h5 class="fw-bold mb-2">手間の少なさ</h5>
                 <div class="text-center mb-2">
                   <picture>
-                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_red.webp">
-                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_red.png" loading="lazy" alt="バツアイコン" class="object-fit-cover" height="28" width="28">
+                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_batu_black.webp">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_batu_black.png" loading="lazy" alt="バツアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
                 <p class="small text-muted mb-0">内覧対応や書類準備などの手間がかかる</p>
@@ -592,8 +595,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <h5 class="fw-bold mb-2">費用</h5>
                 <div class="text-center mb-2">
                   <picture>
-                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.webp">
-                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
+                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
                 <p class="small text-muted mb-0">仲介手数料のみ（売却価格に応じて法定上限）</p>
@@ -615,7 +618,7 @@ $information = get_posts(array('posts_per_page' => 12,));
           <div class="h-100 border-0">
             <!-- ヘッダー -->
             <div class="bg_yellow text-dark text-center py-3">
-              <h3 class="mb-0 fw-bold fs-4">買取（おすすめ：早く売りたい人）</h3>
+              <h3 class="mb-0 fw-bold fs-4">買取<br class="d-block d-lg-none">（おすすめ：早く売りたい人）</h3>
             </div>
 
             <!-- ボディ -->
@@ -625,8 +628,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <h5 class="fw-bold mb-2">売却価格</h5>
                 <div class="text-center mb-2">
                   <picture>
-                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_red.webp">
-                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_red.png" loading="lazy" alt="バツアイコン" class="object-fit-cover" height="28" width="28">
+                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_batu_black.webp">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_batu_black.png" loading="lazy" alt="バツアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
                 <p class="small text-muted mb-0">相場よりも低くなりがち（再販利益を見込んだ価格設定）</p>
@@ -637,8 +640,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <h5 class="fw-bold mb-2">売却までのスピード</h5>
                 <div class="text-center mb-2">
                   <picture>
-                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.webp">
-                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
+                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
                 <p class="small text-muted mb-0">最短数日〜1週間で現金化可能</p>
@@ -649,8 +652,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <h5 class="fw-bold mb-2">手間の少なさ</h5>
                 <div class="text-center mb-2">
                   <picture>
-                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.webp">
-                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
+                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
                 <p class="small text-muted mb-0">即決・内覧不要・瑕疵担保も免除されるケースが多い</p>
@@ -661,8 +664,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <h5 class="fw-bold mb-2">費用</h5>
                 <div class="text-center mb-2">
                   <picture>
-                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.webp">
-                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_blue.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
+                    <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
                 <p class="small text-muted mb-0">仲介手数料不要（直接取引のため）</p>
@@ -681,12 +684,12 @@ $information = get_posts(array('posts_per_page' => 12,));
       </div>
 
       <!-- 下部のおすすめ説明 -->
-      <div class="row g-3">
-        <div class="col-12 col-lg-6">
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-3 mb-lg-0">
           <div class="bg_red text-white py-3 rounded-3">
             <div class="d-flex align-items-center text-center">
               <div class="flex-grow-1">
-                <p class="fw-bold m-0 fs-4">少し時間がかかっても高く売りたい／</p>
+                <p class="fw-bold m-0 fs-4">少し時間がかかっても<br class="d-block d-lg-none">高く売りたい／</p>
                 <p class="fw-bold m-0 fs-4">納得感を重視したい人</p>
               </div>
             </div>
@@ -696,7 +699,7 @@ $information = get_posts(array('posts_per_page' => 12,));
           <div class="bg_red text-white py-3 rounded-3">
             <div class="d-flex align-items-center text-center">
               <div class="flex-grow-1">
-                <p class="fw-bold m-0 fs-4">とにかく早く・確実に現金化したい／</p>
+                <p class="fw-bold m-0 fs-4">とにかく早く・<br class="d-block d-lg-none">確実に現金化したい／</p>
                 <p class="fw-bold m-0 fs-4">価格は重視しない人</p>
               </div>
             </div>
@@ -710,11 +713,11 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="container mb-5 pb-5">
         <div class="text-center">
           <div class="bg_blue yellow py-2 px-4 d-inline-block mb-5 speech-box position-relative">
-            <p class="fs-3 mb-0 fw-bold">大阪市北区の家を売りたい方必見！</p>
+            <p class="fs-3 mb-0 fw-bold">大阪市北区の家を<br class="d-block d-lg-none">売りたい方必見！</p>
           </div>
           <h2 class="fs-1 fw-bold">
             地域密着・大手から選ぶ<br>
-            仲介に強い不動産会社<span class="red display-3 fw-bold">3</span><span class="text-danger fw-bold">選</span>！
+            仲介に強い不動産会社<br class="d-block d-lg-none"><span class="red display-3 fw-bold">3</span><span class="text-danger fw-bold">選</span>！
           </h2>
         </div>
         <div class="text-end mt-3 me-2">
@@ -724,8 +727,8 @@ $information = get_posts(array('posts_per_page' => 12,));
     </div>
     <div class="position-relative bg_sky_blue container">
       <div class="bg_yellow text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
-        <p class="m-0 fw-bold fs-5">中崎町・天六周辺で高値売却を狙うなら！</p>
-        <p class="m-0">大手で取り扱いが難しい物件のご相談もお任せ！</p>
+        <p class="m-0 fw-bold fs-5">中崎町・天六周辺で<br class="d-block d-lg-none">高値売却を狙うなら！</p>
+        <p class="m-0">大手で取り扱いが難しい物件の<br class="d-block d-lg-none">ご相談もお任せ！</p>
       </div>
       <h2 class="text-center text-white mt-5 mb-4 pt-5 pb-4 fw-bold fs-1 ls2 text-shadow_black"><span class="fs-3">株式会社</span>ルビコン</h2>
     </div>
@@ -735,11 +738,11 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="container">
         <!-- セクションタイトル -->
         <div class="mb-5 centerline_heading text-center">
-          <h3 class="fw-bold">株式会社ルビコンの特徴</h3>
+          <h3 class="fw-bold">株式会社ルビコンの<br class="d-block d-lg-none">特徴</h3>
         </div>
 
         <!-- 特徴グリッド -->
-        <div class="row g-5 mb-5 justify-content-center">
+        <div class="row mb-5 justify-content-center">
           <!-- 特徴1: 中崎町・天六エリアに特化 -->
           <div class="col-12 col-lg-6 mb-4 mb-lg-0">
             <div class="bg-white">
@@ -816,10 +819,10 @@ $information = get_posts(array('posts_per_page' => 12,));
     </div>
     <div class="container mb-5 pb-5">
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">株式会社ルビコンの会社概要</h3>
+        <h3 class="fw-bold">株式会社ルビコンの<br class="d-block d-lg-none">会社概要</h3>
       </div>
       <div class="mt-5 px-lg-5 mb-3 pb-3">
-        <div class="row g-4 align-items-center">
+        <div class="row align-items-center">
           <div class="col-lg-6 pe-lg-4">
             <table class="table comparison-table w-100">
               <tbody class="fw-bold">
@@ -870,24 +873,24 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
       </div>
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">株式会社ルビコンの口コミ・評判</h3>
+        <h3 class="fw-bold">株式会社ルビコンの<br class="d-block d-lg-none">口コミ・評判</h3>
       </div>
       <!-- 口コミコンテンツ -->
       <div class="row mb-5">
         <!-- 口コミ01 -->
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
           <div class="bg_light-gray p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
-              <small class="text-dark">口コミ</small>
+              <p class="text-dark">口コミ</p>
             </div>
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">01</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti01.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti01.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -906,7 +909,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
 
         <!-- 口コミ02 -->
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
           <div class="bg_light_blue p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -915,10 +918,10 @@ $information = get_posts(array('posts_per_page' => 12,));
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">02</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti02.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti02.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -941,15 +944,15 @@ $information = get_posts(array('posts_per_page' => 12,));
           <div class="bg_light-gray p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
-              <small class="text-dark">口コミ</small>
+              <p class="text-dark">口コミ</p>
             </div>
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">03</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti03.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti03.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -1001,11 +1004,11 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="container">
         <!-- セクションタイトル -->
         <div class="mb-5 centerline_heading text-center">
-          <h3 class="fw-bold">東急リバブル株式会社 梅田センターの特徴</h3>
+          <h3 class="fw-bold">東急リバブル株式会社<br class="d-block d-lg-none"> 梅田センターの特徴</h3>
         </div>
 
         <!-- 特徴グリッド -->
-        <div class="row g-5 mb-5 justify-content-center">
+        <div class="row mb-5 justify-content-center">
           <div class="col-12 col-lg-6 mb-4 mb-lg-0">
             <div class="bg-white">
               <picture class="mb-3">
@@ -1057,8 +1060,8 @@ $information = get_posts(array('posts_per_page' => 12,));
         <!-- CTAボタンエリア -->
         <div class="px-lg-5 mt-0 mt-lg-4">
           <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
-            <a href="https://www.livable.co.jp/branch/umeda/" class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center" role="button" target="_blank" rel="nofollow">
-              不動産売却について<br>東急リバブルにお問い合わせ！
+            <a href="https://www.livable.co.jp/kansai/" class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center" role="button" target="_blank" rel="nofollow">
+              東急リバブルの<br>公式HPはこちら
               <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.webp">
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
@@ -1077,27 +1080,27 @@ $information = get_posts(array('posts_per_page' => 12,));
     </div>
     <div class="container mb-5 pb-5">
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">東急リバブル株式会社 梅田センターの会社概要</h3>
+        <h3 class="fw-bold">東急リバブル株式会社<br class="d-block d-lg-none"> 梅田センターの<br class="d-block d-lg-none">会社概要</h3>
       </div>
       <div class="mt-5 px-lg-5 mb-3 pb-3">
         <div class="row align-items-center">
-          <div class="col-lg-6 pe-lg-4">
+          <div class="col-12 col-lg-6">
             <table class="table comparison-table w-100">
               <tbody class="fw-bold">
                 <tr>
-                  <td class="w35-25 border-dashed-gray pt-4 pb-3 text-nowrap">会社名</td>
+                  <td class="w35-25 border-dashed-gray pt-4 pb-3">会社名</td>
                   <td class="border-dashed-gray pt-4 pb-3">東急リバブル株式会社 梅田センター</td>
                 </tr>
                 <tr>
-                  <td class="w35-25 border-dashed-gray pt-4 pb-3 text-nowrap">住所</td>
+                  <td class="w35-25 border-dashed-gray pt-4 pb-3">住所</td>
                   <td class="border-dashed-gray pt-4 pb-3">〒530-0001<br>大阪府大阪市北区梅田1-11-4-152<br>大阪駅前第4ビル1F</td>
                 </tr>
                 <tr>
-                  <td class="w35-25 border-dashed-gray pt-4 pb-3 text-nowrap">電話番号</td>
+                  <td class="w35-25 border-dashed-gray pt-4 pb-3">電話番号</td>
                   <td class="border-dashed-gray pt-4 pb-3">0120-109-635</td>
                 </tr>
                 <tr>
-                  <td class="w35-25 border-dashed-gray pt-4 pb-3 text-nowrap">公式URL</td>
+                  <td class="w35-25 border-dashed-gray pt-4 pb-3">公式URL</td>
                   <td class="border-dashed-gray pt-4 pb-3"><a href="https://www.livable.co.jp/branch/umeda/" target="_blank" rel="nofollow" class="text-link">https://www.livable.co.jp/branch/umeda/</a></td>
                 </tr>
               </tbody>
@@ -1131,24 +1134,24 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
       </div>
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">東急リバブル株式会社 梅田センターの口コミ・評判</h3>
+        <h3 class="fw-bold">東急リバブル株式会社<br class="d-block d-lg-none"> 梅田センターの<br class="d-block d-lg-none">口コミ・評判</h3>
       </div>
       <!-- 口コミコンテンツ -->
       <div class="row mb-5">
         <!-- 口コミ01 -->
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
           <div class="bg-light p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
-              <small class="text-dark">口コミ</small>
+              <p class="text-dark">口コミ</p>
             </div>
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">01</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti01.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti01.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -1167,19 +1170,19 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
 
         <!-- 口コミ02 -->
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
           <div class="bg-primary-subtle p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
-              <small class="text-dark">口コミ</small>
+              <p class="text-dark">口コミ</p>
             </div>
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">02</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti02.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti02.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -1207,10 +1210,10 @@ $information = get_posts(array('posts_per_page' => 12,));
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">03</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti03.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti03.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -1255,14 +1258,14 @@ $information = get_posts(array('posts_per_page' => 12,));
         <p class="m-0 fw-bold fs-5">住友不動産グループの総合力！</p>
         <p class="m-0">専任担当者による一貫対応！</p>
       </div>
-      <h2 class="text-center text-white mt-5 mb-4 pt-5 pb-4 fw-bold fs-1 ls2 text-shadow_black">すみふの仲介ステップ<br class="d-block d-lg-none"><span class="fs-3">梅田統括事業所1課<br>住友不動産ステップ株式会社</span></h2>
+      <h2 class="text-center text-white mt-5 mb-4 pt-5 pb-4 fw-bold fs-1 ls2 text-shadow_black">すみふの仲介ステップ<br class="d-block d-lg-none"><span class="fs-3">梅田統括事業所1課<br>住友不動産ステップ<br class="d-block d-lg-none">株式会社</span></h2>
     </div>
 
     <div class="py-5 mb-5">
       <div class="container">
         <!-- セクションタイトル -->
         <div class="mb-5 centerline_heading text-center">
-          <h3 class="fw-bold">すみふの仲介ステップ 梅田統括事業所1課の特徴</h3>
+          <h3 class="fw-bold">すみふの仲介ステップ<br class="d-block d-lg-none"> 梅田統括事業所1課の<br class="d-block d-lg-none">特徴</h3>
         </div>
         <!-- 特徴グリッド -->
         <div class="row mb-5 justify-content-center">
@@ -1291,8 +1294,8 @@ $information = get_posts(array('posts_per_page' => 12,));
           <div class="col-12 col-lg-4 mb-4 mb-lg-0">
             <div class="bg-white">
               <picture class="mb-3">
-                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/step-img02.webp">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img02.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/step-img03.webp">
+                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img03.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
                 <p>建物検査や設備保証など、売却後の買主への安心感も支援。</p>
@@ -1304,8 +1307,8 @@ $information = get_posts(array('posts_per_page' => 12,));
         <!-- CTAボタンエリア -->
         <div class="px-lg-5 mt-0 mt-lg-4">
           <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
-            <a href="https://www.stepon.co.jp/center/umeda/" class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center" role="button" target="_blank" rel="nofollow">
-              不動産売却について<br>すみふの仲介ステップにお問い合わせ！
+            <a href="https://www.stepon.co.jp/uri/" class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center" role="button" target="_blank" rel="nofollow">
+              すみふの仲介ステップの<br>公式HPはこちら
               <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.webp">
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
@@ -1325,7 +1328,7 @@ $information = get_posts(array('posts_per_page' => 12,));
     </div>
     <div class="container mb-5 pb-5">
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">すみふの仲介ステップ 梅田統括事業所1課の会社概要</h3>
+        <h3 class="fw-bold">すみふの仲介ステップ<br class="d-block d-lg-none"> 梅田統括事業所1課の<br class="d-block d-lg-none">会社概要</h3>
       </div>
       <div class="mt-5 px-lg-5 mb-3 pb-3">
         <div class="row align-items-center">
@@ -1383,12 +1386,12 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
       </div>
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">すみふの仲介ステップの口コミ・評判記事</h3>
+        <h3 class="fw-bold">すみふの仲介ステップ<br class="d-block d-lg-none">の口コミ・評判</h3>
       </div>
       <!-- 口コミコンテンツ -->
       <div class="row mb-5">
         <!-- 口コミ01 -->
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
           <div class="bg-light p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -1397,10 +1400,10 @@ $information = get_posts(array('posts_per_page' => 12,));
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">01</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti01.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti01.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -1419,7 +1422,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
 
         <!-- 口コミ02 -->
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
           <div class="bg-primary-subtle p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -1428,10 +1431,10 @@ $information = get_posts(array('posts_per_page' => 12,));
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">02</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti02.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti02.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -1459,10 +1462,10 @@ $information = get_posts(array('posts_per_page' => 12,));
             <!-- 口コミ番号とアイコン群画像 -->
             <div class="d-flex align-items-start mb-5">
               <div class="fs-2 lh100 fw-bold blue me-1">03</div>
-              <div class="w-100">
+              <div class="text-center">
                 <picture>
-                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/22101344.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-100" height="130" width="220">
+                  <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti03.webp">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/r_kuti03.png" loading="lazy" alt="人物アイコン" class="img-fluid object-fit-cover w-50" height="130" width="220">
                 </picture>
               </div>
             </div>
@@ -1518,9 +1521,9 @@ $information = get_posts(array('posts_per_page' => 12,));
             <table class="table table-bordered mb-0">
               <thead class="text-center">
                 <tr>
-                  <th class="bg_blue text-white fw-bold py-3">戸建て</th>
-                  <th class="bg_blue text-white fw-bold py-3">マンション</th>
-                  <th class="bg_blue text-white fw-bold py-3">土地</th>
+                  <th class="bg_blue text-white fw-bold py-3">大阪市北区の戸建て</th>
+                  <th class="bg_blue text-white fw-bold py-3">大阪市北区のマンション</th>
+                  <th class="bg_blue text-white fw-bold py-3">大阪市北区の土地</th>
                 </tr>
               </thead>
               <tbody>
@@ -1539,7 +1542,9 @@ $information = get_posts(array('posts_per_page' => 12,));
             </table>
             <!-- 引用元 -->
             <div class="text-end mt-3 me-2">
-              <p class="f13px text-secondary">引用元：<a href="" target="_blank" class="text-black mb-0">suumo 戸建て/マンション/土地</a></p>
+              <p class="f13px text-secondary">引用元：suumo<a href="https://suumo.jp/baikyaku/chukoikkodate/soba/osaka/sc_osakashikita/" target="_blank" class="text-black mb-0"> 戸建て</a>
+              <a href="https://suumo.jp/baikyaku/ms/chuko/soba/osaka/sc_osakashikita/" target="_blank" rel="nofollow" class="text-black mb-0">/マンション</a>
+              <a href="https://suumo.jp/baikyaku/tochi/soba/osaka/sc_osakashikita/" target="_blank" rel="nofollow" class="text-black mb-0">/土地</a></p>
             </div>
           </div>
         </div>
@@ -1595,69 +1600,67 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="mx-auto">
         <div class="accordion" id="faqAccordion">
           <!-- Q1 -->
-          <div class="accordion-item mb-3 rounded-3 overflow-hidden border-0">
+          <div class="accordion-item mb-3 rounded-3 overflow-hidden border_lightblue_1px">
             <h3 class="accordion-header" id="headingOne">
-              <button class="accordion-button fs-5 px-4 py-3 black bg_white f-sm-20 faq-accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="border-radius:0;">
+              <button class="accordion-button fs-5 px-4 py-3 black bg_white f-sm-20 faq-accordion-btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="border-radius:0;">
                 <span class="me-3 fw-bold blue">Q</span>不動産を売るのに最適なタイミングはいつですか？
               </button>
             </h3>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
               <div class="accordion-body bg-white px-4 py-3">
-                <p>
-                  一般的には、春（3～4月）や秋（9～10月）が不動産市場が活発になる傾向があります。また、金利や税制優遇の影響も受けるため、経済動向<br>
-                  も確認しておくと安心です。売却理由や住み替えの事情に応じて、時期を調整することが大切です。
-                </p>
+                一般的には、春（3～4月）や秋（9～10月）が不動産市場が活発になる傾向があります。また、金利や税制優遇の影響も受けるため、経済動向<br>
+                も確認しておくと安心です。売却理由や住み替えの事情に応じて、時期を調整することが大切です。
               </div>
             </div>
           </div>
           <!-- Q2 -->
-          <div class="accordion-item mb-3 rounded-3 overflow-hidden border-0">
+          <div class="accordion-item mb-3 overflow-hidden">
             <h3 class="accordion-header" id="headingTwo">
-              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="border-radius:0;">
+              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn rounded-3 border_lightblue_1px" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="border-radius:0;">
                 <span class="me-3 fw-bold blue">Q</span>まず何から始めればいいですか？
               </button>
             </h3>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
-              <div class="accordion-body bg-white fs-5 px-4 py-3">
+              <div class="accordion-body bg-white fs-6 px-4 py-3">
                 査定価格はあくまで目安であり、実際の売却価格とは異なることが多いです。売却時の市場状況や買い手の交渉、物件の状態によって価格が変動するため、査定価格は「売れる可能性のある価格帯」として捉えるのが現実的です。
               </div>
             </div>
           </div>
           <!-- Q3 -->
-          <div class="accordion-item mb-3 rounded-3 overflow-hidden border-0">
+          <div class="accordion-item mb-3 overflow-hidden">
             <h3 class="accordion-header" id="headingThree">
-              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="border-radius:0;">
+              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn rounded-3 border_lightblue_1px" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="border-radius:0;">
                 <span class="me-3 fw-bold blue">Q</span>売却する際に必要な費用はありますか？
               </button>
             </h3>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-              <div class="accordion-body bg-white fs-5 px-4 py-3">
+              <div class="accordion-body bg-white fs-6 px-4 py-3">
                 早ければ1〜3か月で成約に至るケースもありますが、相場より高く設定した場合や築年数が古い物件は、半年以上かかることもあります。売却期間に余裕がある場合は、希望価格に近づけやすくなります。
               </div>
             </div>
           </div>
           <!-- Q4 -->
-          <div class="accordion-item mb-3 rounded-3 overflow-hidden border-0">
+          <div class="accordion-item mb-3 overflow-hidden ">
             <h3 class="accordion-header" id="headingFour">
-              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="border-radius:0;">
+              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn rounded-3 border_lightblue_1px" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="border-radius:0;">
                 <span class="me-3 fw-bold blue">Q</span>住みながら売却活動はできますか？
               </button>
             </h3>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
-              <div class="accordion-body bg-white fs-5 px-4 py-3">
+              <div class="accordion-body bg-white fs-6 px-4 py-3">
                 仲介は買い手を探して市場で売却する方法で、高く売れる可能性がありますが時間がかかることもあります。一方、買取は業者が直接物件を買い取るため、即現金化できますが価格はやや下がる傾向があります。状況に応じて使い分けることが大切です。
               </div>
             </div>
           </div>
           <!-- Q5 -->
-          <div class="accordion-item mb-3 rounded-3 overflow-hidden border-0">
+          <div class="accordion-item mb-3 overflow-hidden">
             <h3 class="accordion-header" id="headingFive">
-              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="border-radius:0;">
+              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn rounded-3 border_lightblue_1px" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="border-radius:0;">
                 <span class="me-3 fw-bold blue">Q</span>査定価格はそのまま売れる金額ですか？
               </button>
             </h3>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
-              <div class="accordion-body bg-white fs-5 px-4 py-3">
+              <div class="accordion-body bg-white fs-6 px-4 py-3">
                 仲介手数料、登記費用、契約書の印紙税、住宅ローンの残債がある場合は抵当権抹消費用などがかかります。また、売却益が出た場合には譲渡所得税が発生することもあるため、事前に資金計画を立てておくと安心です。
               </div>
             </div>
@@ -1671,23 +1674,23 @@ $information = get_posts(array('posts_per_page' => 12,));
     <div class="container">
       <div class="text-center mb-5">
         <div class="bg_blue yellow py-2 px-4 d-inline-block mb-4">
-          <p class="fs-3 mb-0 fw-bold">大阪市北区の</p>
+          <p class="fs-3 mb-0 fw-bold">大阪市北区の<br class="d-block d-lg-none">不動産売却に対応</p>
         </div>
         <h2 class="mb-4 mb-lg-5 fs-2 fw-bold">
-          <span class="blue fs-1">不動産売却会社</span>一覧
+          <span class="blue fs-1">不動産会社</span>一覧
         </h2>
       </div>
-      <div class="row mb-5 g-4 box-parent">
-        <div class="col-12 col-lg-4 d-flex box-child">
+      <div class="row box-parent">
+        <div class="col-12 col-lg-4 d-flex box-child mb-3">
           <div class="box-child-text border_blue_2px w-100">
             <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
               <h3 class="fs-6 fw-bold  m-0 col-11">株式会社ルビコン</h3>
             </div>
             <div class="p-3 f13px">
-              <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <p class="pb-2 mb-2 height-70 height-80-lg">不動産に関する様々な事に対応する仲介会社です。事業内容として、お客様の声をもとにしたサービス提供や、管理物件の取り扱いを行っています。</p>
               <dl class="mb-3">
                 <dt class="black fw-bold">所在地</dt>
-                <dd class="height-40-lg">〒530-0016<br>大阪府大阪市北区中崎3-3-7<br>ロイヤルメゾン中崎町Nビル201</dd>
+                <dd class="height-40-lg">〒530-0016<br>大阪府大阪市北区中崎3-3-7 ロイヤルメゾン中崎町Nビル201</dd>
               </dl>
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6136-3604</span></dt>
@@ -1705,16 +1708,16 @@ $information = get_posts(array('posts_per_page' => 12,));
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4 d-flex box-child">
+        <div class="col-12 col-lg-4 d-flex box-child mb-3">
           <div class="box-child-text border_blue_2px w-100">
             <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
               <h3 class="fs-6 fw-bold  m-0 col-11">東急リバブル株式会社<br>梅田センター</h3>
             </div>
             <div class="p-3 f13px">
-              <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買・賃貸仲介、無料査定、スピードAI査定、売却サポートを提供。2024年度売買仲介取扱高No.1の実績と全国ネットワークが強みです。</p>
               <dl class="mb-3">
                 <dt class="black fw-bold">所在地</dt>
-                <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-11-4-152<br>大阪駅前第4ビル1F</dd>
+                <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-11-4-152 大阪駅前第4ビル1F</dd>
               </dl>
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-109-635</span></dt>
@@ -1732,16 +1735,16 @@ $information = get_posts(array('posts_per_page' => 12,));
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4 d-flex box-child">
+        <div class="col-12 col-lg-4 d-flex box-child mb-3">
           <div class="box-child-text border_blue_2px w-100">
             <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-              <h3 class="fs-6 fw-bold  m-0 col-11">すみふの仲介ステップ<br>梅田統括事業所1課</h3>
+              <h3 class="fs-6 fw-bold  m-0 col-11">すみふの仲介ステップ <br>梅田統括事業所1課<br>住友不動産ステップ株式会社</h3>
             </div>
             <div class="p-3 f13px">
-              <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買、賃貸、資産活用まで仲介。ステップAI査定や買取仲介サービスを提供。建物・設備補修サポートが充実しており、全国直営ネットワークで対応します。</p>
               <dl class="mb-3">
                 <dt class="black fw-bold">所在地</dt>
-                <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-1-3-3100<br>大阪駅前第三ビル31F</dd>
+                <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-1-3-3100 大阪駅前第三ビル31F</dd>
               </dl>
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-051-232</span></dt>
@@ -1760,20 +1763,20 @@ $information = get_posts(array('posts_per_page' => 12,));
           </div>
         </div>
       </div>
-      <div class="row mb-5 g-4 box-parent">
-        <div class="col-12 col-lg-4 d-flex box-child">
+      <div class="row box-parent">
+        <div class="col-12 col-lg-4 d-flex box-child mb-3">
           <div class="box-child-text border_blue_2px w-100">
             <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-              <h3 class="fs-6 fw-bold  m-0 col-11">株式会社ルビコン</h3>
+              <h3 class="fs-6 fw-bold  m-0 col-11">センチュリー21プラウデストレジデンス堂島<br>プラウデストレジデンス株式会社</h3>
             </div>
             <div class="p-3 f13px">
-              <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <p class="pb-2 mb-2 height-70 height-80-lg">センチュリー21加盟店として、新築・中古の戸建て、中古マンションの売買仲介を行います。居住用のお部屋、店舗・事務所の賃貸物件も幅広く取り扱っています。</p>
               <dl class="mb-3">
                 <dt class="black fw-bold">所在地</dt>
-                <dd class="height-40-lg">〒530-0016<br>大阪府大阪市北区中崎3-3-7<br>ロイヤルメゾン中崎町Nビル201</dd>
+                <dd class="height-40-lg">〒530-0002<br>大阪府大阪市北区曽根崎新地2-1-23 JPR堂島ビル</dd>
               </dl>
               <dl class="row">
-                <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6136-3604</span></dt>
+                <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-760-021</span></dt>
                 <div class="text-start col-md-7 mt-1 mt-md-2">
                   <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
@@ -1784,23 +1787,23 @@ $information = get_posts(array('posts_per_page' => 12,));
                   </a>
                 </div>
               </dl>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.301792185063!2d135.49265237554604!3d34.69756727292076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7fac0fcc9cd%3A0xe90586b2016cd8a9!2z44K744Oz44OB44Ol44Oq44O8MjHjg5fjg6njgqbjg4fjgrnjg4jjg6zjgrjjg4fjg7PjgrnloILls7Y!5e0!3m2!1sja!2sjp!4v1760093954190!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4 d-flex box-child">
+        <div class="col-12 col-lg-4 d-flex box-child mb-3">
           <div class="box-child-text border_blue_2px w-100">
             <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-              <h3 class="fs-6 fw-bold  m-0 col-11">東急リバブル株式会社<br>梅田センター</h3>
+              <h3 class="fs-6 fw-bold  m-0 col-11">株式会社福屋不動産販売<br>大阪駅前店</h3>
             </div>
             <div class="p-3 f13px">
-              <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却に関して無料査定を受け付けており、仲介・即時買取・買取保証付き仲介の3つの売却方法から選べます。売却後の住み替え相談にも対応しています。</p>
               <dl class="mb-3">
                 <dt class="black fw-bold">所在地</dt>
-                <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-11-4-152<br>大阪駅前第4ビル1F</dd>
+                <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-11-4 大阪駅前第4ビル17F</dd>
               </dl>
               <dl class="row">
-                <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-109-635</span></dt>
+                <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-760-021</span></dt>
                 <div class="text-start col-md-7 mt-1 mt-md-2">
                   <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
@@ -1811,23 +1814,23 @@ $information = get_posts(array('posts_per_page' => 12,));
                   </a>
                 </div>
               </dl>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.301792185063!2d135.49265237554604!3d34.69756727292076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7fac0fcc9cd%3A0xe90586b2016cd8a9!2z44K744Oz44OB44Ol44Oq44O8MjHjg5fjg6njgqbjg4fjgrnjg4jjg6zjgrjjg4fjg7PjgrnloILls7Y!5e0!3m2!1sja!2sjp!4v1760093954190!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4 d-flex box-child">
+        <div class="col-12 col-lg-4 d-flex box-child mb-3">
           <div class="box-child-text border_blue_2px w-100">
             <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-              <h3 class="fs-6 fw-bold  m-0 col-11">すみふの仲介ステップ<br>梅田統括事業所1課</h3>
+              <h3 class="fs-6 fw-bold  m-0 col-11">株式会社ハウスコミュニケーション 天六営業センター</h3>
             </div>
             <div class="p-3 f13px">
-              <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <p class="pb-2 mb-2 height-70 height-80-lg">不動産売却に関する無料査定から、買取保証サービス、専任担当者による売却活動、引渡し後の設備保証まで、安心して取引を進めるための各種サポートを提供しています。</p>
               <dl class="mb-3">
                 <dt class="black fw-bold">所在地</dt>
-                <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-1-3-3100<br>大阪駅前第三ビル31F</dd>
+                <dd class="height-40-lg">〒531-0064<br>大阪府大阪市北区国分寺1-3-6 キャンパスライフ国分寺1F</dd>
               </dl>
               <dl class="row">
-                <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-051-232</span></dt>
+                <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4801-8868</span></dt>
                 <div class="text-start col-md-7 mt-1 mt-md-2">
                   <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
@@ -1838,7 +1841,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                   </a>
                 </div>
               </dl>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.241708716635!2d139.3258790755913!3d35.67104997259054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e6116094331%3A0x5fd46f84d8153c8f!2z5L-h55So5Zyf5Zyw77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758878543652!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.8158979949812!2d135.51231177554658!3d34.70982317291646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6b839de96eb%3A0xa2e3f8e0bdf854c5!2z44OP44Km44K544Kz44Of44Ol44OL44Kx44O844K344On44OzIOWkqeWFreWWtualreOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1760093973601!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
@@ -1852,1129 +1855,895 @@ $information = get_posts(array('posts_per_page' => 12,));
           </p>
           <div id="collapseSubsidy02" class="accordion-collapse collapse" aria-labelledby="headingSubsidy02" data-bs-parent="#subsidyAccordion02">
             <div class="accordion-body">
-              <div class="row mb-5 g-3 g-lg-3 box-parent">
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社みんなのおうち</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">複数社による不動産査定を一括で比較できるサービスを提供しています。利用者のニーズに合わせて、仲介と買取それぞれの最適な売却方法を提案しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0062<br>東京都日野市多摩平2-2-1</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-843-1655</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.686035885219!2d139.37916257559075!3d35.660106272593985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e214970be599%3A0xde150383b6dd8e06!2z44OU44K_44OD44OI44OP44Km44K5IOixiueUsOmnheWJjeW6lw!5e0!3m2!1sja!2sjp!4v1758878747506!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">山口不動産株式会社<br>南口店</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建て・マンション・土地の売却や買取に対応し、専門スタッフが売却プランの提案を行います。机上査定・訪問査定の両方に対応し、相談から成約まで丁寧にサポートしています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0053<br>東京都日野市豊田4-35-6 アトラス豊田102</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-581-2103</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.668317762928!2d139.37826232559073!3d35.66054272259383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e214cca765d1%3A0xd490b4263480a86d!2z5bGx5Y-j5LiN5YuV55SjIOixiueUsOmnheWNl-WPo-W6lw!5e0!3m2!1sja!2sjp!4v1758878806175!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">有限会社三幸商事</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売買のほか、賃貸・管理やリフォームなど幅広い事業を展開しています。物件の査定・仲介・購入サポートに対応しており、複数の分野から不動産活用を提案しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0062<br>東京都日野市多摩平1-1 ファミーユ京王1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-581-1220</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.668317762928!2d139.37826232559073!3d35.66054272259383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e214cbb980ef%3A0x142f3ce71ae60f65!2z5pyJ6ZmQ5Lya56S-5LiJ5bm45ZWG5LqL!5e0!3m2!1sja!2sjp!4v1758878849615!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社東宝ハウス立川</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却・購入に対応し、仲介だけでなく買取にも応じています。住宅ローンの相談や資金計画、売却後の住み替えまで一貫してサポートしています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒190-0022<br>東京都立川市錦町2-6-2 ステラNKビル1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-524-8890</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.2806399349256!2d139.4118150755925!3d35.694710972582804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e17c804bff69%3A0x4d1697039b6baeca!2z5p2x5a6d44OP44Km44K556uL5bed!5e0!3m2!1sja!2sjp!4v1758878865861!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社エージェンシー雅</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建て・土地・マンションの売買仲介や買取に対応しています。売却相談から契約、引き渡し後まで一貫してサポートし、迅速な対応と柔軟な提案を心がけています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0011<br>東京都日野市日野本町3-10-3 ケービーエムビル1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-589-5255</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.9412254387266!2d139.39195867559155!3d35.678449172588046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2260cac387f%3A0x88a7b266c8dc6a7f!2z5qCq5byP5Lya56S-44Ko44O844K444Kn44Oz44K344O86ZuF!5e0!3m2!1sja!2sjp!4v1758878875909!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">一建設株式会社<br>日野営業所</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">新築・リフォームに加えて不動産の売却・購入にも対応しています。建築会社としてのノウハウを活かし、建物の魅力や価値を正確に伝える売却活動を行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0011<br>東京都日野市日野本町6-1-3 デュオヒルズ日野多摩川1F </dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-586-7066</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.84566634301!2d139.40178297559174!3d35.680801972587425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e223d912f62d%3A0x202ccbceac1e88cb!2z5LiA5bu66Kit77yI5qCq77yJ5pel6YeO5Za25qWt5omA!5e0!3m2!1sja!2sjp!4v1758878886381!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">ネクストイノベーション株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">土地・建物の売却や買取に対応し、相続や任意売却、住み替えなどの相談にも応じています。相談は無料で、丁寧かつスピーディーな対応を特徴としています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0053<br>東京都日野市豊田4-37-12 グランシェール豊田101</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-610-2822</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103707.09784568229!2d139.32195659510987!3d35.680773872111295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2152db471e1%3A0xf9b3c02be433ee10!2z44ON44Kv44K544OI44Kk44OO44OZ44O844K344On44Oz5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1758878906762!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">住友不動産ステップ株式会社<br>八王子店営業センター</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">売却・買取・住み替えに対応し、信託銀行グループならではの専門性を活かした提案を行っています。無料査定のほか、税務・法律の相談にも応じています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒192-0082<br>東京都八王子市東町7-3 T-5プレイス6F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>0120-461-201</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7785551630814!2d139.33702047559063!3d35.657827172594715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191dd929539695%3A0xef925869f563ce2c!2z5L2P5Y-L5LiN5YuV55Sj44K544OG44OD44OXIOWFq-eOi-WtkOWWtualreOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1758878917399!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社フォーラム</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">マンション・戸建て・土地の売買仲介を中心に、不動産の買取や賃貸管理にも対応しています。資金計画や売却活動の流れについても丁寧な説明を行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0032<br>東京都日野市三沢2-18-11</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-594-0008</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12967.114296301159!2d139.32929565717254!3d35.657826706702714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e30aca0141ef%3A0xfd9c080139cc0bc3!2z5qCq5byP5Lya56S-44OV44Kp44O844Op44Og!5e0!3m2!1sja!2sjp!4v1758879024234!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">エヌアール株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建て・マンション・土地の売買仲介や買取に対応しており、住宅ローンや資金計画の相談も可能です。住まい探しから売却まで一人ひとりに寄り添った対応を行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0002 東京都日野市新町1-18-3 アネックスビル1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-582-5551</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8916635722385!2d139.39097817559173!3d35.67966947258759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e22656b69503%3A0xd618a1c1a273aa2c!2zTkVYVCBST09N5pel6YeO5bqX!5e0!3m2!1sja!2sjp!4v1758879034051!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社ライフクリエイト<br>豊田駅前店</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">売買・賃貸の仲介をはじめ、物件の管理やリフォーム相談にも対応しています。住まいに関する幅広いニーズに応える提案力と、丁寧な接客を強みとしています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0053<br>東京都日野市豊田3-40-11 ザ・ヒルズ豊田駅前レジデンス1F-101</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-589-2121</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.743104457172!2d139.37966887559074!3d35.65870047259441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e3e049e577b7%3A0x814570249226cb43!2z44Op44Kk44OV44Kv44Oq44Ko44Kk44OI6LGK55Sw6aeF5YmN5bqX!5e0!3m2!1sja!2sjp!4v1758879044989!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社福屋不動産販売<br>八王子店</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却・購入・買取に対応し、無料査定や住み替え相談なども受け付けています。店舗スタッフが物件の特長を把握したうえで、丁寧にサポートしています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒192-0081<br>東京都八王子市横山町22-1 エフ・ティービル八王子5F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>0120-577-298</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.68745673691!2d139.3357343755907!3d35.66007127259422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e7626c7d3cf%3A0xed1931fbd3396608!2zKOagqinnpo_lsYvkuI3li5XnlKPosqnlo7Ig5YWr546L5a2Q5bqX!5e0!3m2!1sja!2sjp!4v1758879058806!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社マトリックスレジデンシャル</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売買・買取に加え、リノベーションや収益物件の紹介にも対応しています。不動産に関するさまざまな要望に対し、専門的な視点から提案を行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒192-0053<br>東京都八王子市八幡町14-16</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>0120-882-340</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.649137972774!2d139.32609947559078!3d35.66101517259381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191e7c19a041d3%3A0x57b1db0b673e4dde!2z44K744Oz44OB44Ol44Oq44O8MjEg44Oe44OI44Oq44OD44Kv44K544Os44K444OH44Oz44K344Oj44Or!5e0!3m2!1sja!2sjp!4v1758879071500!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">駅前ハウジング</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">売買・賃貸の仲介に対応しており、売却相談・価格査定・買取にも応じています。地域に根ざした営業を行い、不動産に関する多様なニーズに柔軟に対応しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0061<br>東京都日野市大坂上1-32-2</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-589-1634</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.91356308844!2d139.39026937559166!3d35.67913027258795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e226f08e59a9%3A0xf62a464ac1b41c1b!2z6aeF5YmN44OP44Km44K444Oz44Kw!5e0!3m2!1sja!2sjp!4v1758879083384!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社ミネギシ</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売買や仲介をはじめ、買取・資産運用・任意売却など幅広いサービスに対応しています。物件の特性や状況に応じて、丁寧なサポートと的確な提案を行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0031<br>東京都日野市高幡15-12</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-593-4888</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.63315904396!2d139.40997097559088!3d35.66140877259374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e3ae409a3ecd%3A0x79ef4d0ba723131a!2z44Of44ON44Ku44K3!5e0!3m2!1sja!2sjp!4v1758879100858!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社ハートフルホーム</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">土地・建物の売却や購入に対応し、相談から契約、引き渡しまでをトータルでサポートしています。売主・買主双方の安心を大切にした対応を心がけています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0053<br>東京都日野市豊田3-31-25 ブライトヒル豊田1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-843-1881</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103732.29758655206!2d139.33014459414832!3d35.661380678539544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e4a1d6afc781%3A0x85d2dfda84d7a815!2z5qCq5byP5Lya56S-44OP44O844OI44OV44Or44Ob44O844Og!5e0!3m2!1sja!2sjp!4v1758879114438!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社インフィニットスペース</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建てやマンション、土地の売却に対応し、買取やリノベーション提案も行っています。建築会社としての知識を活かし、不動産の価値を最大限に引き出しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0011<br>東京都日野市日野本町2-8-2</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042‑589‑7701</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.0166762220633!2d139.39335777559154!3d35.676591372588646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e22f7e559dc9%3A0x25084fc4b78dc9c0!2z44Kk44Oz44OV44Kj44OL44OD44OI44K544Oa44O844K5!5e0!3m2!1sja!2sjp!4v1758879124347!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社エステート日野</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介・賃貸・管理などに対応し、相続や空き家などの相談も受け付けています。不動産の専門家として、顧客の課題に寄り添った解決策を提案しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0001 東京都日野市栄町2-10-12 ハイコーポふくしま104</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-582-6050</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.74805460689!2d139.3871787755919!3d35.68320517258659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e1419ae842df%3A0xc5a7a504a580c31a!2z5qCq5byP5Lya56S-IOOCqOOCueODhuODvOODiOaXpemHjg!5e0!3m2!1sja!2sjp!4v1758879133696!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">マイホーム不動産株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建て・マンション・土地の売却や住み替え相談に対応し、仲介と買取の両方を取り扱っています。無料査定を実施し、スピーディーかつ誠実な対応を大切にしています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒192-0072<br>東京都八王子市南町9-1 ルミエールK1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-634-9527</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.740705326882!2d139.32937357559067!3d35.65875957259445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60191fdbcaf8725b%3A0xbab76b0a0dd3278b!2z44Oe44Kk44Ob44O844Og5LiN5YuV55Sj5qCq5byP5Lya56S-IOWFq-eOi-WtkOW4gg!5e0!3m2!1sja!2sjp!4v1758879143870!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社タウンハウジング東京<br>高幡不動店</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介・賃貸・管理を幅広く展開し、住み替えや不動産投資の相談にも対応しています。査定や売却活動に加え、グループ力を活かした多角的なサポートを提供しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0031<br>東京都日野市高幡3-17 高幡不動駅前ビル1-2F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042‑599‑0057</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6057070819697!2d139.41015707559094!3d35.6620849725934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e3ae25ed296b%3A0xfa1ae1787949a004!2z44K_44Km44Oz44OP44Km44K444Oz44KwIOmrmOW5oeS4jeWLleW6lw!5e0!3m2!1sja!2sjp!4v1758879152794!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社シーディーエム</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">住まいの売却をサポートする専用サービスを展開し、無料査定やスピード買取にも対応しています。仲介と買取を比較しながら、売却に最適なプランを提案しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0011<br>東京都日野市日野本町4-2-5</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-514-9915</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.919574033044!2d139.39569377559175!3d35.67898227258792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e35ea1c361f9%3A0x771edf6a91657f26!2z44Ko44Kk44OW44Or44ON44OD44OI44Ov44O844Kv5pel6YeO6aeF5YmN5bqX!5e0!3m2!1sja!2sjp!4v1758879164284!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">小田急不動産株式会社<br>町田店</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売却に関する無料査定や住み替え、買取サービスに対応しています。専属エージェントが売主一人ひとりに寄り添い、丁寧な売却サポートを行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒194-0022<br>東京都町田市森野1-22-14 小田急シティビル町田3F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>0120-091-391</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25964.70575711312!2d139.44172414416204!3d35.563870697986424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018feb2d6469ae1%3A0x3fad65948add9527!2z5bCP55Sw5oCl44Gu5Luy5LuL77yG44Oq44OV44Kp44O844OgIOeUuueUsOW6l--8iOWwj-eUsOaApeS4jeWLleeUo-ODu-Wwj-eUsOaApeODj-OCpuOCuOODs-OCsCDnlLrnlLDlupfvvIk!5e0!3m2!1sja!2sjp!4v1758879178350!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">上野不動産株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買・買取・任意売却などに対応し、資金計画や相続、リースバックの相談も可能です。売却後の暮らしを見据えた提案を通じて、安心の取引を支援しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒190-0182<br>東京都西多摩郡日の出町大字平井213-22</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-588-5923</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207306.79182473547!2d139.36017331217408!3d35.72207129262453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60192230282a911b%3A0x834be1ad3e5cdf7e!2z5LiK6YeO5LiN5YuV55Sj77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758879205078!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">都市住宅サービス株式会社<br>日野本店</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">土地や戸建て・マンションの売買仲介に対応し、住宅ローンやリフォームの相談にも応じています。査定・相談は無料で、地域密着型の細やかなサポートを心がけています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0011<br>東京都日野市日野本町3-11-10 中村興産ビル2F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-581-8081</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207270.72634925204!2d138.99310313281248!3d35.73592939999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e226403c1cf1%3A0x81f43d478531b914!2z6YO95biC5L2P5a6F44K144O844OT44K577yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758879215128!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">Saikyo Home株式会社<br>国立店</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建て・マンション・土地の売却や買取、住み替えに対応しています。ライフプランに沿った売却提案を行い、資金相談やリフォーム提案も含めた総合的なサポートを行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒186-0004<br>東京都国立市中1-14-9 ステージ国立1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-505-6300</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207270.72634925204!2d138.99310313281248!3d35.73592939999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e226403c1cf1%3A0x81f43d478531b914!2z6YO95biC5L2P5a6F44K144O844OT44K577yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758879215128!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社大力屋</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買・買取に加え、相続や任意売却の相談にも応じています。無料査定や住み替え支援に対応し、一人ひとりに合わせた売却方法の提案を行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0034<br>東京都日野市落川941-1</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>04-593-5111</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8514351944445!2d139.43058657559064!3d35.65603177259542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e3bbe3e5ac4d%3A0xec79a64d3146f0d3!2z5qCq5byP5Lya56S-IOWkp-WKm-Wxiw!5e0!3m2!1sja!2sjp!4v1758879257116!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社アイ・エステート</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">土地や建物の売却に対応し、相談から引き渡しまでを一貫してサポートしています。丁寧なヒアリングを通じて、物件の特性を活かした売却活動を行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0053 東京都日野市豊田4-33-13 1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-508-2990</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51869.6275375049!2d139.391961808115!3d35.65602472930238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e3729bb38cef%3A0x206bcaa679da642d!2z5qCq5byP5Lya56S-44Ki44Kk44O744Ko44K544OG44O844OI!5e0!3m2!1sja!2sjp!4v1758879271696!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">タカラシンコー株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介や不動産の買取、リースバックなどに対応しています。住み替えやローン返済に関する相談も可能で、スムーズな売却につながる提案を心がけています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0016<br>東京都日野市神明4-18-11</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-587-5887</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51867.61218128478!2d139.3124886582031!3d35.65912770000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e23a8fff0ded%3A0x6e92c5f2091e7f28!2z44K_44Kr44Op44K344Oz44Kz44O85qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1758879282476!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">日野不動産販売株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキスト</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0002<br>東京都日野市新町1-6-6</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-514-9150</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8103826654524!2d139.38779287559183!3d35.68167067258714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e18a1b5dd0d1%3A0x51b2b97f6b9ab58!2z5pel6YeO5LiN5YuV55Sj6LKp5aOy5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1758879292112!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">有限会社アールアンドエス</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建て・マンション・土地の売買や買取に対応し、空き家や相続物件の相談も受け付けています。不動産の状態や希望条件に応じて、柔軟な売却サポートを行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0002 東京都日野市新町1-21-1</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-585-2311</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103705.96876914478!2d139.30796649515295!3d35.68164257182378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2270289f0c7%3A0xcf0cdbe146335bfd!2z44Ki44O844Or44Ki44Oz44OJ44Ko44K5!5e0!3m2!1sja!2sjp!4v1758879309998!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社エニーホーム</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売却の仲介・買取に対応し、住み替えや離婚による売却、空き家などの相談も可能です。相談者の事情に合わせた適切な方法を提案し、売却活動を支援しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0041<br>東京都日野市南平7-18-11 第二小林ビル302</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-508-2103</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103705.96876914478!2d139.30796649515295!3d35.68164257182378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e33b34c747a1%3A0x24b03ce7471e9f5b!2z5qCq5byP5Lya56S-44Ko44OL44O844Ob44O844Og!5e0!3m2!1sja!2sjp!4v1758879319054!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社信誠ハウジング</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売却に対応するほか、住宅リフォームを中心としたサービスを展開しています。建物の状態をふまえた資産価値の維持・向上を重視し、売却活動をバックアップしています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0062<br>東京都日野市多摩平1-2-3</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-589-4181</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.9064036456953!2d139.38987217559048!3d35.65467757259576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e214a18e1fe1%3A0xbb45ca724d922bd1!2z5qCq5byP5Lya56S-5L-h6Kqg44OP44Km44K444Oz44Kw!5e0!3m2!1sja!2sjp!4v1758879333146!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">理想空間株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキスト</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒190-0002<br>東京都立川市幸町3-17-4 理想空間ビル1F</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-538-1133</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.221244534393!2d139.42732247559368!3d35.72077697257453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e3abfdac3c9f%3A0x72067bfa39adf3b3!2z44K744Oz44OB44Ol44Oq44O8MjHnkIbmg7PnqbrplpM!5e0!3m2!1sja!2sjp!4v1758879346732!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社高幡ホーム</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">土地・建物の売買に対応し、不動産の査定や売却相談にも応じています。地域密着型の営業姿勢を強みとし、顧客一人ひとりに合わせた対応を行っています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0031<br>東京都日野市高幡1005-8</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-592-8000</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6839289628933!2d139.4108956755907!3d35.66015817259414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e3af01d4b4ab%3A0x98593bb340c8a381!2z5qCq5byP5Lya56S-6auY5bmh44Ob44O844Og!5e0!3m2!1sja!2sjp!4v1758879356446!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">有限会社京ハウス</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">土地や戸建て、マンションの売却に対応し、仲介と買取の両方を扱っています。売却相談から契約・引き渡しまで一貫してサポートし、丁寧な対応を心がけています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0041<br>東京都日野市南平6-25-5</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-594-3850</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6839289628933!2d139.4108956755907!3d35.66015817259414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e244b6c462df%3A0x918943e4120c8f25!2z5Lqs44OP44Km44K5!5e0!3m2!1sja!2sjp!4v1758879365006!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">エム・ケー株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買や買取を中心に、相続・住み替え・任意売却などの相談にも対応しています。相談内容に応じて最適な売却方法を提案し、安心の取引をサポートしています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0061<br>東京都日野市大坂上1-30-28 MKビル</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-589-0222</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.9217793944567!2d139.3890710755917!3d35.67892797258798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e226dbf66de1%3A0xe3ce60b2c3d0c422!2z44Ko44Og44O744Kx44O877yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1758879372627!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">有限会社片桐不動産販売</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">土地・建物の売買を主に取り扱い、不動産の無料査定や売却相談にも対応しています。経験に基づいた提案を行い、納得できる不動産取引を支援しています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0011<br>東京都日野市日野本町3-14-17</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-586-9113</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.9217793944567!2d139.3890710755917!3d35.67892797258798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2261735d585%3A0xd6e0a6b03f5ecac9!2z54mH5qGQ5LiN5YuV55Sj6LKp5aOy!5e0!3m2!1sja!2sjp!4v1758879381648!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">三榮観光開発株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買・仲介業務を手がけており、物件の査定や契約手続きまで一連の流れをサポートしています。利用者にとって分かりやすく、誠実な対応を大切にしています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0034<br>東京都日野市落川2100-3</dd>
-                      </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-591-2513</dd>
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7733835394056!2d139.42814807559077!3d35.6579545725948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e3743af3f35d%3A0x4d8f6eb05adcc1b9!2z5LiJ5qau6Kaz5YWJ6ZaL55m6KOagqik!5e0!3m2!1sja!2sjp!4v1758879393025!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">三井のリハウス 梅田センター三井不動産リアルティ株式会社</h3>
                     </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却査定・購入相談に対応。豊富な実績とノウハウ、独自のネットワークを活かし、専属の担当者が一貫して売却をサポートします。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0057<br>大阪府大阪市北区曽根崎2-12-7 清和梅田ビル19F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-3815-31</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2338781495678!2d135.49256762554606!3d34.699280522920226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed006d84ad%3A0x6808b543321ccb7b!2z5LiJ5LqV44Gu44Oq44OP44Km44K5IOaiheeUsOOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1760093987896!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">株式会社紀ノ国屋</h3>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">ジョージ不動産<br>株式会社WWW</h3>
                     </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">テキストテキストテキストテキストテキスト</p>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介、買取、リフォーム、賃貸、管理など、不動産全般の幅広いサービスを展開。物件の潜在的な価値を引き出し、お客様のニーズに合わせた提案を行います。</p>
                       <dl class="mb-3">
                         <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0062<br>東京都日野市多摩平1-2-8 司ビル1F</dd>
+                        <dd class="height-40-lg">〒530-0044<br>大阪府大阪市北区東天満1-11-13 AXIS南森町ビル703</dd>
                       </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-581-8281</dd>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4800-7113</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
                       </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51868.37871134203!2d139.3895233081383!3d35.65794752914198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e21362f8f0a7%3A0xab8b018481538cde!2z77yI5qCq77yJ57SA44OO5Zu95bGL!5e0!3m2!1sja!2sjp!4v1758879409494!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3233282399747!2d135.51153517554613!3d34.697023972921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7324bcee1b1%3A0x3d6372141fa0a646!2z5qCq5byP5Lya56S-V1dXL-OCuOODp-ODvOOCuOS4jeWLleeUow!5e0!3m2!1sja!2sjp!4v1760093998419!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-lg-4 d-flex box-child">
-                  <div class="bg_light_beige overflow-hidden box-child-text ">
-                    <div class="bg_dark_green text-white px-2 py-3 height-70">
-                      <h3 class="fs-6 text-white m-0 col-11 ">有限会社日野不動産</h3>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">三菱UFJ不動産販売株式会社 梅田第1センター</h3>
                     </div>
-                    <div class="p-3 f13px bg_light_beige">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">売却・購入の仲介を中心に、物件の価格査定や条件交渉まで幅広く対応しています。顧客の要望に沿った提案を行い、安心して取引できる体制を整えています。</p>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売却を専門とし、オンラインでの無料売却査定を提供。全国の店舗連携と、お客様の物件情報と購入希望者をマッチングさせる仲介サービスで早期売却を目指します。</p>
                       <dl class="mb-3">
                         <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒191-0011<br>東京都日野市日野本町4-5-12</dd>
+                        <dd class="height-40-lg">〒530-0017<br>大阪府大阪市北区角田町8-1 大阪梅田ツインタワーズ・ノース29F</dd>
                       </dl>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">電話番号</dt>
-                        <dd>042-581-2675</dd>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0800-814-3865</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
                       </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51866.89848244377!2d139.31035105820317!3d35.660226499999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e226185cc3f7%3A0x7875f1b2cba772b!2z5pyJ6ZmQ5Lya56S-IOaXpemHjuS4jeWLleeUow!5e0!3m2!1sja!2sjp!4v1758879421447!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="mb-3 text-center p-1 px-3 height-80px">
-                      <!-- <a href="/" class="btn bg_blue px-2 py-2 text-white fw-bold max-width-350 w-100 btn-hover-blue position-relative shadow border-radius-0" role="button">
-                                            の<br>口コミ・評判記事はこちら
-                                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.webp">
-                                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/s_icon_yazi_white.png" class="img-fluid" loading="lazy" alt="アイコン" width="20" height="20">
-                                            </picture>
-                                        </a> -->
+                      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.093666475637!2d135.49595767554615!3d34.70281737291894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6940ef302bb%3A0x7baa58fd734127ab!2z5LiJ6I-x77y177ym77yq5LiN5YuV55Sj6LKp5aOyIOaiheeUsOesrO-8keOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1760094007574!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
               </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">暮らしの相談室 中崎町店<br>株式会社オーシャンズプロデュース</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買、賃貸、管理、買取、リフォームなど、住まいの総合的なサービスを提供。お客様のライフスタイルや将来設計に合わせた最適な提案を目指し、無料相談・査定を受け付けています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0016<br>大阪府大阪市北区中崎2-2-7 ナカガミビル1F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4802-0077</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13120.37473890969!2d135.48823285645722!3d34.702816912536804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7dab46f540b%3A0xdfbcca0619aa7a54!2z5qCq5byP5Lya56S-44Kq44O844K344Oj44Oz44K644OX44Ot44OH44Ol44O844K5!5e0!3m2!1sja!2sjp!4v1760094021292!5m2!1sja!2sjp"  width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社HOUSE・FRONT</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却に特化し、無料査定から対応。独自のネットワークや多岐にわたる広告活動で、スムーズな早期売却を目指します。不動産の買取りにも対応し、無料相談を受け付けています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0021<br>大阪府大阪市北区浮田1-6-10</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6486-0050</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.874458737138!2d135.5048701755465!3d34.70834627291696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e79f60d1e9cb%3A0xd7269e1cbb03463a!2z5qCq5byP5Lya56S-SE9VU0Xjg7sgRlJPTlQg44OP44Km44K544OV44Ot44Oz44OI!5e0!3m2!1sja!2sjp!4v1760094031134!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">ウィル不動産販売 本町営業所<br>株式会社ウィル</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介、賃貸、リフォーム、建築請負、資産活用まで総合的にサポート。独自の査定基準と地域に根差した情報力を活用し、お客様一人ひとりに合わせたコンサルティングを提供します。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒541-0053<br>大阪府大阪市中央区本町1-4-13</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-750-755</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.853284633904!2d135.5059720755454!3d34.68365217292571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e788c40c6803%3A0x7dd56fb85207dc73!2z44Km44Kj44Or5LiN5YuV55Sj6LKp5aOyIOacrOeUuuWWtualreaJgA!5e0!3m2!1sja!2sjp!4v1760094044729!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社NORTH COMPANY</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介、賃貸仲介、建物管理、リフォームなど、住まいに関わるサービスを幅広く展開。お客様とのコミュニケーションを重視し、不動産の多様なニーズにきめ細かく対応しています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒546-0011<br>大阪府大阪市東住吉区針中野4-9-7</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">050-8882-8241</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.487817645677!2d135.53380637554216!3d34.617110872949596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000df3edd3a2527%3A0x61ff2df8e5ed9656!2z5qCq5byP5Lya56S-Tk9SVEggQ09NUEFOWQ!5e0!3m2!1sja!2sjp!4v1760094054301!5m2!1sja!2sjp"  width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社大京穴吹不動産 大阪中央店</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">マンションや戸建て、土地などの不動産売却仲介サービスを提供。無料査定に加え、即時買取やリースバックなど多様な売却方法があり、各種保証・サポートも充実しています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒542-0086<br>大阪府大阪市中央区西心斎橋2-2-3 A-PLACE心斎橋4F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-743-215</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.357086319944!2d135.49718312554478!3d34.67093612293016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e711719ac307%3A0x95178d8ec571cf0!2z5aSn5Lqs56m05ZC55LiN5YuV55SjIOWkp-mYquS4reWkruW6lw!5e0!3m2!1sja!2sjp!4v1760094066468!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社アセットマネジメント</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介、賃貸仲介、リフォームに加え、不動産コンサルティングも提供。収益物件や事業用不動産の取り扱いにも強みがあり、専門的な視点から資産活用をサポートします。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0015 大阪府大阪市北区中崎西4-3-32 タカ大阪梅田ビル8F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6136-5246</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13125.428418197676!2d135.48945830643373!3d34.67093566274092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7f3ab61ef3b%3A0x6bba37c02ac6e212!2z5qCq5byP5Lya56S-44Ki44K744OD44OI44Oe44ON44K444Oh44Oz44OI!5e0!3m2!1sja!2sjp!4v1760094082111!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">センチュリー21不動産情報ネット<br>株式会社不動産情報ネット</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介や賃貸仲介、リフォーム、建築など、住まいに関する総合的なサービスを提供しています。無料の査定相談を受け付け、お客様の住み替えや資産活用をサポートします。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒534-0025<br>大阪府大阪市都島区片町1-2-34</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-7887-21</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1640.2366453728314!2d135.52776728872288!3d34.69324059323056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0d4fa166959%3A0x4e77858dcb9ba809!2z44K744Oz44OB44Ol44Oq44O8MjHkuI3li5XnlKPmg4XloLHjg43jg4Pjg4jniYfnlLrlupc!5e0!3m2!1sja!2sjp!4v1760094099829!5m2!1sja!2sjp"  width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="f14px fw-bold  m-0 col-11">センチュリー21ネクスト・アールアンドディ<br>株式会社ネクスト・アールアンドディ</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介、賃貸仲介、リフォーム・リノベーション、賃貸管理を提供し、住まいの総合プロデュースを行います。お客様の理想実現に向け、物件探しからアフターフォローまで一貫してサポートします。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒550-0013<br>大阪府大阪市西区新町1-4-24 大阪四ツ橋新町ビルディング2F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6310-1121</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1497956381663!2d135.494705175545!3d34.676168672928405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e31528a941ad%3A0x7955390cc7481558!2z44K744Oz44OB44Ol44Oq44O8MjHjg43jgq_jgrnjg4jjg7vjgqLjg7zjg6vjgqLjg7Pjg4njg4fjgqM!5e0!3m2!1sja!2sjp!4v1760094110553!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">阪急阪神不動産株式会社 大阪梅田営業所 第1チーム</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">阪急阪神ブランドとして売却仲介サービスを提供。無料査定や即時買取、リースバックなど多様な売却メニューがあり、各種サポート制度も充実しています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0012<br>大阪府大阪市北区芝田1-1-3 阪急三番街南館2F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-8984-24</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.0243696983302!2d135.49636337554628!3d34.70456527291841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e693784d794f%3A0xc3dc4f59c775d883!2z6Ziq5oCl6Ziq56We44Gu5Luy5LuLIOWkp-mYquaiheeUsOWWtualreaJgCDlpKfpmKrnrKwx44OB44O844Og!5e0!3m2!1sja!2sjp!4v1760094119700!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">阪急阪神の仲介<br>株式会社ホームカラーズ</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介を主力とし、お客様に寄り添ったきめ細やかなサポートを提供。無料査定で市場価格を提示し、売却や購入の成功に向けた最適なプランニングを行っています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒531-0062<br>大阪府大阪市北区長柄中1-6-20 新城ビル1F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-460-070</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.745906940832!2d135.51308577554664!3d34.71158827291586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6b9d92f18f5%3A0x66ea50cc71079517!2z5qCq5byP5Lya56S-44Ob44O844Og44Kr44Op44O844K6!5e0!3m2!1sja!2sjp!4v1760094139149!5m2!1sja!2sjp"  width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社リブクラス</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介、賃貸仲介、賃貸管理、リノベーション、コンサルティングなど幅広いサービスを提供。特に資産運用や投資に関する専門知識を活かし、お客様の収益向上をサポートします。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0047<br>大阪府大阪市北区西天満5-16-3 西天満ファイブビル8F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6467-4398</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.279883217677!2d135.50409547554597!3d34.69811997292061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c27bfcbb13%3A0xc90cf8c09b9a399a!2z5qCq5byP5Lya56S-44Oq44OW44Kv44Op44K5!5e0!3m2!1sja!2sjp!4v1760094151799!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">三和通産株式会社</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">店舗や事務所、工場・倉庫、ビルなど事業用不動産を専門に取り扱っています。売買仲介、賃貸仲介、管理を行い、お客様の資産価値向上を目指して専門的なサービスを提供しています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0041<br>大阪府大阪市北区天神橋3-2-34</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-840-302</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.279883217677!2d135.50409547554597!3d34.69811997292061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c49f35fd19%3A0x3ccd6988ee4bb6ed!2z5LiJ5ZKM6YCa55Sj5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1760094162294!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">プライマリー<br>株式会社ダハイム</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介、賃貸仲介、賃貸管理、リフォームなど住まいに関する総合的なサービスを提供。戸建てやマンションの購入・売却相談に注力し、無料査定も受け付けています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0022<br>大阪府大阪市北区浪花町13-38 千代田ビル北館6F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6616-8422</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.8455672194164!2d135.50784277554655!3d34.7090749229167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6bec56ed099%3A0x4dfc2ccb4b1b21a5!2z44CSNTMwLTAwMjIg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65rWq6Iqx55S677yR77yT4oiS77yT77yY!5e0!3m2!1sja!2sjp!4v1760094213824!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社福楽</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">マンション、戸建て、土地など不動産売却を専門とし、無料査定から相談まで対応しています。売却時の価格保証や仲介手数料の割引など、お客様の負担を軽減するサービスが特徴です。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0043<br>大阪府大阪市北区天満3-1-5 南天満ビル405</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4400-5574</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.5132830501984!2d135.5127568755457!3d34.69223157292268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6d825ae50f3%3A0xffbaec037b1fec67!2z44CSNTMwLTAwNDMg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65aSp5rqA77yT5LiB55uu77yR4oiS77yVIOWNl-Wkqea6gOODk-ODqw!5e0!3m2!1sja!2sjp!4v1760094254228!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">北区不動産売却・買取センター<br>株式会社天満不動産</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">マンション、戸建て、土地の不動産売却を専門に、無料査定から仲介まで対応。独自のネットワークとデジタル技術を活用した販売戦略で、早期かつ高値での売却を目指します。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0053<br>大阪府大阪市北区末広町3-11</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6364-8881</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.13228405983!2d135.50711617554614!3d34.70184327291934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c1662639b7%3A0x6d427ef1fb4e0bfc!2z77yI5qCq77yJ5aSp5rqA5LiN5YuV55SjL-WMl-WMuuWwgumWgA!5e0!3m2!1sja!2sjp!4v1760094273266!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">スター・マイカ株式会社 大阪支店</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却仲介サービスを提供し、無料査定や売却相談に対応。全国に広がる店舗ネットワークと住まいに関する多様なサービスを通じて、お客様に最適な売却活動を提案します。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0011<br>大阪府大阪市北区大深町3-1 グランフロント大阪タワーC16F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6375-5502</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.9705286853355!2d135.49183357554642!3d34.70592327291789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e691dc1051a3%3A0x374a3f78de2cbff!2z44K544K_44O844O744Oe44Kk44Kr44ixIOWkp-mYquaUr-W6lw!5e0!3m2!1sja!2sjp!4v1760094282367!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">日住サービス 大阪梅田店</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却仲介サービスを提供し、無料査定や売却相談に対応。全国に広がる店舗ネットワークと住まいに関する多様なサービスを通じて、お客様に最適な売却活動を提案します。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-11-4-300 大阪駅前第4ビル 3F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6375-5502</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.9705286853355!2d135.49183357554642!3d34.70592327291789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e691dc1051a3%3A0x374a3f78de2cbff!2z44K544K_44O844O744Oe44Kk44Kr44ixIOWkp-mYquaUr-W6lw!5e0!3m2!1sja!2sjp!4v1760094282367!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">日住サービス 大阪梅田店</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介、賃貸仲介、賃貸管理、リフォーム、建築請負など、住まいのトータルサポートを提供。お客様のニーズに合わせた物件提案や、資産活用のコンサルティングを行います。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-11-4-300 大阪駅前第4ビル 3F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6343-1951</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2094291716444!2d135.49625187554622!3d34.69989727292004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed225be993%3A0x5721f0c895eadc9b!2z5LiN5YuV55Sj5aOy6LK344O76LOD6LK444Gu5pel5L2P44K144O844OT44K5IOWkp-mYquaiheeUsCDlupc!5e0!3m2!1sja!2sjp!4v1760094293414!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">たまご不動産 梅田営業所<br>岡壱建物管理株式会社</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介、賃貸仲介、賃貸管理、リフォームなど幅広いサービスを提供。丁寧なヒアリングと専門知識に基づき、お客様の最適な住まい探しや売却をきめ細やかにサポートしています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0047<br>大阪府大阪市北区西天満4-2-15 マツウラビル2F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">03-6360-6388</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13121.353093669859!2d135.49398021579452!3d34.69664693965516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6e82143497b%3A0x8369f43b9f16386d!2z44Gf44G-44GU5LiN5YuV55Sj!5e0!3m2!1sja!2sjp!4v1760094327166!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">三菱地所の住まいリレー 梅田営業所<br>三菱地所ハウスネット株式会社</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">マンション、戸建て、土地など各種不動産の売買仲介サービスを提供。培ってきた実績とノウハウ、全国ネットワークを活かし、お客様の円滑な不動産取引をサポートします。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-11-4-2000 大阪駅前第4ビル20F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-453-108</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13121.353368455317!2d135.49398020913188!3d34.69664520659188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed225be993%3A0x4261e30824aa97f!2z5LiJ6I-x5Zyw5omA44OP44Km44K544ON44OD44OI5qCq5byP5Lya56S-IOaiheeUsOWWtualreaJgA!5e0!3m2!1sja!2sjp!4v1760094381776!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">松和住建株式会社</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介、賃貸仲介、賃貸管理、リフォームなど、住まいのサービスを幅広く提供。無料査定を通じて適正価格を提示し、お客様のライフプランに合わせた最適な提案を行います。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0047<br>大阪府大阪市北区西天満3-6-22 日宝北大阪屋ビル6F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6364-0007</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.305823528657!2d135.5054488755459!3d34.69746557292083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e773347f39c5%3A0xb5c4c0b0fa7ba504!2z5p2-5ZKM5L2P5bu65qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1760094364587!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">だんらん住宅株式会社</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建て、マンション、土地などの不動産売買仲介を専門としています。詳細なヒアリングと無料査定、独自のネットワークを活用し、スピーディーで納得のいく売却・購入を実現します。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0041<br>大阪府大阪市北区天神橋3-2-28 ノーブル南森町1102</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-180-414</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.226209516337!2d135.50883847554604!3d34.69947397292008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c484c78bb5%3A0x7649c5fc8811596f!2z44Gg44KT44KJ44KT5L2P5a6F5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1760094400027!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">センチュリー21ライズ<br>株式会社ライズ</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介、買取、リフォーム、賃貸管理、資産運用コンサルティングを提供。お客様の多様なニーズに対し、独自のノウハウと専門知識を活かした総合的なサポートを行っています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒531-0041<br>大阪府大阪市北区天神橋8-3-4 4F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-883-911</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9276.227768083232!2d135.49985437672825!3d34.71421411556365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e78080b1020b%3A0xf7b416014fdf515!2z44K744Oz44OB44Ol44Oq44O8MjHjg6njgqTjgro!5e0!3m2!1sja!2sjp!4v1760094415861!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社エムズプレイス</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">売買仲介、買取、賃貸仲介、賃貸管理、建築など、住まいに関する多様なサービスを提供。お客様との対話を重視し、不動産に関する疑問や不安に寄り添った丁寧なサポートが特徴です。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0041<br>大阪府大阪市北区天神橋2-4-17 千代田第一ビル9F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6755-4252</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.32257509744!2d135.509633075546!3d34.69704297292098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6db4004497b%3A0x9f4cccd0bf3f8e6f!2z77yI5qCq77yJ44Ko44Og44K644OX44Os44Kk44K5!5e0!3m2!1sja!2sjp!4v1760094428824!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社住和リアライズ</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">戸建て、マンション、土地などの不動産売買仲介を専門。お客様のライフプランに合わせた最適な住み替えをサポートするため、無料査定や物件の買い取りサービスを提供しています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0041<br>大阪府大阪市北区天神橋3-6-22 ミナミビル2F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6809-1193</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.145564705849!2d135.50951147554625!3d34.70150827291939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c41469a3e9%3A0x2b99925cc546b3fd!2z5qCq5byP5Lya56S-IOS9j-WSjOODquOCouODqeOCpOOCug!5e0!3m2!1sja!2sjp!4v1760094438190!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社ベストウエスト</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売却仲介サービスを提供し、マンション、戸建て、土地の無料査定に対応。お客様のニーズに応じた売却プランを提案し、独自のネットワークで早期売却を目指します。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0028<br>大阪府大阪市北区万歳町3-41 城野ビル103</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4256-8559</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.145564705849!2d135.50951147554625!3d34.70150827291939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed3d9d8e2b%3A0xe9e8ac5117148daa!2z44OZ44K544OI44Km44Ko44K544OI5aSn6Ziq5qKF55Sw5bqX!5e0!3m2!1sja!2sjp!4v1760094447475!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">東商ハウス株式会社 大阪駅前店</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介、賃貸仲介、賃貸管理、リフォームなど、住まいに関するサービスを幅広く提供。お客様の資産形成や住み替えをサポートするため、無料の査定・相談を受け付けています。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0001<br>大阪府大阪市北区梅田1-3-1-100 大阪駅前第一ビル1F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6345-1110</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a> -->
+                        </div>
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.25206350278!2d135.49346747554608!3d34.698821772920354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f2b745ca89%3A0x3cfc9cb17fd3affb!2z5p2x5ZWG44OP44Km44K55aSn6Ziq6aeF5YmN5bqX!5e0!3m2!1sja!2sjp!4v1760094457783!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row box-parent">
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">長谷工の仲介 梅田センター<br>株式会社長谷工リアルエステート</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">マンション、一戸建て、土地など不動産の売却仲介サービスを提供。無料査定や売却相談に対応し、長谷工グループの総合力と独自のネットワークを活かしたサポート体制が特徴です。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0002<br>大阪府大阪市北区曽根崎新地2-2-16 関電不動産西梅田ビル6F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-373-579</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2806601647485!2d135.49249627554596!3d34.69810037292059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f2dd60cbcb%3A0x478e06e7baf3129d!2z6ZW36LC35bel44Oq44Ki44Or44Ko44K544OG44O844OI5qKF55Sw44K744Oz44K_44O8!5e0!3m2!1sja!2sjp!4v1760094468884!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                  <div class="box-child-text border_blue_2px w-100">
+                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                      <h3 class="fs-6 fw-bold  m-0 col-11">三井住友トラスト不動産株式会社 大阪梅田センター</h3>
+                    </div>
+                    <div class="p-3 f13px">
+                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却仲介サービスを提供し、マンション、戸建て、土地の無料査定に対応。金融グループならではのノウハウを活かし、お客様のニーズに合わせた最適な売却プランを提案します。</p>
+                      <dl class="mb-3">
+                        <dt class="black fw-bold">所在地</dt>
+                        <dd class="height-40-lg">〒530-0017<br>大阪府大阪市北区角田町8-1 大阪梅田ツインタワーズ・ノース24F</dd>
+                      </dl>
+                      <dl class="row">
+                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-08-6541</span></dt>
+                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                            記事で詳しく見る
+                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                            </picture>
+                          </a>
+                        </div> -->
+                      </dl>
+                      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.0946813837286!2d135.49626527554625!3d34.70279177291896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6925608a11f%3A0x113042124cae9d64!2z5LiJ5LqV5L2P5Y-L44OI44Op44K544OI5LiN5YuV55Sj5qCq5byP5Lya56S-IOWkp-mYquaiheeUsOOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1760094477478!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>

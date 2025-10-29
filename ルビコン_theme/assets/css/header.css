@@ -16,7 +16,7 @@
 }
 
 .navbar-collapse.show {
-  background-color: #fff;
+  background-color: #1E447D;
   padding: 10px 20px 30px;
   position: relative;
   text-align: center;
@@ -34,5 +34,5 @@
 }
 
 .header-nav.bg-white-on {
-  background-color: #fff !important;
-}
+  background-color: #1E447D !important;
+}/*# sourceMappingURL=header.css.map */

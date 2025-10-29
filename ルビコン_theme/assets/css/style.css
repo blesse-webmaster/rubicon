@@ -161,6 +161,14 @@
   border-bottom: solid 1px #ffffff;
 }
 
+.border_lightblue_1px {
+  border: solid 1px #2C8EE4;
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 1px;
+}
+
 .border-bottom-brown-dotted {
   border-bottom: dotted 2px #C9724A;
 }
@@ -550,4 +558,33 @@
 
 .text-shadow_black {
   text-shadow: 1px 1px 5px #1d1d1d;
+}
+
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.overflow-x-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.comparison-table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.comparison-table a {
+  word-break: break-all;
+}
+
+@media (max-width: 768px) {
+  .comparison-table .text-nowrap {
+    white-space: normal !important;
+  }
+  .comparison-table .w35-25 {
+    width: auto !important;
+  }
 }/*# sourceMappingURL=style.css.map */
