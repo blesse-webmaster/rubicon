@@ -1,0 +1,89 @@
+.bg_gradient_blue::after,
+.bg_gradient_blue-long::after {
+  content: '';
+  width: 100%;
+  height: 23px;
+  display: inline-block;
+  position: absolute;
+  bottom: -15%;
+  left: 0;
+  background: linear-gradient(90deg, #0374bd 0%, #57e07b 100%);
+}
+
+.bg_gradient_blue-long::after {
+  bottom: inherit;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.bg_gradient_blue::before,
+.bg_gradient_blue-long::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 14px;
+  border: none;
+  border-right: solid 20px #f3f3f3;
+  border-top: solid 38px transparent;
+  z-index: 1;
+}
+
+.bg_gradient_blue-long::before {
+  top: 22px;
+}
+
+.bg_gradient_blue-white::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 14px;
+  border: none;
+  border-right: solid 20px #fff;
+  border-top: solid 38px transparent;
+  z-index: 1;
+}
+
+.bg-building-blue::before,
+.bg-building-green::before,
+.bg-building-purple::before {
+  content: '';
+  width: 74px;
+  height: 74px;
+  display: inline-block;
+  position: absolute;
+  bottom: -75%;
+  left: -12px;
+  z-index: 1;
+  transform: scale(-1, 1);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80% auto;
+  background-image: url("../img/icon-building-b.png");
+}
+
+.bg-building-green::before {
+  background-image: url("../img/icon-building-g.png");
+}
+
+.bg-building-purple::before {
+  background-image: url("../img/icon-building-p.png");
+}
+
+@supports (background-image: url(../../assets/img/icon-building-b.webp)) {
+  .bg-building-blue::before {
+    background-image: url(../../assets/img/icon-building-b.webp);
+  }
+}
+
+@supports (background-image: url(../../assets/img/icon-building-g.webp)) {
+  .bg-building-green::before {
+    background-image: url(../../assets/img/icon-building-g.webp);
+  }
+}
+
+@supports (background-image: url(../../assets/img/icon-building-p.webp)) {
+  .bg-building-purple::before {
+    background-image: url(../../assets/img/icon-building-p.webp);
+  }
+}

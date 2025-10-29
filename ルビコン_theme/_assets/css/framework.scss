@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.bg-fv {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	z-index: 0;
+	background-image: url(../../assets/img/fv.webp);
+
+	.no-webp & {
+		background-image: url(../../assets/img/fv.jpg);
+	}
+}
+
+.bg-sub {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 140px;
+	z-index: 0;
+	background-image: url(../../assets/img/fv.webp);
+
+	.no-webp & {
+		background-image: url(../../assets/img/fv.jpg);
+	}
+}

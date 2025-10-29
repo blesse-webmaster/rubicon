@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+$blue: #0374BD;
+$green: #2FAD9A;
+$purple: #8C64E8;
+
+/*ライン*/
+.bordr-bottom2px {
+  border-bottom: 2px solid #111111;
+}
+
+.bordr-bottom3px {
+  border-bottom: 3px solid #111111;
+}
+
+.border-start5px {
+  border-left: 5px solid #111111;
+}
+
+.border-bottom-dotted1px {
+  border-bottom: 1px dotted #333333;
+}
+
+.bordr-color-blue {
+  border-color: $blue !important;
+}
+
+.bordr-color-green {
+  border-color: $green !important;
+}
+
+.bordr-color-purple {
+  border-color: $purple !important;
+}
+
+.border-left-white {
+  border-left: 5px solid #fff;
+}
+
+/*高さ*/
+.height4em {
+  height: 4rem;
+}
+
+.height6em {
+  height: 6rem;
+}
+
+/*幅*/
+.width300-260px {
+  width: 300px;
+}
+
+
+/*位置*/
+.top-n40px {
+  top: -40px;
+}
+
+
+/*シャドウ*/
+.text-shadow-white {
+  text-shadow: 1px 0 5px #fff;
+}
+
+
+/*ボックス*/
+// boxの高さを揃える-------------- 
+.box-parent {
+  box-sizing: border-box;
+}
+
+.box-child {
+  flex-direction: column;
+}
+
+.box-child-text {
+  flex-grow: 1;
+}
+
+/*※この親のdisplay:flex;を指定する*/
+
+
+// 背景-------------- 
+.bg-about,
+.bg-laws {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20%;
+    width: 100%;
+    height: 280px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 0;
+    background-image: url(../../assets/img/bg-about.png);
+  }
+}
+
+@supports (background-image: url(../../assets/img/bg-about.webp)) {
+  .bg-about::before {
+    background-image: url(../../assets/img/bg-about.webp);
+  }
+}
+
+.bg-laws::before {
+  left: -19%;
+  height: 800px;
+  background-image: url(../../assets/img/bg-laws.png);
+}
+
+@supports (background-image: url(../../assets/img/bg-laws.webp)) {
+  .bg-laws::before {
+    background-image: url(../../assets/img/bg-laws.webp);
+  }
+}
+
+
+.bg-sanray-top,
+.bg-kanken-top,
+.bg-chugairo-top,
+.bg-tessha-top,
+.bg-asahi-top,
+.bg-taiki-top,
+.bg-sinto-top {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 0;
+  background-image: url(../../assets/img/sanray-top.png);
+}
+
+.bg-kanken-top {
+  background-image: url(../../assets/img/kanken-top.png);
+}
+
+.bg-chugairo-top {
+  background-image: url(../../assets/img/chugairo-top.png);
+}
+
+.bg-tessha-top {
+  background-image: url(../../assets/img/tessha-top.png);
+}
+
+.bg-asahi-top {
+  background-image: url(../../assets/img/asahi-top.png);
+}
+
+.bg-taiki-top {
+  background-image: url(../../assets/img/taiki-top.png);
+}
+
+.bg-sinto-top {
+  background-image: url(../../assets/img/sinto-top.png);
+}
+
+@supports (background-image: url(../../assets/img/sanray-top.webp)) {
+  .bg-sanray-top {
+    background-image: url(../../assets/img/sanray-top.webp);
+  }
+}
+
+@supports (background-image: url(../../assets/img/kanken-top.webp)) {
+  .bg-kanken-top {
+    background-image: url(../../assets/img/kanken-top.webp);
+  }
+}
+
+@supports (background-image: url(../../assets/img/chugairo-top.webp)) {
+  .bg-chugairo-top {
+    background-image: url(../../assets/img/chugairo-top.webp);
+  }
+}
+
+@supports (background-image: url(../../assets/img/tessha-top.webp)) {
+  .bg-tessha-top {
+    background-image: url(../../assets/img/tessha-top.webp);
+  }
+}
+
+@supports (background-image: url(../../assets/img/asahi-top.webp)) {
+  .bg-asahi-top {
+    background-image: url(../../assets/img/asahi-top.webp);
+  }
+}
+
+@supports (background-image: url(../../assets/img/taiki-top.webp)) {
+  .bg-taiki-top {
+    background-image: url(../../assets/img/taiki-top.webp);
+  }
+}
+
+@supports (background-image: url(../../assets/img/sinto-top.webp)) {
+  .bg-sinto-top {
+    background-image: url(../../assets/img/sinto-top.webp);
+  }
+}
+
+
+// fv-------------- 
+.fv {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 380px;
+  background-image: url(../../assets/img/fv.png);
+}
+
+@supports (background-image: url('../../assets/img/fv.webp')) {
+  .fv {
+    background-image: url('../../assets/img/fv.webp');
+  }
+}
+
+// FVタイトル画像調整
+.fv-tit {
+  max-width: 330px;
+}
+
+.fv-banner {
+  max-width: 100px;
+}
+
+// 直接燃焼法 おすすめ3社--------------
+// 三角の吹き出し
+.triangle-bottom-blue::before,
+.triangle-bottom-green::before,
+.triangle-bottom-purple::before {
+  content: "";
+  border: 7px solid transparent;
+  border-top: 10px solid $blue;
+  margin-left: -10px;
+  top: 100%;
+  left: 50%;
+  position: absolute;
+}
+
+.triangle-bottom-green::before {
+  border-top: 10px solid $green;
+}
+
+.triangle-bottom-purple::before {
+  border-top: 10px solid $purple;
+}
+
+.triangle-bottom-gray::before {
+  content: "";
+  border: 15px solid transparent;
+  border-top: 10px solid #CCCCCC;
+  margin-left: -10px;
+  top: 0%;
+  left: 47%;
+  position: absolute;
+}

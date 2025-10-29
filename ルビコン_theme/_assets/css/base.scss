@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../../assets/webfonts/NotoSansJP-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  src: url(../../assets/webfonts/NotoSansJP-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans JP", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  src: url(../../assets/webfonts/IBMPlexSansJP-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "M PLUS 2", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  src: url(../../assets/webfonts/MPLUS2-Bold.ttf) format("truetype");
+}
+
+/*フォント*/
+.f-ibm {
+  font-family: "IBM Plex Sans JP", sans-serif;
+}
+
+.f-mplus-2 {
+  font-family: "M PLUS 2", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  font-size: 14px;
+  height: 100%;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*html, body, head {
+  overflow-x: hidden;
+}*/

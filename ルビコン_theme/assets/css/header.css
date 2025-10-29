@@ -1,0 +1,38 @@
+.header-nav {
+  width: 100%;
+  top: 15px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.header-nav .sp-logo {
+  display: inline-block !important;
+}
+.header-nav.change-color {
+  top: 0px;
+}
+.header-nav.change-color .text-shadow {
+  text-shadow: inherit;
+}
+
+.navbar-collapse.show {
+  background-color: #fff;
+  padding: 10px 20px 30px;
+  position: relative;
+  text-align: center;
+}
+
+.btn-hamburger {
+  z-index: 1100;
+  background-color: #E0644E;
+}
+.btn-hamburger:focus {
+  box-shadow: inherit;
+}
+.btn-hamburger .btn-hamburger-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.header-nav.bg-white-on {
+  background-color: #fff !important;
+}

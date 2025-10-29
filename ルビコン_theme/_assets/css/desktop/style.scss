@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+  
+  /*位置*/
+  .position-lg-sticky{
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  .top-lg-70px { top: 70px !important;}
+  
+  /*高さ*/
+  .height-lg7em{
+    height:7rem;
+  }
+  .h-lg100vh{
+    height: 100vh;
+  }
+  
+  /*幅*/
+  .width300-260px{
+    width:260px;
+  }
+  
+  .pb-lg-60px { padding-bottom: 60px !important;}
+  
+  .overflow-auto{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .scrollbar-width-none{scrollbar-width: none;}
+
+  // fv-------------- 
+  .fv {
+    height: 500px;
+  }
+  .fv-tit{
+    max-width: 620px;
+  }
+  .fv-banner{
+    max-width: 190px;
+  }
+  
+  .bg-sanray-top, .bg-kanken-top, .bg-chugairo-top, .bg-tessha-top, .bg-asahi-top, .bg-taiki-top, .bg-sinto-top {
+    height: 180px;
+  }
+  
+  .bg-laws::before {height: 1115px;}
+  
+}

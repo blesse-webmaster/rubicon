@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+$blue:#0374BD;
+
+.pagination {
+  gap: 0 8px !important;
+}
+.page-item {
+  .page-link {
+    font-size: 18px !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 2em !important;
+    height: 2em !important;
+    border: 1px solid $blue !important;
+    border-radius: 1px !important;
+    &:not(:hover) {
+      text-decoration: none !important;
+      color: $blue !important;
+    }
+    &:hover {
+      background: none !important;
+      color: #000 !important;
+      border-color: #000 !important;
+    }
+    span {color: $blue !important;}
+  }
+  &.active {
+    pointer-events: none !important;
+    .page-link:not(:hover) {
+      background-color: $blue !important;
+      color: #fff !important;
+    }
+  }
+  &:first-of-type .page-link, &:last-of-type .page-link {
+    border: none !important;
+  }
+}

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+$green:#0AB48D ;
+$lite-green:#E0F4F3;
+
+#blog{
+    h2{
+      font-size: clamp(22px, 2.5vw, 36px);
+      padding: 0.5rem 0;
+      margin: 2.5rem 0 1.5rem;
+      text-align: unset;
+      font-weight: bold;
+    }
+    
+    h3{
+      font-size: clamp(18px, 2vw, 24px);
+      margin: 2.5rem 0 1rem;
+      background: #0AB48D;
+      padding: 0.4em 0.5em 0.4em 0.5em;
+      border-radius: 10px;
+      font-weight: bold;
+      color: #fff;
+    }
+    
+    h4{
+      font-size: clamp(16px, 1.8vw, 22px);
+      margin: 1.5rem 0 0;
+      border-bottom: 3px dotted #0AB48D;
+      padding: 0.5rem 0;
+      font-weight: bold;
+      color: #222;
+    }
+    
+    h5{
+      font-size: 18px;
+      margin: 1rem 0 0 ;
+      color:$green;
+      font-weight: bold;
+    }
+    
+    p{
+      margin-top : 1.5rem;
+    }
+    
+    // a{
+    //   color: $green;
+    //   &:hover {text-decoration: none;}
+    // }
+    
+    ul{
+    position: relative;
+      li {
+        background: none;
+        margin: 0.1rem auto;
+        padding: 0.5rem 0;
+        position: relative;
+        padding-left: 0.8rem;
+      }
+    }
+    .wp-block-button {
+      margin: 1.5rem auto;
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      .wp-block-button__link {
+        background-color: #fca518 !important;
+        color: #fff;
+        border-radius: 50px;
+        padding: 1em 3em 1em 3em; 
+        position: relative;
+        text-decoration: none;
+        &::before {
+          position: absolute;
+          content: "";
+          top: 30%;
+          right: 0px;
+          width: 100%;
+          height: 20px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: 92% 100%;
+          background-image: url("../../assets/img/arrow.png");
+        }
+      }
+    }
+    hr {border-color:#22970a !important;}
+    blockquote {
+      padding: 1.5em 2em 1.5em 3em;
+      background: #F2F2F2;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 5px;
+        height: calc(100% - 3em);
+        top: 1.5em;
+        left: 1.5em;
+        border-left: solid 1px rgba(180, 180, 180, .75);
+        border-right: solid 1px rgba(180, 180, 180, .75);
+      }
+      cite {
+        display: block;
+        font-size: .8em;
+        margin-top: 1em;
+        opacity: .8;
+        a {
+          color: $green!important;
+          &:hover {text-decoration: none;}
+        }
+      }
+      p {
+        margin: 0 0 0.5em !important;
+        line-height: 1.5 !important;
+        font-size: 90%;
+      }
+      table {
+        --bs-table-color-type: initial;
+        --bs-table-bg-type: initial;
+        --bs-table-color-state: initial;
+        --bs-table-bg-state: initial;
+        --bs-table-color: var(--bs-body-color);
+        --bs-table-bg: var(--bs-body-bg);
+        --bs-table-border-color: var(--bs-border-color);
+        --bs-table-accent-bg: transparent;
+        --bs-table-striped-color: var(--bs-body-color);
+        --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+        --bs-table-active-color: var(--bs-body-color);
+        --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+        --bs-table-hover-color: var(--bs-body-color);
+        --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+        width: 100%;
+        margin-bottom: 1rem;
+        vertical-align: top;
+        border-color: var(--bs-table-border-color);
+        tbody, td, tfoot, th, thead, tr {
+          border-color: inherit;
+          border-style: solid;
+          border-width: 0;
+        }
+      }
+    }
+    &.category-content h2:first-of-type {
+      margin-top: 0;
+      padding-top: 0;
+    }
+    iframe{
+      max-width: 100%;
+    }
+  }
+  
+
+// 下層下層
+.bg-sub {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 224px;
+  z-index: 0;
+  background-image: url('../../asset/img/bg-sub.png');
+}
+@supports (background-image: url(../../asset/img/bg-sub.webp)) {
+.bg-sub {
+  background-image: url(../../asset/img/bg-sub.webp);
+}
+}
+
+.hero_head{
+    h1{
+      margin-bottom: 1em;
+    }
+  }
+
+.side-tit {
+    font-size: 22px;
+    border-bottom: 2px solid #0AB48D;
+    padding: 0.8rem 0.8rem 0.8rem 0;
+    margin: 0 0 1rem 0;
+    color: #222222 !important;
+}
+
+.rept{
+  p{
+    background:#efefef;
+    padding:20px;
+    border-radius: 10px;
+  }
+}
+
+#ez-toc-container {
+    padding: 30px;
+    width: 100%;
+}

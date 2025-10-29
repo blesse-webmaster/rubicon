@@ -1,0 +1,7 @@
+@media screen and (min-width: 992px) {
+  .bg_gradient_blue::after, .bg_gradient_blue-long::after {
+    height: 37px;
+    bottom: -35%; }
+
+  .bg-building-blue::before, .bg-building-green::before, .bg-building-purple::before {
+    bottom: -65%; } }

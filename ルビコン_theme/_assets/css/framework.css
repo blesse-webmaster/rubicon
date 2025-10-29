@@ -1,0 +1,25 @@
+.bg-fv {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  z-index: 0;
+  background-image: url(../../assets/img/fv.webp);
+}
+
+.no-webp .bg-fv {
+  background-image: url(../../assets/img/fv.jpg);
+}
+
+.bg-sub {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 140px;
+  z-index: 0;
+  background-image: url(../../assets/img/fv.webp);
+}
+
+.no-webp .bg-sub {
+  background-image: url(../../assets/img/fv.jpg);
+}
+
+/*# sourceMappingURL=framework.css.map */
