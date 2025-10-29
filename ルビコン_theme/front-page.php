@@ -1938,6 +1938,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                     </div>
                   </div>
                 </div>
+                
               </div>
               <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
