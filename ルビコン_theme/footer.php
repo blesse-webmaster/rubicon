@@ -12,27 +12,25 @@ $args = array(
 $the_query = new WP_Query($args);
 ?>
 <!-- フッタここから -->
-<footer class="p-0 bg_black">
+<footer class="p-0 bg_sky_blue">
   <div class="container">
-    <div class="p-2 p-lg-5">
-      <div class="row mb-5">
-        <div class="col-12 col-lg-6 mb-3">
-          <div class="mb-3 border-left-white">
-            <p class="m-0 fs-5 fw-bold ps-3 text-white">カテゴリー</p>
-            <hr class="text-white my-2">
+    <div class="py-4 py-lg-5 border-bottom-white-1px">
+      <div class="row mb-lg-2">
+        <div class="col-12 col-lg-5 mb-5">
+          <div class="border-bottom-white-1px">
+            <h3 class="fs-5 fw-bold py-2 mb-0 white">カテゴリー</h3>
           </div>
-          <ul class="nav d-flex flex-column">
+          <ul class="nav d-flex flex-column mt-3">
             <?php foreach ($categories as $category): ?>
-              <li class="nav-item mb-1"><a href="<?= home_url(); ?>/<?php echo $category->slug ?>" class="nav-link text-decoration-none text-white p-0"><?php echo $category->name ?></a></li>
+              <li class="nav-item mb-1"><a href="<?= home_url(); ?>/<?php echo $category->slug ?>" class="nav-link text-decoration-none p-0 white"><?php echo $category->name ?></a></li>
             <?php endforeach; ?>
           </ul>
         </div>
-        <div class="col-12 col-lg-6">
-          <div class="mb-3 border-left-white">
-            <p class="m-0 fs-5 fw-bold ps-3 text-white">アーカイブ</p>
-            <hr class="text-white my-2">
+        <div class="col-12 col-lg-7">
+          <div class="border-bottom-white-1px">
+            <h3 class="fs-5 fw-bold py-2  mb-0 white">アーカイブ</h3>
           </div>
-          <ul class="nav d-flex flex-column">
+          <ul class="nav row mt-3">
             <?php if ($the_query->have_posts()) : ?>
               <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                 <?php if ($year_month != get_the_date('Y.m')) : // 同じ年月でなければ表示 
@@ -40,37 +38,43 @@ $the_query = new WP_Query($args);
                   $year = get_the_date('Y'); // 年の取得
                   $month = get_the_date('m'); // 月の取得
                 ?>
-                  <li class="nav-item mb-1"><a href="<?= home_url(); ?>/<?php echo $year; ?>/<?php echo $month; ?>/" class="nav-link text-decoration-none text-white p-0"><?php echo $year; ?>年<?php echo $month; ?>月</a></li>
+                  <li class="nav-item mb-1 col-6 col-sm-4 col-lg-3"><a href="<?= home_url(); ?>/<?php echo $year; ?>/<?php echo $month; ?>/" class="nav-link text-decoration-none white p-0"><?php echo $year; ?>年<?php echo $month; ?>月</a></li>
                 <?php endif; ?>
               <?php endwhile; ?>
             <?php else : ?>
             <?php endif; ?>
           </ul>
         </div>
+        <div class="col-12 mt-4 mt-lg-5">
+          <div class="border_blue_1px bg-white rounded-pill text-start py-2 px-3 mx-auto">
+            <p class="mb-0 blue f14px">免責事項：当サイトは2025年10月時点の情報をもとに作成しています。最新の情報は必ず、各社の公式サイトをご確認ください。</p>
+          </div>
+        </div>
       </div>
-
-      <hr class="text-white">
-
-      <div class="d-flex flex-column flex-lg-row justify-content-lg-between pt-2">
+    </div>
+  </div>
+  <div class="pb-3">
+    <div class="container">
+      <div class="d-flex flex-column flex-lg-row justify-content-lg-between py-4">
         <ul class="nav">
-          <li class="nav-item mb-2 me-5"><a href="<?= home_url(); ?>/" class="nav-link p-0 text-white">ホーム</a></li>
-          <li class="nav-item mb-2 me-5"><a href="<?= home_url(); ?>/privacypolicy" class="nav-link p-0 text-white">プライバシーポリシー</a></li>
-          <li class="nav-item mb-2 me-5"><a href="<?= home_url(); ?>/profile" class="nav-link p-0 text-white">運営者情報</a></li>
-          <li class="nav-item mb-2 me-5"><a href="<?= home_url(); ?>/sitemap" class="nav-link p-0 text-white">サイトマップ</a></li>
+          <li class="nav-item mb-2 me-3"><a href="<?php echo home_url(); ?>/" class="nav-link p-0 white">HOME</a></li>
+          <li class="nav-item mb-2 me-3"><a href="<?php echo home_url(); ?>/privacypolicy" class="nav-link p-0 white">プライバシーポリシー</a></li>
+          <li class="nav-item mb-2 me-3"><a href="<?php echo home_url(); ?>/profile" class="nav-link p-0 white">運営者情報</a></li>
+          <li class="nav-item mb-2 me-3"><a href="<?php echo home_url(); ?>/sitemap" class="nav-link p-0 white">サイトマップ</a></li>
         </ul>
-        <p class="text-white small">&copy; <?php bloginfo('name'); ?></p>
+        <p class="small white">&copy; Copyright <?php bloginfo('name'); ?> All Rights Reserved.</p>
       </div>
     </div>
   </div>
 </footer>
 <!-- フッタここまで -->
-
 <script src="<?php echo get_theme_file_uri(); ?>/assets/js/jquery.min.js"></script>
 <script>
-  // ページ内遷移位置調整
+  // 内部リンククリック時にハンバーガーメニューを閉じる
   $(function() {
-    $('a[href^="#"]').click(function() {
-      var adjust = -80; //調整値
+    $('a[href^="#"]').on('click', function() {
+      // スクロール処理
+      var adjust = -80;
       var speed = 200;
       var href = $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
@@ -78,7 +82,12 @@ $the_query = new WP_Query($args);
       $('body,html').animate({
         scrollTop: position
       }, speed, 'swing');
-      return false;
+
+      // ハンバーガーメニューが開いている場合は閉じる
+      if ($('.navbar-collapse').hasClass('show')) {
+        $('.navbar-toggler').trigger('click');
+      }
+      return false; // ページ遷移を防ぐ
     });
   });
   // ヘッダー背景変更
@@ -97,10 +106,12 @@ $the_query = new WP_Query($args);
   ham.on('click', function() { //ハンバーガーメニューをクリックしたら
     ham.toggleClass('active'); // ハンバーガーメニューにactiveクラスを付け外し
     nav.toggleClass('active'); // ナビゲーションメニューにactiveクラスを付け外し
+    $('.header-nav').toggleClass('bg-white-on'); // 変更: 背景色専用クラスを付与
   });
-  $('.nav-link').not('.dropdown-item').not('.dropdown-toggle').on('click', function(event) {
+  $('.nav-item').not('.dropdown').on('click', function(event) {
     ham.trigger('click');
   });
+
   // ドロップダウンメニュー以外をクリックしたらメニューが閉じる
   $(document).ready(function() {
     $(document).click(function(event) {
@@ -112,27 +123,37 @@ $the_query = new WP_Query($args);
     });
   });
 
-  // ポップアップ
-  $(document).ready(function() {
-    $('.clickable-image').on('click', function() {
-      var src = $(this).attr('src');
-      $('body').append(
-        '<div class="modal">' +
-        '<span class="close">&times;</span>' +
-        '<img class="modal-content" src="' + src + '">' +
-        '</div>'
-      );
-      $('.modal').fadeIn();
-
-      $('.close').on('click', function() {
-        $('.modal').fadeOut(function() {
-          $(this).remove();
-        });
+  //   フローティングバナー
+  $(function() {
+    $(document).ready(function() {
+      $('.banner-close').click(function() {
+        $(this).parent().hide();
       });
     });
   });
+
+  window.onload = init();
+
+  function init() {
+    const accordion_items = document.querySelectorAll(".accordion_title");
+    for (var i = 0; i < accordion_items.length; i++) {
+      accordion_items[i].addEventListener("click", function() {
+        this.nextElementSibling.classList.toggle("show");
+        this.classList.toggle("active");
+        if (this.classList.contains("active")) {
+          this.nextElementSibling.style.height =
+            // 40は余白分
+            this.nextElementSibling.children[0].clientHeight + 40 + "px";
+        } else {
+          this.nextElementSibling.style.height = 0;
+        }
+      });
+    }
+  }
 </script>
+
 <script async src="<?php echo get_theme_file_uri(); ?>/assets/js/bootstrap.bundle.min.js"></script>
+
 <?php wp_footer(); ?>
 </body>
 
