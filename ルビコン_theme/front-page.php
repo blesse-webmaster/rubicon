@@ -88,7 +88,7 @@ $information = get_posts(array('posts_per_page' => 12,));
   </div>
 
   <div class="py-4 py-lg-5 bg_sky_blue">
-    <div class="container text-center fs-5 white">
+    <div class="container text-lg-center f14px white px-2">
       <p>地域性が強く出る不動産売却では<span class="yellow fw-bold">「会社選び」</span>が最重要課題します。同じ物件でも、<br class="d-none d-lg-block">会社によっては最終的な売却額に100万円以上もの差が出ることもあるのです。</p>
       <p>このメディアでは、不動産売却を成功させるために確認すべき<br class="d-none d-lg-block"><span class="yellow fw-bold">「会社選びの重要ポイント」</span>をわかりやすく解説します。</p>
       <p class="mb-0">地域密着・大手のメリットデメリットをしっかり見極めて、<br class="d-none d-lg-block">あなたにピッタリの相談先を見つけてください。</p>
@@ -152,7 +152,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                       <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                     </picture>
                   </a>
-                  <a href="" class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
+                  <a href="<?php echo home_url() ?>/corporate/a001/" class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
                     ルビコンの<br>口コミ・評判記事はこちら！
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -204,7 +204,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                       <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                     </picture>
                   </a>
-                  <a href="" class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
+                  <a href="<?php echo home_url() ?>/corporate/a002/" class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
                     東急リバブルの<br>口コミ・評判記事はこちら！
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -254,7 +254,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                       <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                     </picture>
                   </a>
-                  <a href="" class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
+                  <a href="<?php echo home_url() ?>/corporate/a003/" class="btn bg_sky_blue text-white fw-bold py-2 shadow position-relative">
                     すみふの仲介ステップの<br>口コミ・評判記事はこちら！
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -806,7 +806,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
               </picture>
             </a>
-            <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+            <a href="<?php echo home_url() ?>/corporate/a001/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
               ルビコンの<br>口コミ・評判記事はこちら！
               <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -863,7 +863,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
             </picture>
           </a>
-          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+          <a href="<?php echo home_url() ?>/corporate/a001/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
             ルビコンの<br>口コミ・評判記事はこちら！
             <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -980,7 +980,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
             </picture>
           </a>
-          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+          <a href="<?php echo home_url() ?>/corporate/a001/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
             ルビコンの<br>口コミ・評判記事はこちら！
             <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1067,7 +1067,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
               </picture>
             </a>
-            <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+            <a href="<?php echo home_url() ?>/corporate/a002/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
               東急リバブルの<br>口コミ・評判記事はこちら！
               <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1124,7 +1124,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
             </picture>
           </a>
-          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+          <a href="<?php echo home_url() ?>/corporate/a002/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
             東急リバブルの<br>口コミ・評判記事はこちら！
             <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1241,7 +1241,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
             </picture>
           </a>
-          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+          <a href="<?php echo home_url() ?>/corporate/a002/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
             東急リバブルの<br>口コミ・評判記事はこちら！
             <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1314,7 +1314,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
               </picture>
             </a>
-            <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+            <a href="<?php echo home_url() ?>/corporate/a003/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
               すみふの仲介ステップの<br>口コミ・評判記事はこちら！
               <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1376,7 +1376,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
             </picture>
           </a>
-          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+          <a href="<?php echo home_url() ?>/corporate/a003/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
             すみふの仲介ステップの<br>口コミ・評判記事はこちら！
             <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1492,7 +1492,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
             </picture>
           </a>
-          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
+          <a href="<?php echo home_url() ?>/corporate/a003/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-center">
             すみふの仲介ステップの<br>口コミ・評判記事はこちら！
             <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1564,9 +1564,9 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <div class="text-center">
                   <p class="fw-bold d-flex align-items-center justify-content-center mb-0">
                     <span class="bg-warning text-black px-3 py-1 me-3 fw-bold f12px">PR</span>
-                    <span class="fs-3">大阪市北区／中崎町・天六周辺の不動産売却なら</span>
+                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺<br class="d-block d-lg-none">の不動産売却なら</span>
                   </p>
-                  <p class="mt-0 fs-3 fw-bold">築古・連棟など難物件のご相談も!</p>
+                  <p class="mt-0 fs-3 fw-bold fs-sm-18px">築古・連棟など難物件のご相談も!</p>
                 </div>
               </div>
 
@@ -1695,7 +1695,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6136-3604</span></dt>
                 <div class="text-start col-md-7 mt-1 mt-md-2">
-                  <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                  <a href="<?php echo home_url() ?>/corporate/a001/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1722,7 +1722,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-109-635</span></dt>
                 <div class="text-start col-md-7 mt-1 mt-md-2">
-                  <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                  <a href="<?php echo home_url() ?>/corporate/a002/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1749,7 +1749,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-051-232</span></dt>
                 <div class="text-start col-md-7 mt-1 mt-md-2">
-                  <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                  <a href="<?php echo home_url() ?>/corporate/a003/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1778,7 +1778,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-760-021</span></dt>
                 <div class="text-start col-md-7 mt-1 mt-md-2">
-                  <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                  <a href="<?php echo home_url() ?>/corporate/a005/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1804,7 +1804,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               </dl>
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-760-021</span></dt>
-                <div class="text-start col-md-7 mt-1 mt-md-2">
+                <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
                   <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
@@ -1812,9 +1812,9 @@ $information = get_posts(array('posts_per_page' => 12,));
                       <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                     </picture>
                   </a>
-                </div>
+                </div> -->
               </dl>
-              <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.301792185063!2d135.49265237554604!3d34.69756727292076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7fac0fcc9cd%3A0xe90586b2016cd8a9!2z44K744Oz44OB44Ol44Oq44O8MjHjg5fjg6njgqbjg4fjgrnjg4jjg6zjgrjjg4fjg7PjgrnloILls7Y!5e0!3m2!1sja!2sjp!4v1760093954190!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.301792185063!2d135.49265237554604!3d34.69756727292076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f2ce1d5593%3A0xf4e2cd0ba5e5bdc!2zKOagqinnpo_lsYvkuI3li5XnlKPosqnlo7Ig5aSn6Ziq6aeF5YmN5bqX!5e0!3m2!1sja!2sjp!4v1760093963057!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
@@ -1832,7 +1832,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <dl class="row">
                 <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4801-8868</span></dt>
                 <div class="text-start col-md-7 mt-1 mt-md-2">
-                  <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                  <a href="<?php echo home_url() ?>/corporate/a004/" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
                     記事で詳しく見る
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
@@ -1846,156 +1846,127 @@ $information = get_posts(array('posts_per_page' => 12,));
           </div>
         </div>
       </div>
+      
       <div class="accordion mb-4" id="subsidyAccordion02">
         <div class="accordion-item  border-0 bg-transparent">
           <p class="d-flex justify-content-center" id="headingSubsidy02">
-            <button class="accordion-button collapsed fs-5 custom-accordion-btn custom-accordion-btn02 bg_light_blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubsidy02" aria-expanded="false" aria-controls="collapseSubsidy02">
-              もっと見る
-            </button>
+              <button class="accordion-button collapsed fs-5 custom-accordion-btn custom-accordion-btn02 bg_light_blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSubsidy02" aria-expanded="false" aria-controls="collapseSubsidy02">
+                  もっとみる
+              </button>
           </p>
           <div id="collapseSubsidy02" class="accordion-collapse collapse" aria-labelledby="headingSubsidy02" data-bs-parent="#subsidyAccordion02">
             <div class="accordion-body">
 
-              <div class="row box-parent">
-                <div class="col-12 col-lg-4 d-flex box-child mb-3">
-                  <div class="box-child-text border_blue_2px w-100">
-                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-                      <h3 class="fs-6 fw-bold  m-0 col-11">三井のリハウス 梅田センター三井不動産リアルティ株式会社</h3>
-                    </div>
-                    <div class="p-3 f13px">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却査定・購入相談に対応。豊富な実績とノウハウ、独自のネットワークを活かし、専属の担当者が一貫して売却をサポートします。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒530-0057<br>大阪府大阪市北区曽根崎2-12-7 清和梅田ビル19F</dd>
-                      </dl>
-                      <dl class="row">
-                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-3815-31</span></dt>
-                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
-                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
-                            記事で詳しく見る
-                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
-                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
-                            </picture>
-                          </a>
-                        </div> -->
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2338781495678!2d135.49256762554606!3d34.699280522920226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed006d84ad%3A0x6808b543321ccb7b!2z5LiJ5LqV44Gu44Oq44OP44Km44K5IOaiheeUsOOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1760093987896!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child mb-3">
-                  <div class="box-child-text border_blue_2px w-100">
-                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-                      <h3 class="fs-6 fw-bold  m-0 col-11">ジョージ不動産<br>株式会社WWW</h3>
-                    </div>
-                    <div class="p-3 f13px">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介、買取、リフォーム、賃貸、管理など、不動産全般の幅広いサービスを展開。物件の潜在的な価値を引き出し、お客様のニーズに合わせた提案を行います。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒530-0044<br>大阪府大阪市北区東天満1-11-13 AXIS南森町ビル703</dd>
-                      </dl>
-                      <dl class="row">
-                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4800-7113</span></dt>
-                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
-                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
-                            記事で詳しく見る
-                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
-                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
-                            </picture>
-                          </a>
-                        </div> -->
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3233282399747!2d135.51153517554613!3d34.697023972921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7324bcee1b1%3A0x3d6372141fa0a646!2z5qCq5byP5Lya56S-V1dXL-OCuOODp-ODvOOCuOS4jeWLleeUow!5e0!3m2!1sja!2sjp!4v1760093998419!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="row mb-5 g-3 g-lg-3 box-parent">
+
+                  <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                    <div class="box-child-text border_blue_2px w-100">
+                      <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                        <h3 class="fs-6 fw-bold  m-0 col-11">三井のリハウス 梅田センター<br>三井不動産リアルティ株式会社</h3>
+                      </div>
+                      <div class="p-3 f13px">
+                        <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却査定・購入相談に対応。豊富な実績とノウハウ、独自のネットワークを活かし、専属の担当者が一貫して売却をサポートします。</p>
+                        <dl class="mb-3">
+                          <dt class="black fw-bold">所在地</dt>
+                          <dd class="height-40-lg">〒530-0057<br>大阪府大阪市北区曽根崎2-12-7 清和梅田ビル19F</dd>
+                        </dl>
+                        <dl class="row">
+                          <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0120-3815-31</span></dt>
+                          <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
+                            <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
+                              記事で詳しく見る
+                              <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
+                                <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
+                                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
+                              </picture>
+                            </a>
+                          </div> -->
+                        </dl>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2338781495678!2d135.49256762554606!3d34.699280522920226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed006d84ad%3A0x6808b543321ccb7b!2z5LiJ5LqV44Gu44Oq44OP44Km44K5IOaiheeUsOOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1760093987896!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child mb-3">
-                  <div class="box-child-text border_blue_2px w-100">
-                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-                      <h3 class="fs-6 fw-bold  m-0 col-11">三菱UFJ不動産販売株式会社 梅田第1センター</h3>
-                    </div>
-                    <div class="p-3 f13px">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産売却を専門とし、オンラインでの無料売却査定を提供。全国の店舗連携と、お客様の物件情報と購入希望者をマッチングさせる仲介サービスで早期売却を目指します。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒530-0017<br>大阪府大阪市北区角田町8-1 大阪梅田ツインタワーズ・ノース29F</dd>
-                      </dl>
-                      <dl class="row">
-                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0800-814-3865</span></dt>
-                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
-                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
-                            記事で詳しく見る
-                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
-                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
-                            </picture>
-                          </a> -->
-                        </div>
-                      </dl>
-                      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.093666475637!2d135.49595767554615!3d34.70281737291894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6940ef302bb%3A0x7baa58fd734127ab!2z5LiJ6I-x77y177ym77yq5LiN5YuV55Sj6LKp5aOyIOaiheeUsOesrO-8keOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1760094007574!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                  <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                    <div class="box-child-text border_blue_2px w-100">
+                      <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                        <h3 class="fs-6 fw-bold  m-0 col-11">ジョージ不動産<br>株式会社WWW</h3>
+                      </div>
+                      <div class="p-3 f13px">
+                        <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買仲介、買取、リフォーム、賃貸、管理など、不動産全般の幅広いサービスを展開。物件の潜在的な価値を引き出し、お客様のニーズに合わせた提案を行います。</p>
+                        <dl class="mb-3">
+                          <dt class="black fw-bold">所在地</dt>
+                          <dd class="height-40-lg">〒530-0044<br>大阪府大阪市北区東天満1-11-13 AXIS南森町ビル703</dd>
+                        </dl>
+                        <dl class="row">
+                          <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4800-7113</span></dt>
+
+                        </dl>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3233282399747!2d135.51153517554613!3d34.697023972921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7324bcee1b1%3A0x3d6372141fa0a646!2z5qCq5byP5Lya56S-V1dXL-OCuOODp-ODvOOCuOS4jeWLleeUow!5e0!3m2!1sja!2sjp!4v1760093998419!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
                     </div>
                   </div>
-                </div>
-                
-              </div>
-              <div class="row box-parent">
-                <div class="col-12 col-lg-4 d-flex box-child mb-3">
-                  <div class="box-child-text border_blue_2px w-100">
-                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-                      <h3 class="fs-6 fw-bold  m-0 col-11">暮らしの相談室 中崎町店<br>株式会社オーシャンズプロデュース</h3>
-                    </div>
-                    <div class="p-3 f13px">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買、賃貸、管理、買取、リフォームなど、住まいの総合的なサービスを提供。お客様のライフスタイルや将来設計に合わせた最適な提案を目指し、無料相談・査定を受け付けています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒530-0016<br>大阪府大阪市北区中崎2-2-7 ナカガミビル1F</dd>
-                      </dl>
-                      <dl class="row">
-                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4802-0077</span></dt>
-                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
-                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
-                            記事で詳しく見る
-                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
-                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
-                            </picture>
-                          </a>
-                        </div> -->
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13120.37473890969!2d135.48823285645722!3d34.702816912536804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7dab46f540b%3A0xdfbcca0619aa7a54!2z5qCq5byP5Lya56S-44Kq44O844K344Oj44Oz44K644OX44Ot44OH44Ol44O844K5!5e0!3m2!1sja!2sjp!4v1760094021292!5m2!1sja!2sjp"  width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                  <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                    <div class="box-child-text border_blue_2px w-100">
+                      <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                        <h3 class="fs-6 fw-bold  m-0 col-11">三菱UFJ不動産販売株式会社 梅田第1センター</h3>
+                      </div>
+                      <div class="p-3 f13px">
+                        <p class="pb-2 mb-2 height-70 height-80-lg">不動産売却を専門とし、オンラインでの無料売却査定を提供。全国の店舗連携と、お客様の物件情報と購入希望者をマッチングさせる仲介サービスで早期売却を目指します。</p>
+                        <dl class="mb-3">
+                          <dt class="black fw-bold">所在地</dt>
+                          <dd class="height-40-lg">〒530-0017<br>大阪府大阪市北区角田町8-1 大阪梅田ツインタワーズ・ノース29F</dd>
+                        </dl>
+                        <dl class="row">
+                          <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">0800-814-3865</span></dt>
+
+                        </dl>
+                        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.093666475637!2d135.49595767554615!3d34.70281737291894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6940ef302bb%3A0x7baa58fd734127ab!2z5LiJ6I-x77y177ym77yq5LiN5YuV55Sj6LKp5aOyIOaiheeUsOesrO-8keOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1760094007574!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child mb-3">
-                  <div class="box-child-text border_blue_2px w-100">
-                    <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
-                      <h3 class="fs-6 fw-bold  m-0 col-11">株式会社HOUSE・FRONT</h3>
-                    </div>
-                    <div class="p-3 f13px">
-                      <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却に特化し、無料査定から対応。独自のネットワークや多岐にわたる広告活動で、スムーズな早期売却を目指します。不動産の買取りにも対応し、無料相談を受け付けています。</p>
-                      <dl class="mb-3">
-                        <dt class="black fw-bold">所在地</dt>
-                        <dd class="height-40-lg">〒530-0021<br>大阪府大阪市北区浮田1-6-10</dd>
-                      </dl>
-                      <dl class="row">
-                        <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6486-0050</span></dt>
-                        <!-- <div class="text-start col-md-7 mt-1 mt-md-2">
-                          <a href="" class="btn max-w-348 w-100 btn-arrow bg_sky_blue white position-relative hover-reverse-oapcity py-2 fw-bold text-start text-decoration-none f14px" style="width:180px;">
-                            記事で詳しく見る
-                            <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
-                              <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
-                              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
-                            </picture>
-                          </a>
-                        </div> -->
-                      </dl>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.874458737138!2d135.5048701755465!3d34.70834627291696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e79f60d1e9cb%3A0xd7269e1cbb03463a!2z5qCq5byP5Lya56S-SE9VU0Xjg7sgRlJPTlQg44OP44Km44K544OV44Ot44Oz44OI!5e0!3m2!1sja!2sjp!4v1760094031134!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                  <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                    <div class="box-child-text border_blue_2px w-100">
+                      <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                        <h3 class="fs-6 fw-bold  m-0 col-11">暮らしの相談室 中崎町店<br>株式会社オーシャンズプロデュース</h3>
+                      </div>
+                      <div class="p-3 f13px">
+                        <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売買、賃貸、管理、買取、リフォームなど、住まいの総合的なサービスを提供。お客様のライフスタイルや将来設計に合わせた最適な提案を目指し、無料相談・査定を受け付けています。</p>
+                        <dl class="mb-3">
+                          <dt class="black fw-bold">所在地</dt>
+                          <dd class="height-40-lg">〒530-0016<br>大阪府大阪市北区中崎2-2-7 ナカガミビル1F</dd>
+                        </dl>
+                        <dl class="row">
+                          <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-4802-0077</span>
+                          </dt>
+                        </dl>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13120.37473890969!2d135.48823285645722!3d34.702816912536804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7dab46f540b%3A0xdfbcca0619aa7a54!2z5qCq5byP5Lya56S-44Kq44O844K344Oj44Oz44K644OX44Ot44OH44Ol44O844K5!5e0!3m2!1sja!2sjp!4v1760094021292!5m2!1sja!2sjp"  width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-12 col-lg-4 d-flex box-child mb-3">
+
+                  <div class="col-12 col-lg-4 d-flex box-child mb-3">
+                    <div class="box-child-text border_blue_2px w-100">
+                      <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
+                        <h3 class="fs-6 fw-bold  m-0 col-11">株式会社HOUSE・FRONT</h3>
+                      </div>
+                      <div class="p-3 f13px">
+                        <p class="pb-2 mb-2 height-70 height-80-lg">不動産の売却に特化し、無料査定から対応。独自のネットワークや多岐にわたる広告活動で、スムーズな早期売却を目指します。不動産の買取りにも対応し、無料相談を受け付けています。</p>
+                        <dl class="mb-3">
+                          <dt class="black fw-bold">所在地</dt>
+                          <dd class="height-40-lg">〒530-0021<br>大阪府大阪市北区浮田1-6-10</dd>
+                        </dl>
+                        <dl class="row">
+                          <dt class="mb-1 position-relative col-md-5 lh-lg"><span class="fw-bold pe-3 position-relative z-2">電話番号</span><br><span class="fw-normal">06-6486-0050</span></dt>
+                        </dl>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.874458737138!2d135.5048701755465!3d34.70834627291696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e79f60d1e9cb%3A0xd7269e1cbb03463a!2z5qCq5byP5Lya56S-SE9VU0Xjg7sgRlJPTlQg44OP44Km44K544OV44Ot44Oz44OI!5e0!3m2!1sja!2sjp!4v1760094031134!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
                       <h3 class="fs-6 fw-bold  m-0 col-11">ウィル不動産販売 本町営業所<br>株式会社ウィル</h3>
@@ -2015,15 +1986,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.853284633904!2d135.5059720755454!3d34.68365217292571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e788c40c6803%3A0x7dd56fb85207dc73!2z44Km44Kj44Or5LiN5YuV55Sj6LKp5aOyIOacrOeUuuWWtualreaJgA!5e0!3m2!1sja!2sjp!4v1760094044729!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2098,15 +2067,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13125.428418197676!2d135.48945830643373!3d34.67093566274092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7f3ab61ef3b%3A0x6bba37c02ac6e212!2z5qCq5byP5Lya56S-44Ki44K744OD44OI44Oe44ON44K444Oh44Oz44OI!5e0!3m2!1sja!2sjp!4v1760094082111!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2181,15 +2148,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.0243696983302!2d135.49636337554628!3d34.70456527291841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e693784d794f%3A0xc3dc4f59c775d883!2z6Ziq5oCl6Ziq56We44Gu5Luy5LuLIOWkp-mYquaiheeUsOWWtualreaJgCDlpKfpmKrnrKwx44OB44O844Og!5e0!3m2!1sja!2sjp!4v1760094119700!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2264,15 +2229,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.279883217677!2d135.50409547554597!3d34.69811997292061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c49f35fd19%3A0x3ccd6988ee4bb6ed!2z5LiJ5ZKM6YCa55Sj5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1760094162294!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2347,15 +2310,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.13228405983!2d135.50711617554614!3d34.70184327291934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c1662639b7%3A0x6d427ef1fb4e0bfc!2z77yI5qCq77yJ5aSp5rqA5LiN5YuV55SjL-WMl-WMuuWwgumWgA!5e0!3m2!1sja!2sjp!4v1760094273266!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2430,15 +2391,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.2094291716444!2d135.49625187554622!3d34.69989727292004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6ed225be993%3A0x5721f0c895eadc9b!2z5LiN5YuV55Sj5aOy6LK344O76LOD6LK444Gu5pel5L2P44K144O844OT44K5IOWkp-mYquaiheeUsCDlupc!5e0!3m2!1sja!2sjp!4v1760094293414!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2513,15 +2472,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.305823528657!2d135.5054488755459!3d34.69746557292083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e773347f39c5%3A0xb5c4c0b0fa7ba504!2z5p2-5ZKM5L2P5bu65qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1760094364587!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2596,15 +2553,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.32257509744!2d135.509633075546!3d34.69704297292098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6db4004497b%3A0x9f4cccd0bf3f8e6f!2z77yI5qCq77yJ44Ko44Og44K644OX44Os44Kk44K5!5e0!3m2!1sja!2sjp!4v1760094428824!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2679,15 +2634,13 @@ $information = get_posts(array('posts_per_page' => 12,));
                               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.webp">
                               <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-blue.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
                             </picture>
-                          </a> -->
-                        </div>
+                          </a>
+                        </div> -->
                       </dl>
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.25206350278!2d135.49346747554608!3d34.698821772920354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f2b745ca89%3A0x3cfc9cb17fd3affb!2z5p2x5ZWG44OP44Km44K55aSn6Ziq6aeF5YmN5bqX!5e0!3m2!1sja!2sjp!4v1760094457783!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row box-parent">
                 <div class="col-12 col-lg-4 d-flex box-child mb-3">
                   <div class="box-child-text border_blue_2px w-100">
                     <div class="bg_sky_blue fw-bold text-white px-2 height-70 d-flex align-items-center">
@@ -2742,13 +2695,17 @@ $information = get_posts(array('posts_per_page' => 12,));
                     </div>
                   </div>
                 </div>
-
+                  
               </div>
-
+            
             </div>
           </div>
         </div>
       </div>
+
+
+
+
 
       <div class="text-center mb-5 col-12 col-lg-8 mx-auto">
         <a href="/"

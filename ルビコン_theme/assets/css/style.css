@@ -286,6 +286,10 @@
   height: 100px;
 }
 
+.height-150 {
+  height: 150px;
+}
+
 .border_solid_1 {
   border-top: 1px solid #C1A342;
 }
@@ -586,5 +590,10 @@
   }
   .comparison-table .w35-25 {
     width: auto !important;
+  }
+}
+@media (max-width: 991px) {
+  .fs-sm-18px {
+    font-size: 18px !important;
   }
 }/*# sourceMappingURL=style.css.map */

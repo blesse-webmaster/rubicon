@@ -1,4 +1,10 @@
 @charset "UTF-8";
 @media screen and (min-width: 992px) {
+  .height-40-lg {
+    height: 40px !important;
+  }
+  .height-80-lg {
+    height: 80px !important;
+  }
   /*高さ*/
 }/*# sourceMappingURL=style.css.map */
