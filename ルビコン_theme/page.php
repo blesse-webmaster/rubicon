@@ -39,7 +39,7 @@ get_header();
           <a href="<?php echo home_url(); ?>" class="d-none d-lg-block">
             <picture>
               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/banner_bottom.webp">
-              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/banner_bottom.png" alt="マンション駐輪場の改修・リニューアルガイド" class="img-fluid" loading="lazy"
+              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/banner_bottom.png" alt="知名度だけで不動産会社を選ぶと100万円以上損するかも！！" class="img-fluid" loading="lazy"
                 width="1098" height="259">
             </picture>
           </a>

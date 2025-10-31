@@ -588,12 +588,12 @@
   .comparison-table .text-nowrap {
     white-space: normal !important;
   }
-  .comparison-table .w35-25 {
-    width: auto !important;
-  }
 }
 @media (max-width: 991px) {
   .fs-sm-18px {
     font-size: 18px !important;
   }
+}
+.comparison-table .w35-25 {
+  width: 25% !important;
 }/*# sourceMappingURL=style.css.map */

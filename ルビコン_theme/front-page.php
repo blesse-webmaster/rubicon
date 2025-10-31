@@ -24,8 +24,8 @@ $information = get_posts(array('posts_per_page' => 12,));
 
           <!-- 説明文 -->
           <div class="bg_light_beige rounded-pill px-4 py-2 mb-4 text-center fv_subTitle">
-            <p class="blue mb-0">「不動産売却は大手に任せれば安心」「名前を知っているから」</p>
-            <p class="blue mb-0">そんな理由だけで不動産会社を選んでいませんか</p>
+            <p class="blue mb-0">「不動産売却は大手に任せれば安心」<br class="d-block d-lg-none">「名前を知っているから」</p>
+            <p class="blue mb-0">そんな理由だけで不動産会社を<br class="d-block d-lg-none">選んでいませんか</p>
           </div>
 
           <!-- 詳細説明 -->
@@ -290,7 +290,7 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="row">
         <!-- ポイント01 -->
         <div class="col-12 col-lg-4 mb-4 mb-lg-0">
-          <div class="h-100 bg-white p-4">
+          <div class="h-100 bg-white py-4 px-2">
             <!-- ポイント番号 -->
             <div class="text-center mb-3">
               <span class="text-muted">ポイント</span>
@@ -324,7 +324,7 @@ $information = get_posts(array('posts_per_page' => 12,));
 
         <!-- ポイント02 -->
         <div class="col-12 col-lg-4 mb-4 mb-lg-0">
-          <div class="h-100 bg-white p-4">
+          <div class="h-100 bg-white py-4 px-2">
             <!-- ポイント番号 -->
             <div class="text-center mb-3">
               <span class="text-muted">ポイント</span>
@@ -358,7 +358,7 @@ $information = get_posts(array('posts_per_page' => 12,));
 
         <!-- ポイント03 -->
         <div class="col-12 col-lg-4">
-          <div class="h-100 bg-white p-4">
+          <div class="h-100 bg-white py-4 px-2">
             <!-- ポイント番号 -->
             <div class="text-center mb-3">
               <span class="text-muted">ポイント</span>
@@ -438,7 +438,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <ul class="list-unstyled">
               <li class="mb-2">• 全国的なネットワークや実績件数における安心感</li>
               <li class="mb-2">• 転勤・住み替えなど広域展開ニーズへの対応力</li>
-              <li class="mb-2">• 社内システム（AI化など）・オペレーションが整備されている</li>
+              <li class="mb-2">• 社内システム（AI化など）・オペレーションが<br class="d-none d-lg-block">整備されている</li>
             </ul>
           </div>
         </div>
@@ -464,7 +464,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <div class="d-flex align-items-center">
                 <picture class="me-2">
                   <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
                 </picture>
                 <p class="m-0 fw-bold">「高く売れる買主に届く」売却戦略が取れる</p>
               </div>
@@ -473,7 +473,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <div class="d-flex align-items-center">
                 <picture class="me-2">
                   <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
                 </picture>
                 <p class="m-0 fw-bold">価格の"根拠説明"が丁寧かつ納得感がある</p>
               </div>
@@ -482,7 +482,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <div class="d-flex align-items-center">
                 <picture class="me-2">
                   <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.webp">
-                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover w-100" height="28" width="28">
+                  <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_check_black.png" loading="lazy" alt="チェックアイコン" class="object-fit-cover" height="28" width="28">
                 </picture>
                 <p class="m-0 fw-bold">相談時点で「エリア×物件タイプ」の成約傾向を示してくれる</p>
               </div>
@@ -506,9 +506,9 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <div class="text-center">
                   <p class="fw-bold d-flex align-items-center justify-content-center mb-0">
                     <span class="bg-warning text-black px-3 py-1 me-lg-3 fw-bold f12px">PR</span>
-                    <span class="fs-3">大阪市北区／中崎町・<br class="d-block d-lg-none">天六周辺の<br class="d-block d-lg-none">不動産売却なら</span>
+                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺の<br class="d-block d-lg-none">不動産売却なら</span>
                   </p>
-                  <p class="mt-0 fs-3 fw-bold">築古・連棟など難物件の<br class="d-block d-lg-none">ご相談も!</p>
+                  <p class="mt-0 fs-3 fw-bold fs-sm-18px">築古・連棟など難物件のご相談も!</p>
                 </div>
               </div>
 
@@ -632,7 +632,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                     <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_batu_black.png" loading="lazy" alt="バツアイコン" class="object-fit-cover" height="28" width="28">
                   </picture>
                 </div>
-                <p class="small text-muted mb-0">相場よりも低くなりがち（再販利益を見込んだ価格設定）</p>
+                <p class="small text-muted mb-0">相場よりも低くなりがち<br class="d-block d-lg-none">（再販利益を見込んだ価格設定）</p>
               </div>
 
               <!-- 売却までのスピード -->
@@ -744,7 +744,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         <!-- 特徴グリッド -->
         <div class="row mb-5 justify-content-center">
           <!-- 特徴1: 中崎町・天六エリアに特化 -->
-          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-3">
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/rubi-img01.webp">
@@ -770,20 +770,20 @@ $information = get_posts(array('posts_per_page' => 12,));
           </div>
 
           <!-- 特徴3: 弁護士・税理士と主業と連携し、法的に複雑なケースも無料相談可能 -->
-          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-3">
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/rubi-img03.webp">
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/rubi-img03.png" loading="lazy" alt="弁護士・税理士と主業と連携" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px d-flex align-items-center">
-                <p class="m-0">弁護士・税理士などと主業と連携し、法的に複雑なケースも無料相談可能。</p>
+                <p class="m-0">弁護士・税理士などと主業と連携し、法的に複雑なケースも<br class="d-none d-lg-block">無料相談可能。</p>
               </div>
             </div>
           </div>
 
           <!-- 特徴4: 専任担当制で、最初から最後まで同じ担当が対応 -->
-          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-3">
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/rubi-img04.webp">
@@ -799,7 +799,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         <!-- CTAボタンエリア -->
         <div class="px-lg-5 mt-0 mt-lg-4">
           <div class="d-flex flex-column flex-md-row justify-content-center w-100 px-3 px-lg-5 gap-5">
-            <a href="https://www.rubi.co.jp/inquiry.php" class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center" role="button" target="_blank" rel="nofollow">
+            <a href="https://www.rubi.co.jp/inquiry.php" class="btn max-w-348 w-100 btn-arrow bg_red white position-relative hover-reverse-oapcity py-2 fw-bold text-center" role="button" target="_blank">
               不動産売却について<br>ルビコンにお問い合わせ
               <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.webp">
@@ -878,7 +878,7 @@ $information = get_posts(array('posts_per_page' => 12,));
       <!-- 口コミコンテンツ -->
       <div class="row mb-5">
         <!-- 口コミ01 -->
-        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
           <div class="bg_light-gray p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -909,7 +909,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
 
         <!-- 口コミ02 -->
-        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
           <div class="bg_light_blue p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -1009,7 +1009,7 @@ $information = get_posts(array('posts_per_page' => 12,));
 
         <!-- 特徴グリッド -->
         <div class="row mb-5 justify-content-center">
-          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-3">
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img01.webp">
@@ -1020,31 +1020,31 @@ $information = get_posts(array('posts_per_page' => 12,));
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-3">
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img02.webp">
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img02.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
-                <p>全国に226店舗展開（2025年5月25日時点）、大阪市内にも複数拠点あり。</p>
+                <p>全国に226店舗展開（2025年5月25日時点）、大阪市内にも<br class="d-none d-lg-block">複数拠点あり。</p>
               </div>
             </div>
           </div>
 
           <!-- 特徴3: 弁護士・税理士と主業と連携し、法的に複雑なケースも無料相談可能 -->
-          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-3">
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img03.webp">
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img03.png" loading="lazy" alt="弁護士・税理士と主業と連携" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
-                <p>ポータルサイトや自社ネットワークなど、多彩な広告手法で早期売却を支援。</p>
+                <p>ポータルサイトや自社ネットワークなど、多彩な広告手法で<br class="d-none d-lg-block">早期売却を支援。</p>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-3">
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img04.webp">
@@ -1139,7 +1139,7 @@ $information = get_posts(array('posts_per_page' => 12,));
       <!-- 口コミコンテンツ -->
       <div class="row mb-5">
         <!-- 口コミ01 -->
-        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
           <div class="bg-light p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -1159,7 +1159,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <!-- 口コミ内容 -->
             <div class="small lh-base mb-5">
               <p class="mb-3">最初２社で検討しておりましたが、当方の事情をしっかり汲み取ってくださり、最適な提案をしてくれたことで、取引を決めさせていただきました。</p>
-              <p class="mb-0">その後こちらの事情が変わった時も、それに合わせて対応いただき感謝しております。ありがとうございました。</p>
+              <p class="pb-3">その後こちらの事情が変わった時も、それに合わせて対応いただき感謝しております。ありがとうございました。</p>
             </div>
 
             <!-- 引用元 -->
@@ -1170,7 +1170,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
 
         <!-- 口コミ02 -->
-        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
           <div class="bg-primary-subtle p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -1190,7 +1190,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <!-- 口コミ内容 -->
             <div class="small lh-base mb-5">
               <p class="mb-3">査定依頼をしてから、契約、引き渡しまで迅速に対応していただき、スムーズに売却することができて感謝しています。</p>
-              <p class="mb-0">担当者さんの一つ一つの物件に熱意を以て接する様子に安心感が持てました。ありがとうございました。</p>
+              <p class="pb-3">担当者さんの一つ一つの物件に熱意を以て接する様子に安心感が持てました。ありがとうございました。</p>
             </div>
 
             <!-- 引用元 -->
@@ -1221,11 +1221,11 @@ $information = get_posts(array('posts_per_page' => 12,));
             <!-- 口コミ内容 -->
             <div class="small lh-base mb-5">
               <p class="mb-3">担当者の方が終始丁寧かつ迅速に対応してくださり、安心して取引を進めることができました。不安もありましたが、質問にもすぐ答えてもらえたので助かりました。</p>
-              <p class="mb-0">他社とも比較しましたが、提案内容や説明のわかりやすさは東急リバブルさんが一番でした。今後も知人に相談された際には紹介したいと思います。</p>
+              <p class="pb-3">他社とも比較しましたが、提案内容や説明のわかりやすさは東急リバブルさんが一番でした。今後も知人に相談された際には紹介したいと思います。</p>
             </div>
 
             <!-- 引用元 -->
-            <div class="position-absolute end-0 bottom-0 ps-4 pb-3 me-4">
+            <div class="position-absolute end-0 bottom-0 ps-4 pb-3 me-4 pt-3">
               <p class="text-muted">引用元：<a href="https://www.livable.co.jp/branch/umeda/reviews/" target="_blank" rel="nofollow" class="text-darkmb-0">東急リバブル株式会社 梅田センター</a></p>
             </div>
           </div>
@@ -1276,7 +1276,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
-                <p>全国規模のブランド力と50年以上の業界実績。</p>
+                <p>全国規模のブランド力と50年以上の<br class="d-none d-lg-block">業界実績。</p>
               </div>
             </div>
           </div>
@@ -1287,7 +1287,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img02.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
-                <p>売却サポートから税金・相続までワンストップで対応可能。</p>
+                <p>売却サポートから税金・相続まで<br class="d-none d-lg-block">ワンストップで対応可能。</p>
               </div>
             </div>
           </div>
@@ -1298,7 +1298,7 @@ $information = get_posts(array('posts_per_page' => 12,));
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img03.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
-                <p>建物検査や設備保証など、売却後の買主への安心感も支援。</p>
+                <p>建物検査や設備保証など、売却後の<br class="d-none d-lg-block">買主への安心感も支援。</p>
               </div>
             </div>
           </div>
@@ -1391,7 +1391,7 @@ $information = get_posts(array('posts_per_page' => 12,));
       <!-- 口コミコンテンツ -->
       <div class="row mb-5">
         <!-- 口コミ01 -->
-        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
           <div class="bg-light p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -1422,7 +1422,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
 
         <!-- 口コミ02 -->
-        <div class="col-12 col-lg-4 mb-4 mb-lg-5">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
           <div class="bg-primary-subtle p-4 h-100 position-relative">
             <!-- 口コミテキスト -->
             <div>
@@ -1529,20 +1529,20 @@ $information = get_posts(array('posts_per_page' => 12,));
               <tbody>
                 <tr>
                   <td class="text-center py-4 bg-white">
-                    <span class="h2 fw-bold text-danger">5,980</span><span class="fs-5 text-danger fw-bold">万円</span>
+                    <span class="h2 fw-bold text-danger">5,980</span><br class="d-block d-md-none"><span class="fs-5 text-danger fw-bold">万円</span>
                   </td>
                   <td class="text-center py-4 bg_light-gray">
-                    <span class="h2 fw-bold text-danger">6,124</span><span class="fs-5 text-danger fw-bold">万円</span>
+                    <span class="h2 fw-bold text-danger">6,124</span><br class="d-block d-md-none"><span class="fs-5 text-danger fw-bold">万円</span>
                   </td>
                   <td class="text-center py-4 bg-white">
-                    <span class="h2 fw-bold text-danger">6,775</span><span class="fs-5 text-danger fw-bold">万円</span>
+                    <span class="h2 fw-bold text-danger">6,775</span><br class="d-block d-md-none"><span class="fs-5 text-danger fw-bold">万円</span>
                   </td>
                 </tr>
               </tbody>
             </table>
             <!-- 引用元 -->
             <div class="text-end mt-3 me-2">
-              <p class="f13px text-secondary">引用元：suumo<a href="https://suumo.jp/baikyaku/chukoikkodate/soba/osaka/sc_osakashikita/" target="_blank" class="text-black mb-0"> 戸建て</a>
+              <p class="f13px text-secondary">引用元：suumo<a href="https://suumo.jp/baikyaku/chukoikkodate/soba/osaka/sc_osakashikita/" target="_blank" rel="nofollow" class="text-black mb-0"> 戸建て</a>
               <a href="https://suumo.jp/baikyaku/ms/chuko/soba/osaka/sc_osakashikita/" target="_blank" rel="nofollow" class="text-black mb-0">/マンション</a>
               <a href="https://suumo.jp/baikyaku/tochi/soba/osaka/sc_osakashikita/" target="_blank" rel="nofollow" class="text-black mb-0">/土地</a></p>
             </div>
@@ -2779,7 +2779,7 @@ $information = get_posts(array('posts_per_page' => 12,));
           <span class="blue fs-1">サイトコンテンツ</span>一覧
         </h2>
       </div>
-      <div class="p-2 my-4">
+      <div class="my-4">
         <div class="mb-5 centerline_heading text-center">
           <h3 class="fw-bold">サイトコンテンツタイトル</h3>
         </div>
@@ -2799,7 +2799,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
         <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
       </ul>
-      <div class="p-2 my-4">
+      <div class="my-4">
         <div class="mb-5 centerline_heading text-center">
           <h3 class="fw-bold">サイトコンテンツタイトル</h3>
         </div>

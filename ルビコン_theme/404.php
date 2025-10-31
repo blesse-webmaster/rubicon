@@ -23,7 +23,7 @@ get_header();
     <div class="container">
       <div class="articleAreaText">
         <p class="mt100-50 mb50-20 ta_c f120">ページが見つかりません</p>
-        <div class="mt-5 mb-5 w50per al_c"><div class="bg_black rounded pt10 pb10"><a class="d-block text-center text-white text-decoration-none py-2"
+        <div class="mt-5 mb-5 w50per al_c"><div class="bg_blue rounded pt10 pb10"><a class="d-block text-center text-white text-decoration-none py-2"
             href="<?= home_url(); ?>/">トップページへ</a></div></div>
       </div>
     </div>
