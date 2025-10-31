@@ -47,13 +47,13 @@
                   </a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="/">大阪市北区<br>エリアコラム</a>
+                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/area">大阪市北区<br>エリアコラム</a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="/">大阪市北区の<br>不動産会社一覧</a>
+                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/company">大阪市北区の<br>不動産会社一覧</a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="#recomend">大阪市北区で<br>おすすめの不動産会社3選</a>
+                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/corporate">大阪市北区で<br>おすすめの不動産会社3選</a>
                 </li>
               </ul>
             </div>

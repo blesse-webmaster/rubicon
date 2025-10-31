@@ -57,13 +57,13 @@
                   </a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="/">大阪市北区<br>エリアコラム</a>
+                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/area">大阪市北区<br>エリアコラム</a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="/">大阪市北区の<br>不動産会社一覧</a>
+                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/company">大阪市北区の<br>不動産会社一覧</a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="#recomend">大阪市北区で<br>おすすめの不動産会社3選</a>
+                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/corporate">大阪市北区で<br>おすすめの不動産会社3選</a>
                 </li>
               </ul>
             </div>
@@ -80,6 +80,17 @@
       <picture>
         <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_btn_top.webp">
         <img src="<?php echo get_theme_file_uri(); ?>/assets/img/i_btn_top.png" loading="lazy" alt="戻るボタン" height="70" width="70" class="img-fluid">
+      </picture>
+    </a>
+  </div>
+
+    <!-- フローティングバナー -->
+  <div class="position-fixed end-0 bottom-0 z-999">
+    <button id="closeButton" class="banner-close position-absolute fw-bold z-99">×</button>
+    <a class="myImage" href="https://www.rubi.co.jp/" target="_blank">
+      <picture>
+        <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_btn_banner.webp">
+        <img class="img-fluid banner-icon myImage" src="<?php echo get_theme_file_uri(); ?>/assets/img/i_btn_banner.png" alt="公式HPで詳しく見る" loading="lazy" width="400" height="310">
       </picture>
     </a>
   </div>

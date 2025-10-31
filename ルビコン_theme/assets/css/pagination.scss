@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+// $green:#00A469;
+
+.pagination {
+  gap: 0 8px !important;
+}
+.page-item {
+  .page-link {
+    font-size: 18px !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 2em !important;
+    height: 2em !important;
+    border: 1px solid #1d447d !important;
+    border-radius: 50px !important;
+    &:not(:hover) {
+      text-decoration: none !important;
+      color: #1d447d !important;
+    }
+    &:hover {
+      background: none !important;
+      color: #000 !important;
+      border-color: #000 !important;
+    }
+    span {color: #1d447d !important;}
+  }
+  &.active {
+    pointer-events: none !important;
+    .page-link:not(:hover) {
+      background-color: #1d447d !important;
+      color: #fff !important;
+    }
+  }
+  &:first-of-type .page-link, &:last-of-type .page-link {
+    border: none !important;
+  }
+}

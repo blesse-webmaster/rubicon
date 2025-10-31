@@ -41,7 +41,7 @@ get_header();
 
           <?php $source = get_post_meta($post->ID, 'source_name', true); ?>
           <?php if (!empty($source)): ?>
-            <div>引用元：<a href="<?php echo get_post_meta($post->ID, 'source_URL', true); ?>" target="_blank" class="gray text-decoration-none"><?php echo $source ?></a></div>
+            <div>引用元：<a href="<?php echo get_post_meta($post->ID, 'source_URL', true); ?>" target="_blank" class=""><?php echo $source ?></a></div>
           <?php elseif (get_post(get_post_thumbnail_id())->post_excerpt) : ?>
             <div class="image-caption text-right small mb-5" style="margin-top:-20px"><?php echo get_post(get_post_thumbnail_id())->post_excerpt ?></div>
           <?php endif; ?>

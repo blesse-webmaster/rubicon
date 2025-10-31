@@ -8,7 +8,7 @@
 #blog h3 {
   font-size: clamp(18px, 2vw, 24px);
   margin: 2.5rem 0 1rem;
-  background: #0AB48D;
+  background: #1d447d;
   padding: 0.4em 0.5em 0.4em 0.5em;
   border-radius: 10px;
   font-weight: bold;
@@ -17,7 +17,7 @@
 #blog h4 {
   font-size: clamp(16px, 1.8vw, 22px);
   margin: 1.5rem 0 0;
-  border-bottom: 3px dotted #0AB48D;
+  border-bottom: 3px dotted #1d447d;
   padding: 0.5rem 0;
   font-weight: bold;
   color: #222;
@@ -68,7 +68,7 @@
   background-image: url("../../assets/img/arrow.png");
 }
 #blog hr {
-  border-color: #22970a !important;
+  border-color: #1d447d !important;
 }
 #blog blockquote {
   padding: 1.5em 2em 1.5em 3em;
@@ -142,12 +142,12 @@
   background-position: top;
   height: 224px;
   z-index: 0;
-  background-image: url("../../asset/img/bg-sub.png");
+  background-image: url("../../assets/img/bg-sub.png");
 }
 
-@supports (background-image: url(../../asset/img/bg-sub.webp)) {
+@supports (background-image: url(../../assets/img/bg-sub.webp)) {
   .bg-sub {
-    background-image: url(../../asset/img/bg-sub.webp);
+    background-image: url(../../assets/img/bg-sub.webp);
   }
 }
 .hero_head h1 {
@@ -156,7 +156,7 @@
 
 .side-tit {
   font-size: 22px;
-  border-bottom: 2px solid #0AB48D;
+  border-bottom: 2px solid #1d447d;
   padding: 0.8rem 0.8rem 0.8rem 0;
   margin: 0 0 1rem 0;
   color: #222222 !important;
@@ -171,4 +171,4 @@
 #ez-toc-container {
   padding: 30px;
   width: 100%;
-}
+}/*# sourceMappingURL=blog.css.map */
