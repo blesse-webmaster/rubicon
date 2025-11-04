@@ -30,6 +30,10 @@ get_header();
         <!-- 記事ここから -->
         <div>
           <h2 class="mt-0"><?php the_title(); ?></h2>
+          <div class="mt-3 mb-3 me-1 ta_r">
+            <div class="d-inline bg_blue white p-1 me-1 f12px"><?php echo $cat[0]->cat_name; ?></div>
+            <div class="d-inline f12px">公開：<?php the_time('Y.m.d'); ?>　更新：<?php the_modified_date('Y.m.d'); ?></div>
+          </div>
           <?php if (has_post_thumbnail()) : //アイキャッチ画像を設定している場合 
           ?>
             <?php $post_title = get_the_title(); ?>

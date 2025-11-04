@@ -10,6 +10,14 @@ $args = [
   'posts_per_page' => -1 // すべての投稿を表示
 ];
 $the_query = new WP_Query($args);
+
+//よく読まれる記事
+$the_popular_article_args = [
+  'name'      => 'a001',            // スラッグ（投稿名）
+  'post_status' => 'publish',
+  'posts_per_page' => 1
+  ];
+  $the_popular_article_query = new WP_Query($the_popular_article_args);
 ?>
 
 
@@ -20,7 +28,25 @@ $the_query = new WP_Query($args);
       width="300" height="260">
   </picture>
 </a>
-
+<div class="my-3">
+  <h2 class="black side-tit">よく読まれる記事</h2>
+  <?php if ($the_popular_article_query->have_posts()): ?>
+    <?php while ($the_popular_article_query->have_posts()) : $the_popular_article_query->the_post(); ?>
+      <a class="text-decoration-none black small d-block" href="<?php the_permalink(); ?>">
+        <?php if (has_post_thumbnail()) : //アイキャッチ画像を設定している場合 
+        ?>
+          <?php $post_title = get_the_title(); ?>
+          <?php the_post_thumbnail('full', array('alt' => $post_title, 'class' => 'img-fluid border border-dark')); ?>
+        <?php else : //アイキャッチ画像を設定していない場合 
+        ?>
+          <img src="<?php echo get_template_directory_uri() ?>/asset/img/img-news01.png" alt="<?php the_title(); ?>" class="img-fluid border border-dark">
+        <?php endif; ?>
+        <p class="fw-bold fs-6 lh120 mt-2 mb10"><?php the_title(); ?></p>
+        <p class="small lh120"><?php echo wp_trim_words( get_the_content(), 75, '...' ); ?></p>
+      </a>
+  <?php endwhile; ?>
+  <?php endif; ?>
+</div>
 <section class="my-3">
   <?php foreach ($categories as $category): ?>
     <h2 class="black side-tit"><a href="<?= home_url(); ?>/<?php echo $category->slug ?>" class="black f-mincho text-decoration-none"><?php echo $category->name; ?></a></h2>

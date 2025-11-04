@@ -24,8 +24,8 @@ $information = get_posts(array('posts_per_page' => 12,));
 
           <!-- 説明文 -->
           <div class="bg_light_beige rounded-pill px-4 py-2 mb-4 text-center fv_subTitle">
-            <p class="blue mb-0">「不動産売却は大手に任せれば安心」<br class="d-block d-lg-none">「名前を知っているから」</p>
-            <p class="blue mb-0">そんな理由だけで不動産会社を<br class="d-block d-lg-none">選んでいませんか</p>
+            <p class="blue mb-0">「不動産売却は大手に任せれば安心」<br class="d-block d-lg-none d-md-none">「名前を知っているから」</p>
+            <p class="blue mb-0">そんな理由だけで不動産会社を<br class="d-block d-lg-none d-md-none">選んでいませんか</p>
           </div>
 
           <!-- 詳細説明 -->
@@ -96,16 +96,16 @@ $information = get_posts(array('posts_per_page' => 12,));
   </div>
 
 
-  <section id="company" class="py-5 bg_light_blue">
+  <section id="recomend" class="py-5 bg_light_blue">
     <div class="container">
       <!-- ヘッダー部分 -->
       <div class="text-center mb-2">
         <div class="bg_blue yellow py-2 px-4 d-inline-block mb-4">
-          <p class="fs-3 mb-0 fw-bold">大阪市北区の家を<br class="d-block d-lg-none">売りたい方必見！</p>
+          <p class="fs-3 mb-0 fw-bold">大阪市北区の家を<br class="d-block d-lg-none d-md-none">売りたい方必見！</p>
         </div>
         <h2 class="display-4 fw-bold mb-2">
-          地域密着・<br class="d-block d-lg-none">大手から選ぶ<br>
-          仲介に強い<br class="d-block d-lg-none">不動産会社<span class="text-danger display-3 fw-bold">3</span><span class="text-danger fw-bold">選</span>！
+          地域密着・<br class="d-block d-lg-none d-md-none">大手から選ぶ<br>
+          仲介に強い<br class="d-block d-lg-none d-md-none">不動産会社<span class="text-danger display-3 fw-bold">3</span><span class="text-danger fw-bold">選</span>！
         </h2>
       </div>
       <div class="text-end mb-0">
@@ -348,7 +348,7 @@ $information = get_posts(array('posts_per_page' => 12,));
 
             <!-- 説明文 -->
             <div class="small">
-              <ul class="list-unstyled">
+              <ul class="list-unstyled mx-2">
                 <li class="mb-2">• 司法書士・弁護士・税理士などと連携し複雑なケースに対応可能か</li>
                 <li>• 相続・共有名義・空き家など、よくある問題を先回りしてサポートできるか</li>
               </ul>
@@ -382,7 +382,7 @@ $information = get_posts(array('posts_per_page' => 12,));
 
             <!-- 説明文 -->
             <div class="small">
-              <ul class="list-unstyled">
+              <ul class="list-unstyled mx-2">
                 <li class="mb-2">• 売主との信頼関係を重視する体制か<br>（専任制or分業制か）</li>
                 <li>• 査定〜成約後の引き渡し・アフター対応まで見届けてくれるか</li>
               </ul>
@@ -452,7 +452,7 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="text-center mb-5">
         <p class="fw-bold mb-2 mb-lg-3 fs-3">高く売るならまずは</p>
         <h3 class="fw-bold fs-3 lh-sm">
-          <span class="red">「地域密着型」<br class="d-block d-lg-none"></span>に相談がおすすめ！
+          <span class="red">「地域密着型」<br class="d-block d-lg-none d-md-none"></span>に相談がおすすめ！
         </h3>
       </div>
 
@@ -494,26 +494,26 @@ $information = get_posts(array('posts_per_page' => 12,));
   </section>
 
   <!-- バナーセクション -->
-  <section class="py-5">
+ <section class="py-4">
     <div class="container">
       <div class="position-relative bg-pr rounded p-4" style="min-height: 200px;">
         <!-- 背景画像 -->
         <div class="position-absolute top-0 start-0 w-100 h-100 rounded">
           <div class="d-flex align-items-center justify-content-start h-100">
-            <div class="justify-content-start ms-3">
+            <div class="justify-content-start mx-2 mx-md-3">
               <!-- メインテキスト -->
               <div class="mb-3 mt-5">
-                <div class="text-center">
-                  <p class="fw-bold d-flex align-items-center justify-content-center mb-0">
-                    <span class="bg-warning text-black px-3 py-1 me-lg-3 fw-bold f12px">PR</span>
-                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺の<br class="d-block d-lg-none">不動産売却なら</span>
+                <div class="text-start text-lg-center">
+                  <p class="fw-bold d-flex align-items-start align-items-sm-center justify-content-start justify-content-lg-center mb-0">
+                    <span class="bg-warning text-black px-3 py-1 me-2 me-md-3 fw-bold f12px">PR</span>
+                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺の不動産売却なら</span>
                   </p>
                   <p class="mt-0 fs-3 fw-bold fs-sm-18px">築古・連棟など難物件のご相談も!</p>
                 </div>
               </div>
 
               <!-- CTAボタン -->
-              <div class="pb-4 pb-lg-5">
+              <div class="mb-5">
                 <div class="text-center">
                   <a href="https://www.rubi.co.jp/inquiry.php" class="btn bg_red text-white fw-bold py-3 px-5 position-relative" role="button" target="_blank">
                     不動産売却についてルビコンにお問い合わせ
@@ -610,6 +610,18 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg_yellow text-center py-3">
               <p class="fw-bold mb-0 text-dark">こんな方におすすめ</p>
             </div>
+            
+            <!-- タブレット以下でのみ表示するおすすめ説明 -->
+            <div class="d-block d-lg-none mt-4 mb-5">
+              <div class="bg_red text-white py-3 rounded-3">
+                <div class="d-flex align-items-center text-center">
+                  <div class="flex-grow-1">
+                    <p class="fw-bold m-0 fs-5">少し時間がかかっても<br class="d-block d-lg-none d-md-none">高く売りたい／</p>
+                    <p class="fw-bold m-0 fs-5">納得感を重視したい人</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -679,12 +691,24 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg_sky_blue text-white text-center py-3">
               <p class="fw-bold mb-0">こんな方におすすめ</p>
             </div>
+            
+            <!-- タブレット以下でのみ表示するおすすめ説明 -->
+            <div class="d-block d-lg-none mt-4">
+              <div class="bg_red text-white py-3 rounded-3">
+                <div class="d-flex align-items-center text-center">
+                  <div class="flex-grow-1">
+                    <p class="fw-bold m-0 fs-5">とにかく早く・<br class="d-block d-lg-none d-md-none">確実に現金化したい／</p>
+                    <p class="fw-bold m-0 fs-5">価格は重視しない人</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- 下部のおすすめ説明 -->
-      <div class="row">
+      <!-- 下部のおすすめ説明（デスクトップのみ表示） -->
+      <div class="row d-none d-lg-flex">
         <div class="col-12 col-lg-6 mb-3 mb-lg-0">
           <div class="bg_red text-white py-3 rounded-3">
             <div class="d-flex align-items-center text-center">
@@ -708,12 +732,12 @@ $information = get_posts(array('posts_per_page' => 12,));
       </div>
     </div>
   </section>
-  <section id="recomend">
+  <section id="company">
     <div class="background-reccomend_bg pt-4 pt-lg-5">
       <div class="container mb-5 pb-5">
         <div class="text-center">
           <div class="bg_blue yellow py-2 px-4 d-inline-block mb-5 speech-box position-relative">
-            <p class="fs-3 mb-0 fw-bold">大阪市北区の家を<br class="d-block d-lg-none">売りたい方必見！</p>
+            <p class="fs-3 mb-0 fw-bold">大阪市北区の家を<br class="d-block d-lg-none d-md-none">売りたい方必見！</p>
           </div>
           <h2 class="fs-1 fw-bold">
             地域密着・大手から選ぶ<br>
@@ -726,11 +750,11 @@ $information = get_posts(array('posts_per_page' => 12,));
       </div>
     </div>
     <div class="position-relative bg_sky_blue container">
-      <div class="bg_yellow text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10;">
-        <p class="m-0 fw-bold fs-5">中崎町・天六周辺で<br class="d-block d-lg-none">高値売却を狙うなら！</p>
-        <p class="m-0">大手で取り扱いが難しい物件の<br class="d-block d-lg-none">ご相談もお任せ！</p>
+      <div class="bg_yellow text-dark p-2 text-center rounded-pill position-absolute mb-4" style="top: -45px; left: 5%; right: 5%; z-index: 10; min-height: 70px;">
+        <p class="m-0 fw-bold fs-5">中崎町・天六周辺で<br class="d-block d-lg-none d-md-none">高値売却を狙うなら！</p>
+        <p class="m-0">大手で取り扱いが難しい物件の<br class="d-block d-lg-none d-md-none">ご相談もお任せ！</p>
       </div>
-      <h2 class="text-center text-white mt-5 mb-4 pt-5 pb-4 fw-bold fs-1 ls2 text-shadow_black"><span class="fs-3">株式会社</span>ルビコン</h2>
+      <h2 class="text-center text-white mt-5 mb-4 pt-5 pb-4 fw-bold fs-1 ls2 text-shadow_black" style="padding-top: 6rem !important;"><span class="fs-3">株式会社</span>ルビコン</h2>
     </div>
 
     <!-- 株式会社ルビコンの特徴セクション -->
@@ -1013,7 +1037,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img01.webp">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img01.png" loading="lazy" alt="東証プライム上場グループの安心感と豊富な実績" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
                 <p>東証プライム上場グループの安心感と豊富な実績。</p>
@@ -1024,7 +1048,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img02.webp">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img02.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img02.png" loading="lazy" alt="大阪市内にも複数拠点あり" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
                 <p>全国に226店舗展開（2025年5月25日時点）、大阪市内にも<br class="d-none d-lg-block">複数拠点あり。</p>
@@ -1037,7 +1061,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img03.webp">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img03.png" loading="lazy" alt="弁護士・税理士と主業と連携" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img03.png" loading="lazy" alt="多彩な広告手法で早期売却を支援早期売却を支援" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
                 <p>ポータルサイトや自社ネットワークなど、多彩な広告手法で<br class="d-none d-lg-block">早期売却を支援。</p>
@@ -1048,7 +1072,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img04.webp">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img04.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/livable-img04.png" loading="lazy" alt="充実した売却サポートが魅力" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
                 <p>リバブル売却保証など、充実した売却サポートが魅力。</p>
@@ -1258,7 +1282,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         <p class="m-0 fw-bold fs-5">住友不動産グループの総合力！</p>
         <p class="m-0">専任担当者による一貫対応！</p>
       </div>
-      <h2 class="text-center text-white mt-5 mb-4 pt-5 pb-4 fw-bold fs-1 ls2 text-shadow_black">すみふの仲介ステップ<br class="d-block d-lg-none"><span class="fs-3">梅田統括事業所1課<br>住友不動産ステップ<br class="d-block d-lg-none">株式会社</span></h2>
+      <h2 class="text-center text-white mt-5 mb-4 pt-5 pb-4 fw-bold fs-1 ls2 text-shadow_black">すみふの仲介ステップ<br class="d-block d-lg-none"><span class="fs-3">梅田統括事業所1課<br>住友不動産ステップ<br class="d-block d-lg-none d-md-none">株式会社</span></h2>
     </div>
 
     <div class="py-5 mb-5">
@@ -1273,7 +1297,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/step-img01.webp">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img01.png" loading="lazy" alt="中崎町・天六エリアに特化" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img01.png" loading="lazy" alt="全国規模のブランド力と50年以上の業界実績" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
                 <p>全国規模のブランド力と50年以上の<br class="d-none d-lg-block">業界実績。</p>
@@ -1284,7 +1308,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/step-img02.webp">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img02.png" loading="lazy" alt="築古や連棟など難物件にも対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img02.png" loading="lazy" alt="ワンストップで対応可能" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
                 <p>売却サポートから税金・相続まで<br class="d-none d-lg-block">ワンストップで対応可能。</p>
@@ -1295,7 +1319,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             <div class="bg-white">
               <picture class="mb-3">
                 <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/step-img03.webp">
-                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img03.png" loading="lazy" alt="専任担当制で一貫対応" class="img-fluid object-fit-cover w-100" height="200" width="220">
+                <img src="<?php echo get_theme_file_uri(); ?>/assets/img/step-img03.png" loading="lazy" alt="売却後の買主への安心感も支援" class="img-fluid object-fit-cover w-100" height="200" width="220">
               </picture>
               <div class="bg_gray py-3 px-3 height-80px">
                 <p>建物検査や設備保証など、売却後の<br class="d-none d-lg-block">買主への安心感も支援。</p>
@@ -1558,13 +1582,13 @@ $information = get_posts(array('posts_per_page' => 12,));
         <!-- 背景画像 -->
         <div class="position-absolute top-0 start-0 w-100 h-100 rounded">
           <div class="d-flex align-items-center justify-content-start h-100">
-            <div class="justify-content-start ms-3">
+            <div class="justify-content-start mx-2 mx-md-3">
               <!-- メインテキスト -->
               <div class="mb-3 mt-5">
-                <div class="text-center">
-                  <p class="fw-bold d-flex align-items-center justify-content-center mb-0">
-                    <span class="bg-warning text-black px-3 py-1 me-3 fw-bold f12px">PR</span>
-                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺<br class="d-block d-lg-none">の不動産売却なら</span>
+                <div class="text-start text-lg-center">
+                  <p class="fw-bold d-flex align-items-start align-items-sm-center justify-content-start justify-content-lg-center mb-0">
+                    <span class="bg-warning text-black px-3 py-1 me-2 me-md-3 fw-bold f12px">PR</span>
+                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺の不動産売却なら</span>
                   </p>
                   <p class="mt-0 fs-3 fw-bold fs-sm-18px">築古・連棟など難物件のご相談も!</p>
                 </div>
@@ -1674,7 +1698,7 @@ $information = get_posts(array('posts_per_page' => 12,));
     <div class="container">
       <div class="text-center mb-5">
         <div class="bg_blue yellow py-2 px-4 d-inline-block mb-4">
-          <p class="fs-3 mb-0 fw-bold">大阪市北区の<br class="d-block d-lg-none">不動産売却に対応</p>
+          <p class="fs-3 mb-0 fw-bold">大阪市北区の<br class="d-block d-lg-none d-md-none">不動産売却に対応</p>
         </div>
         <h2 class="mb-4 mb-lg-5 fs-2 fw-bold">
           <span class="blue fs-1">不動産会社</span>一覧
@@ -2708,7 +2732,7 @@ $information = get_posts(array('posts_per_page' => 12,));
 
 
       <div class="text-center mb-5 col-12 col-lg-8 mx-auto">
-        <a href="/"
+        <a href="<?php echo home_url() ?>/company/"
           class="btn bg_sky_blue text-white fw-bold btn-hover-blue position-relative shadow rounded-1 w-100 py-3"
           role="button">
           大阪市北区の不動産売却会社をもっと見る
@@ -2723,7 +2747,7 @@ $information = get_posts(array('posts_per_page' => 12,));
   <!-- 記事一覧 -->
   <section class="py-4 py-lg-5 bg_blue" id="articles">
     <div class="container">
-      <div class="text-center mb-2">
+      <div class="text-center mb-5">
         <h2 class="mb-0 fw-bold white fs-1">
           記事一覧
         </h2>
@@ -2779,46 +2803,32 @@ $information = get_posts(array('posts_per_page' => 12,));
           <span class="blue fs-1">サイトコンテンツ</span>一覧
         </h2>
       </div>
-      <div class="my-4">
-        <div class="mb-5 centerline_heading text-center">
-          <h3 class="fw-bold">サイトコンテンツタイトル</h3>
+      <?php $cats = get_categories(); ?>
+      <?php foreach ($cats as $cat) : ?>
+      <div class="mb-4">
+        <div class="my-4">
+          <div class="mb-5 centerline_heading text-center">
+            <h3 class="fw-bold"><?php echo $cat->name; ?></h3>
+          </div>
         </div>
-      </div>
+          <?php
+          $posts = get_posts(array(
+              'category' => $cat->term_id,
+              'numberposts' => -1
+          ));
+          ?>
+          <?php if ($posts) : ?>
+              <ul class="d-flex flex-wrap gap-2 list-unstyled mb-5">
+                  <?php foreach ($posts as $post) : ?>
+                      <li class="my-2"><a class="text-black text-decoration-none" href="<?php echo get_permalink($post->ID); ?>"><?php echo $post->post_title; ?></a></li>
+                  <?php endforeach; ?>
+              </ul>
+          <?php else : ?>
+              <p>このカテゴリには記事がありません。</p>
+          <?php endif; ?>
 
-      <ul class="d-flex flex-wrap gap-2 list-unstyled mb-5">
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-      </ul>
-      <div class="my-4">
-        <div class="mb-5 centerline_heading text-center">
-          <h3 class="fw-bold">サイトコンテンツタイトル</h3>
-        </div>
       </div>
-
-      <ul class="d-flex flex-wrap gap-2 list-unstyled mb-5">
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-        <li class="my-2"><a class="text-black text-decoration-none" href="/">サイトコンテンツタイトル /</a></li>
-      </ul>
+      <?php endforeach; ?>
     </div>
   </section>
 </main>

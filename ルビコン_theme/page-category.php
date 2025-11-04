@@ -86,7 +86,7 @@ get_header();
                   </a>
                   <p><?php echo wp_trim_words(get_the_content(), 75, '...'); ?></p>
                   <div class="d-inline bg_blue white p-1 me-1 f12px"><?php echo $category[0]->cat_name; ?></div>
-                  <div class="d-inline gray f12px"><?php the_time('Y.m.d'); ?></div>
+                  <div class="d-inline gray f12px">公開：<?php the_time('Y.m.d'); ?>　更新：<?php the_modified_date('Y.m.d'); ?></div>
                 </div>
               </article>
 

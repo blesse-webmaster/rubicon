@@ -10,8 +10,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/common.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/base.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/desktop/base.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/footer.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/desktop/footer.css">
+
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/header.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/desktop/header.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/headline.css">
@@ -23,7 +22,7 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/button.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/blog.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/pagination.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo get_theme_file_uri(); ?>/assets/css/add.css">
+
 </head>
 
 <body class="bg-white">
@@ -49,10 +48,6 @@
               <ul class="navbar-nav d-md-flex align-items-center">
                 <li class="nav-item text-center mb-3 mb-lg-0 d-block d-lg-none">
                   <a class="nav-link fw-bold fs-6 py-2 text-white" aria-current="page" href="<?php echo home_url(); ?>/">
-                    <picture>
-                      <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/m_icon_hake.webp">
-                      <img src="<?php echo get_theme_file_uri(); ?>/assets/img/m_icon_hake.png" loading="lazy" alt="はけ" height="20" width="20" class="img-fluid">
-                    </picture>
                     <?php bloginfo('name'); ?>
                   </a>
                 </li>
@@ -63,7 +58,7 @@
                   <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/company">大阪市北区の<br>不動産会社一覧</a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/corporate">大阪市北区で<br>おすすめの不動産会社3選</a>
+                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/#recomend">大阪市北区で<br>おすすめの不動産会社3選</a>
                 </li>
               </ul>
             </div>

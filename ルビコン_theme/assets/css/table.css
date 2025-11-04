@@ -1,0 +1,94 @@
+.type01 th {
+  background: #3AB7AD !important;
+}
+
+.type01 th {
+  vertical-align: middle;
+  padding: 10px 0;
+  border-color: #FFFFFF !important;
+}
+
+.type01 td {
+  vertical-align: middle;
+  padding: 10px 0;
+  border-color: #FFFFFF !important;
+}
+
+.type01 tr {
+  border-color: #3AB7AD !important;
+}
+
+.transparent-bg {
+  background-color: transparent !important;
+}
+
+.transparent-bg td,
+.transparent-bg th {
+  background-color: transparent !important;
+}
+
+.transparent-bg th,
+.transparent-bg td {
+  vertical-align: middle;
+  border-bottom: none;
+}
+
+.transparent-bg th {
+  border-bottom: solid 1px #144A7A;
+}
+
+.transparent-bg td {
+  border-bottom: solid 1px #144A7A;
+}
+
+.table_equal3 th,
+.table_equal3 td {
+  width: 33.33%;
+  word-break: keep-all;
+}
+
+.table_equal4 th,
+.table_equal4 td {
+  width: 25%;
+  word-break: keep-all;
+}
+
+/* スマホ表示でthの幅を固定 */
+@media (max-width: 991.98px) {
+  .table th {
+    min-width: 80px !important;
+    width: 80px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+  }
+  
+  .table.table-borderless th {
+    min-width: 80px !important;
+    width: 80px !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+  }
+  
+  .table td {
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+    vertical-align: middle !important;
+    padding-right: 15px !important;
+  }
+  
+  .transparent-bg th {
+    min-width: 80px !important;
+    width: 80px !important;
+    white-space: nowrap !important;
+  }
+  
+  .transparent-bg td {
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+    padding-right: 15px !important;
+  }
+}
+
+/*# sourceMappingURL=table.css.map */
