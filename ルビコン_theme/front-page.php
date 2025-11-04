@@ -500,15 +500,15 @@ $information = get_posts(array('posts_per_page' => 12,));
         <!-- 背景画像 -->
         <div class="position-absolute top-0 start-0 w-100 h-100 rounded">
           <div class="d-flex align-items-center justify-content-start h-100">
-            <div class="justify-content-start mx-2 mx-md-3">
+            <div class="justify-content-center mx-2 mx-md-3">
               <!-- メインテキスト -->
               <div class="mb-3 mt-5">
-                <div class="text-start text-lg-center">
-                  <p class="fw-bold d-flex align-items-start align-items-sm-center justify-content-start justify-content-lg-center mb-0">
-                    <span class="bg-warning text-black px-3 py-1 me-2 me-md-3 fw-bold f12px">PR</span>
-                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺の不動産売却なら</span>
+                <div class="text-center text-lg-center">
+                  <p class="fw-bold d-flex align-items-start align-items-sm-center justify-content-start mb-0">
+                    <span class="bg-warning text-black px-3 py-1 me-2 fw-bold f12px">PR</span>
+                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺の<br class="d-block d-lg-none d-md-none">不動産売却なら</span>
                   </p>
-                  <p class="mt-0 fs-3 fw-bold fs-sm-18px">築古・連棟など難物件のご相談も!</p>
+                  <p class="mt-0 fs-3 fw-bold fs-sm-18px text-center">築古・連棟など難物件のご相談も!</p>
                 </div>
               </div>
 
@@ -1576,21 +1576,21 @@ $information = get_posts(array('posts_per_page' => 12,));
     </div>
   </section>
   <!-- バナーセクション -->
-  <section class="py-4">
+ <section class="py-4">
     <div class="container">
       <div class="position-relative bg-pr rounded p-4" style="min-height: 200px;">
         <!-- 背景画像 -->
         <div class="position-absolute top-0 start-0 w-100 h-100 rounded">
           <div class="d-flex align-items-center justify-content-start h-100">
-            <div class="justify-content-start mx-2 mx-md-3">
+            <div class="justify-content-center mx-2 mx-md-3">
               <!-- メインテキスト -->
               <div class="mb-3 mt-5">
-                <div class="text-start text-lg-center">
-                  <p class="fw-bold d-flex align-items-start align-items-sm-center justify-content-start justify-content-lg-center mb-0">
-                    <span class="bg-warning text-black px-3 py-1 me-2 me-md-3 fw-bold f12px">PR</span>
-                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺の不動産売却なら</span>
+                <div class="text-center text-lg-center">
+                  <p class="fw-bold d-flex align-items-start align-items-sm-center justify-content-start mb-0">
+                    <span class="bg-warning text-black px-3 py-1 me-2 fw-bold f12px">PR</span>
+                    <span class="fs-3 fs-sm-18px">大阪市北区／中崎町・天六周辺の<br class="d-block d-lg-none d-md-none">不動産売却なら</span>
                   </p>
-                  <p class="mt-0 fs-3 fw-bold fs-sm-18px">築古・連棟など難物件のご相談も!</p>
+                  <p class="mt-0 fs-3 fw-bold fs-sm-18px text-center">築古・連棟など難物件のご相談も!</p>
                 </div>
               </div>
 
