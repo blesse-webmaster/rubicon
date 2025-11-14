@@ -15,7 +15,7 @@ get_header();
   <div class="bg-sub">
     <div style="height:30px;"></div>
     <div class="d-flex justify-content-center align-items-center h-100">
-      <h2 class="bg-white bg-opacity-50 px-5 py-3"><?php the_title(); ?></h2>
+      <p class="bg-white bg-opacity-50 px-5 py-3 fs-2"><?php the_title(); ?></p>
     </div>
   </div>
 
@@ -30,7 +30,7 @@ get_header();
       <!-- 左コンテンツここから -->
       <article id="blog" class="col-lg-8 col-12">
         <!-- 記事ここから -->
-        <h2 class="mt-0"><?php the_title(); ?></h2>
+        <h1 class="mt-0 fs-3"><?php the_title(); ?></h1>
         <?php the_content(); ?>
         <!-- 記事ここまで -->
 

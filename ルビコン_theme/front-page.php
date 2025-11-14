@@ -64,7 +64,7 @@ $information = get_posts(array('posts_per_page' => 12,));
           </a>
         </li>
         <li class="col-6 col-lg text-center px-1 px-md-2 border_right_solid_vertical">
-          <a href="#comparison" class="white py-2 text-decoration-none d-flex flex-column align-items-center justify-content-center f14px">
+          <a href="#merit" class="white py-2 text-decoration-none d-flex flex-column align-items-center justify-content-center f14px">
             仲介と買取の<br>違いは？
           </a>
         </li>
@@ -516,7 +516,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               <div class="mb-5">
                 <div class="text-center">
                   <a href="https://www.rubi.co.jp/inquiry.php" class="btn bg_red text-white fw-bold py-3 px-5 position-relative" role="button" target="_blank">
-                    不動産売却についてルビコンにお問い合わせ
+                    不動産売却についてルビコンに<br class="d-block d-lg-none">お問い合わせ
                     <picture class="position-absolute top-50 translate-middle-y end-0 pe-2">
                       <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.webp">
                       <img src="<?php echo get_theme_file_uri(); ?>/assets/img/allow-red.png" class="img-fluid" loading="lazy" alt="アイコン" width="16" height="16">
@@ -532,7 +532,7 @@ $information = get_posts(array('posts_per_page' => 12,));
   </section>
 
   <!-- 仲介と買取の比較セクション -->
-  <section class="py-5" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);">
+  <section class="py-5" style="background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);" id="merit">
     <div class="container">
       <!-- ヘッダー -->
       <div class="text-center mb-5">
@@ -1028,7 +1028,7 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="container">
         <!-- セクションタイトル -->
         <div class="mb-5 centerline_heading text-center">
-          <h3 class="fw-bold">東急リバブル株式会社<br class="d-block d-lg-none"> 梅田センターの特徴</h3>
+          <h3 class="fw-bold">東急リバブルの特徴</h3>
         </div>
 
         <!-- 特徴グリッド -->
@@ -1104,7 +1104,7 @@ $information = get_posts(array('posts_per_page' => 12,));
     </div>
     <div class="container mb-5 pb-5">
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">東急リバブル株式会社<br class="d-block d-lg-none"> 梅田センターの<br class="d-block d-lg-none">会社概要</h3>
+        <h3 class="fw-bold">東急リバブルの<br class="d-block d-lg-none">会社概要</h3>
       </div>
       <div class="mt-5 px-lg-5 mb-3 pb-3">
         <div class="row align-items-center">
@@ -1158,7 +1158,7 @@ $information = get_posts(array('posts_per_page' => 12,));
         </div>
       </div>
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">東急リバブル株式会社<br class="d-block d-lg-none"> 梅田センターの<br class="d-block d-lg-none">口コミ・評判</h3>
+        <h3 class="fw-bold">東急リバブルの<br class="d-block d-lg-none">口コミ・評判</h3>
       </div>
       <!-- 口コミコンテンツ -->
       <div class="row mb-5">
@@ -1289,7 +1289,7 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="container">
         <!-- セクションタイトル -->
         <div class="mb-5 centerline_heading text-center">
-          <h3 class="fw-bold">すみふの仲介ステップ<br class="d-block d-lg-none"> 梅田統括事業所1課の<br class="d-block d-lg-none">特徴</h3>
+          <h3 class="fw-bold">すみふの仲介ステップの<br class="d-block d-lg-none d-md-none">特徴</h3>
         </div>
         <!-- 特徴グリッド -->
         <div class="row mb-5 justify-content-center">
@@ -1352,7 +1352,7 @@ $information = get_posts(array('posts_per_page' => 12,));
     </div>
     <div class="container mb-5 pb-5">
       <div class="mb-5 centerline_heading text-center">
-        <h3 class="fw-bold">すみふの仲介ステップ<br class="d-block d-lg-none"> 梅田統括事業所1課の<br class="d-block d-lg-none">会社概要</h3>
+        <h3 class="fw-bold">すみふの仲介ステップの<br class="d-block d-lg-none">会社概要</h3>
       </div>
       <div class="mt-5 px-lg-5 mb-3 pb-3">
         <div class="row align-items-center">
@@ -1646,7 +1646,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             </h3>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
               <div class="accordion-body bg-white fs-6 px-4 py-3">
-                査定価格はあくまで目安であり、実際の売却価格とは異なることが多いです。売却時の市場状況や買い手の交渉、物件の状態によって価格が変動するため、査定価格は「売れる可能性のある価格帯」として捉えるのが現実的です。
+                最初のステップは不動産会社に査定を依頼することです。物件の相場や売却にかかる費用感を把握することで、今後の進め方が明確になります。1社だけでなく、複数の業者に査定を依頼して比較するのが一般的です。
               </div>
             </div>
           </div>
@@ -1659,7 +1659,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             </h3>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
               <div class="accordion-body bg-white fs-6 px-4 py-3">
-                早ければ1〜3か月で成約に至るケースもありますが、相場より高く設定した場合や築年数が古い物件は、半年以上かかることもあります。売却期間に余裕がある場合は、希望価格に近づけやすくなります。
+                仲介手数料（売却価格の3％＋6万円が上限）、印紙税、登記費用（抵当権抹消登記など）、場合によってはハウスクリーニングやリフォーム費用が発生することもあります。また、利益が出た場合は譲渡所得税の対象になる可能性があります。
               </div>
             </div>
           </div>
@@ -1672,7 +1672,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             </h3>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
               <div class="accordion-body bg-white fs-6 px-4 py-3">
-                仲介は買い手を探して市場で売却する方法で、高く売れる可能性がありますが時間がかかることもあります。一方、買取は業者が直接物件を買い取るため、即現金化できますが価格はやや下がる傾向があります。状況に応じて使い分けることが大切です。
+                可能です。実際、多くの人が居住中に売却活動を進めています。ただし、内見時には室内を整理整頓しておくと、買主に好印象を与えやすくなります。スムーズな日程調整ができるよう、不動産会社と連携しておくことが大切です。
               </div>
             </div>
           </div>
@@ -1685,7 +1685,7 @@ $information = get_posts(array('posts_per_page' => 12,));
             </h3>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
               <div class="accordion-body bg-white fs-6 px-4 py-3">
-                仲介手数料、登記費用、契約書の印紙税、住宅ローンの残債がある場合は抵当権抹消費用などがかかります。また、売却益が出た場合には譲渡所得税が発生することもあるため、事前に資金計画を立てておくと安心です。
+                査定価格はあくまで「売れる可能性がある予想価格」であり、確約された金額ではありません。実際の成約価格は市場の動きや交渉の状況によって上下します。査定価格にこだわりすぎず、柔軟な価格設定を意識することが早期売却につながります。
               </div>
             </div>
           </div>
