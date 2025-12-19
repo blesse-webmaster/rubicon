@@ -171,4 +171,10 @@
 #ez-toc-container {
   padding: 30px;
   width: 100%;
-}/*# sourceMappingURL=blog.css.map */
+}
+
+#blog table td {
+border: solid #222222 1px;
+padding: 10px;
+}
+/*# sourceMappingURL=blog.css.map */
