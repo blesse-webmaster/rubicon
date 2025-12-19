@@ -173,8 +173,14 @@
   width: 100%;
 }
 
+#blog table {
+  width: 100%;
+  table-layout: fixed;
+}
+
 #blog table td {
-border: solid #222222 1px;
-padding: 10px;
+  width: 50%;
+  border: solid #222222 1px;
+  padding: 10px;
 }
 /*# sourceMappingURL=blog.css.map */
