@@ -80,7 +80,7 @@
     <a class="myImage" href="https://www.rubi.co.jp/" target="_blank">
       <picture>
         <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/i_btn_banner.webp">
-        <img class="img-fluid banner-icon myImage" src="<?php echo get_theme_file_uri(); ?>/assets/img/i_btn_banner.png" alt="公式HPで詳しく見る" loading="lazy" width="400" height="310">
+        <img class="img-fluid banner-icon myImage" src="<?php echo get_theme_file_uri(); ?>/assets/img/i_btn_banner.png" alt="PR 地域密着のルビコン公式HPはこちら" loading="lazy" width="400" height="310">
       </picture>
     </a>
   </div>

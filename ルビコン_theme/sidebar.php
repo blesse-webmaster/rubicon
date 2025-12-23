@@ -24,7 +24,7 @@ $the_popular_article_args = [
 <a href="<?= home_url(); ?>/" class="d-none d-md-block">
   <picture>
     <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/banner_top.webp">
-    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/banner_top.png" alt="マンション駐輪場の改修・リニューアルガイド" class="img-fluid w-100" loading="lazy"
+    <img src="<?php echo get_theme_file_uri(); ?>/assets/img/banner_top.png" alt="<?php bloginfo('name'); ?>" class="img-fluid w-100" loading="lazy"
       width="300" height="260">
   </picture>
 </a>
