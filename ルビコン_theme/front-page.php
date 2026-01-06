@@ -1811,7 +1811,8 @@ $information = get_posts(array('posts_per_page' => 12,));
                   </a>
                 </div>
               </dl>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.301792185063!2d135.49265237554604!3d34.69756727292076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7fac0fcc9cd%3A0xe90586b2016cd8a9!2z44K744Oz44OB44Ol44Oq44O8MjHjg5fjg6njgqbjg4fjgrnjg4jjg6zjgrjjg4fjg7PjgrnloILls7Y!5e0!3m2!1sja!2sjp!4v1760093954190!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <!-- iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.301792185063!2d135.49265237554604!3d34.69756727292076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7fac0fcc9cd%3A0xe90586b2016cd8a9!2z44K744Oz44OB44Ol44Oq44O8MjHjg5fjg6njgqbjg4fjgrnjg4jjg6zjgrjjg4fjg7PjgrnloILls7Y!5e0!3m2!1sja!2sjp!4v1760093954190!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.301791111652!2d135.49522729999998!3d34.697567299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7fac0fcc9cd%3A0xe90586b2016cd8a9!2z44K744Oz44OB44Ol44Oq44O8MjHjg5fjg6njgqbjg4fjgrnjg4jjg6zjgrjjg4fjg7PjgrnloILls7Y!5e0!3m2!1sja!2sjp!4v1767662476940!5m2!1sja!2sjp" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
