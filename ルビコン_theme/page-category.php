@@ -105,7 +105,7 @@ get_header();
           <a href="<?php echo home_url(); ?>">
             <picture>
               <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/banner_bottom.webp">
-              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/banner_bottom.png" alt="知名度だけで不動産会社を選ぶと100万円以上損するかも！！" class="img-fluid" loading="lazy"
+              <img src="<?php echo get_theme_file_uri(); ?>/assets/img/banner_bottom.png" alt="大阪市北区の不動産売却ガイド" class="img-fluid" loading="lazy"
                 width="1098" height="259">
             </picture>
           </a>

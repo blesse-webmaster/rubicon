@@ -132,14 +132,14 @@ $information = get_posts(array('posts_per_page' => 12,));
 
             <!-- 画像エリア -->
             <div class="p-0 border-blue-inset">
-              <div class="mb-3">
+              <div class="mb-2">
                 <picture>
                   <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/rubicon.webp">
                   <img src="<?php echo get_theme_file_uri(); ?>/assets/img/rubicon.png" loading="lazy" alt="株式会社ルビコン" class="img-fluid w-100" height="180" width="350">
                 </picture>
               </div>
-              <div class="text-end mt-3 me-2">
-                <p class="f13px text-secondary">引用元：<a href="https://www.rubi.co.jp/" target="_blank" class="text-black mb-0">株式会社ルビコン</a></p>
+              <div class="text-end me-2">
+                <p class="f12px text-secondary">引用元：<a href="https://www.rubi.co.jp/" target="_blank" class=" text-secondary mb-0">株式会社ルビコン</a></p>
               </div>
 
               <!-- ボタン部分 -->
@@ -185,14 +185,14 @@ $information = get_posts(array('posts_per_page' => 12,));
 
             <!-- 画像エリア -->
             <div class="p-0 border-blue-inset">
-              <div class="mb-3">
+              <div class="mb-2">
                 <picture>
                   <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/tokyuribaburu.webp">
                   <img src="<?php echo get_theme_file_uri(); ?>/assets/img/tokyuribaburu.png" loading="lazy" alt="東急リバブル株式会社" class="img-fluid w-100" height="180" width="350">
                 </picture>
               </div>
-              <div class="text-end mt-3 me-2">
-                <p class="f13px text-secondary">引用元：<a href="https://www.livable.co.jp/branch/umeda/" target="_blank" rel="nofollow" class="text-black mb-0">東急リバブル株式会社 梅田センター</a></p>
+              <div class="text-end me-2">
+                <p class="f12px text-secondary">引用元：<a href="https://www.livable.co.jp/branch/umeda/" target="_blank" rel="nofollow" class=" text-secondary mb-0">東急リバブル株式会社 梅田センター</a></p>
               </div>
               <!-- ボタン部分 -->
               <div class="p-3 mb-3">
@@ -235,14 +235,14 @@ $information = get_posts(array('posts_per_page' => 12,));
 
             <!-- 画像エリア -->
             <div class="p-0 border-blue-inset">
-              <div class="mb-3">
+              <div class="mb-2">
                 <picture>
                   <source type="image/webp" srcset="<?php echo get_theme_file_uri(); ?>/assets/img/sumifunochukai.webp">
                   <img src="<?php echo get_theme_file_uri(); ?>/assets/img/sumifunochukai.png" loading="lazy" alt="東急リバブル株式会社" class="img-fluid w-100" height="180" width="350">
                 </picture>
               </div>
-              <div class="text-end mt-3 me-2">
-                <p class="f13px text-secondary">引用元：<a href="https://www.stepon.co.jp/center/umeda/" target="_blank" rel="nofollow" class="text-black mb-0 f12px">すみふの仲介ステップ 梅田統括事業所1課</a></p>
+              <div class="text-end me-2">
+                <p class="f12px text-secondary">引用元：<a href="https://www.stepon.co.jp/center/umeda/" target="_blank" rel="nofollow" class=" text-secondary mb-0">すみふの仲介ステップ 梅田統括事業所1課</a></p>
               </div>
               <!-- ボタン部分 -->
               <div class="p-3 mb-3">
@@ -499,7 +499,7 @@ $information = get_posts(array('posts_per_page' => 12,));
       <div class="position-relative bg-pr rounded p-4" style="min-height: 200px;">
         <!-- 背景画像 -->
         <div class="position-absolute top-0 start-0 w-100 h-100 rounded">
-          <div class="d-flex align-items-center justify-content-start h-100">
+          <div class="d-flex align-items-center justify-content-center justify-content-lg-start h-100">
             <div class="justify-content-center mx-2 mx-md-3">
               <!-- メインテキスト -->
               <div class="mb-3 mt-5">
@@ -1626,7 +1626,7 @@ $information = get_posts(array('posts_per_page' => 12,));
           <!-- Q1 -->
           <div class="accordion-item mb-3 rounded-3 overflow-hidden border_lightblue_1px">
             <h3 class="accordion-header" id="headingOne">
-              <button class="accordion-button fs-5 px-4 py-3 black bg_white f-sm-20 faq-accordion-btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="border-radius:0;">
+              <button class="accordion-button fs-5 px-4 py-3 black bg_white collapsed f-sm-20 faq-accordion-btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="border-radius:0;">
                 <span class="me-3 fw-bold blue">Q</span>不動産を売るのに最適なタイミングはいつですか？
               </button>
             </h3>
@@ -2732,7 +2732,7 @@ $information = get_posts(array('posts_per_page' => 12,));
 
 
 
-      <div class="text-center mb-5 col-12 col-lg-8 mx-auto">
+      <div class="text-center mb-3 col-12 col-lg-8 mx-auto">
         <a href="<?php echo home_url() ?>/company/"
           class="btn bg_sky_blue text-white fw-bold btn-hover-blue position-relative shadow rounded-1 w-100 py-3"
           role="button">
@@ -2777,7 +2777,7 @@ $information = get_posts(array('posts_per_page' => 12,));
               </a>
             </div>
             <a class="d-block text-decoration-none black mb-3 small" href="<?php echo $category_slug; ?>"><span class="black bg_yellow p-2 position-relative" style="top: -20px;"><?php echo $category ?></span></a>
-            <a class="d-block text-decoration-none white height-100 height-80-lg" href="<?php the_permalink(); ?>"><?php echo wp_trim_words(get_the_title(), 45, '...'); ?></a>
+            <a class="d-block text-decoration-none white height-120 height-80-lg" href="<?php the_permalink(); ?>"><?php echo wp_trim_words(get_the_title(), 45, '...'); ?></a>
             <a class="d-block text-decoration-none small text-end white" href="<?php the_permalink(); ?>">公開 <?php the_time('Y.m.d'); ?> / 更新 <?php the_modified_time('Y.m.d'); ?></a>
           </div>
         <?php endforeach; ?>

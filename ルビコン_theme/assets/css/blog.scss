@@ -198,7 +198,8 @@ $lite-green:#E0F4F3;
 }
 
 #blog table td {
-  width: 50%;
   border: solid #222222 1px;
   padding: 10px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
