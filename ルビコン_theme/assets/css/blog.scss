@@ -191,7 +191,12 @@ $lite-green:#E0F4F3;
     padding: 30px;
     width: 100%;
 }
-
+@media (max-width: 768px) {
+.breadcrumb-item{
+  font-size: 13px;  
+  line-height: 1.1rem !important;
+  }
+}
 #blog table {
   width: 100%;
   table-layout: fixed;

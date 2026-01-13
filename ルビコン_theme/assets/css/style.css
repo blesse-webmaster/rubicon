@@ -53,6 +53,16 @@
   vertical-align: middle;
 }
 
+@media (max-width: 768px) {
+  .fv_subTitle p {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+  }
+  .fv_subTitle p:first-child::after {
+    height: 0.5px;
+  }
+}
+
 .bg-sub {
   background-size: cover;
   background-repeat: no-repeat;
@@ -596,4 +606,11 @@
 }
 .comparison-table .w35-25 {
   width: 25% !important;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media (max-width: 768px) {
+  .header-sm-pt-6 {
+    padding-top: 6rem !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

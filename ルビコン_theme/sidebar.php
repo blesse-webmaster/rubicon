@@ -54,7 +54,7 @@ $the_popular_article_args = [
       <?php $my_query = new WP_Query(['cat' => $category->term_id, 'posts_per_page' => -1,]); ?>
       <?php if ($my_query->have_posts()): ?>
         <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-          <li class="mb-2 pb-2 border-bottom"><a href="<?php the_permalink(); ?>" class="gray text-decoration-none"><?php the_title(); ?></a></li>
+          <li class="mb-2 pb-2 border-bottom f13px lh110"><a href="<?php the_permalink(); ?>" class="gray text-decoration-none"><?php the_title(); ?></a></li>
         <?php endwhile; ?>
     </ul>
     <?php wp_reset_postdata(); ?>
