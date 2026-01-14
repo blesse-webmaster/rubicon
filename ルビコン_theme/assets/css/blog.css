@@ -135,7 +135,9 @@
 #blog iframe {
   max-width: 100%;
 }
-
+#blog img {
+  max-width: 100%;
+}
 .bg-sub {
   background-size: cover;
   background-repeat: no-repeat;

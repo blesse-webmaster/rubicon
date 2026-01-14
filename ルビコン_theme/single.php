@@ -29,7 +29,7 @@ get_header();
       <article id="blog" class="col-lg-8 col-12">
         <!-- 記事ここから -->
         <div>
-          <h1 class="mt-0 fs-3"><?php the_title(); ?></h1>
+          <h1 class="mt-0 fs-2 strong lh130"><?php the_title(); ?></h1>
           <div class="mt-3 mb-3 me-1 ta_r">
             <div class="d-inline bg_blue white p-1 me-1 f12px"><?php echo $cat[0]->cat_name; ?></div>
             <div class="d-inline f12px">公開：<?php the_time('Y.m.d'); ?>　更新：<?php the_modified_date('Y.m.d'); ?></div>

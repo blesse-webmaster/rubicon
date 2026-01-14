@@ -33,7 +33,7 @@
       <h1 class="m-0 me-2 f12px"><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></h1>
     </div>
     <div class="position-fixed w-100 header-nav" style="z-index:1000;">
-      <nav class="navbar navbar-expand-lg navbar-light py-0">
+      <nav class="navbar navbar-expand-lg navbar-light py-0 py-xxl-2">
         <div class="container-fluid" style="--bs-gutter-x: 0;">
           <div class="w-100">
             <div class="text-end">
@@ -52,13 +52,13 @@
                   </a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/area">大阪市北区<br>エリアコラム</a>
+                  <a class="nav-link lh-sm py-0 py-xxl-2 text-white" href="<?php echo home_url(); ?>/area">大阪市北区<br>エリアコラム</a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/company">大阪市北区の<br>不動産会社一覧</a>
+                  <a class="nav-link lh-sm py-0 py-xxl-2 text-white" href="<?php echo home_url(); ?>/company">大阪市北区の<br>不動産会社一覧</a>
                 </li>
                 <li class="nav-item text-center mb-3 mb-lg-0">
-                  <a class="nav-link lh-sm py-0 text-white" href="<?php echo home_url(); ?>/#recomend">大阪市北区で<br>おすすめの不動産会社3選</a>
+                  <a class="nav-link lh-sm py-0 py-xxl-2 text-white" href="<?php echo home_url(); ?>/#recomend">大阪市北区で<br>おすすめの不動産会社3選</a>
                 </li>
               </ul>
             </div>
