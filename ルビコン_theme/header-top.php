@@ -37,12 +37,12 @@
               </button>
             </div>
             <div class="collapse navbar-collapse justify-content-between align-items-center mx-3 mx-xxl-5 px-2" id="navbarNavDropdown">
-              <a class="nav-link fw-bold fs-6 py-2 text-white d-none d-lg-block" aria-current="page" href="<?php echo home_url(); ?>/">
+              <a class="nav-link fw-bold fs-6 py-0 py-xxl-2 text-white d-none d-lg-block" aria-current="page" href="<?php echo home_url(); ?>/">
                 <?php bloginfo('name'); ?>
               </a>
               <ul class="navbar-nav d-md-flex align-items-center">
                 <li class="nav-item text-center mb-3 mb-lg-0 d-block d-lg-none">
-                  <a class="nav-link fw-bold fs-6 py-2 text-white" aria-current="page" href="<?php echo home_url(); ?>/">
+                  <a class="nav-link fw-bold fs-6 py-0 py-xxl-2 text-white" aria-current="page" href="<?php echo home_url(); ?>/">
                     <?php bloginfo('name'); ?>
                   </a>
                 </li>
